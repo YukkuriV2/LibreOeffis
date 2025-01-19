@@ -7,12 +7,16 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Hauptklasse der LibreOeffis-Applikation.
  * Startet die JavaFX-GUI zur Eingabe von Stop-IDs, zeigt die Echtzeitdaten,
- * die Routenplanung, die Übersicht der Transportmittel und die Test-Stop-IDs an.
+ * die Routenplanung, die Übersicht der Transportmittel und die Muster-Stop-IDs an.
  */
 public class Main extends Application {
 
@@ -28,12 +32,15 @@ public class Main extends Application {
             return;
         }
 
+        // Starte den TCP-Server für Echtzeitkommunikation
+        TCPCommunication.startTCPServer();
+
         primaryStage.setTitle("LibreOeffis - Öffentliche Verkehrsmittel");
 
         // Hauptlayout
         BorderPane root = new BorderPane();
-        VBox mainBox = new VBox(20);
-        mainBox.setPadding(new Insets(10));
+        VBox leftBox = new VBox(20);
+        leftBox.setPadding(new Insets(10));
 
         // Bereich 1: Echtzeitinformationen
         VBox realtimeBox = new VBox(10);
@@ -137,34 +144,110 @@ public class Main extends Application {
             }).start();
         });
 
-        // Bereich 4: Test-Stop-IDs anzeigen
+        // Bereich 4: TCP-Kommunikation
+        VBox tcpBox = new VBox(10);
+        tcpBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+        Label lblTCP = new Label("TCP-Kommunikation mit Wiener Linien API:");
+        Label lblTCPStopId = new Label("Stop-ID:");
+        TextField txtTCPStopId = new TextField();
+        Button btnTCP = new Button("Daten über TCP abrufen");
+        TextArea tcpOutput = new TextArea();
+        tcpOutput.setEditable(false);
+        tcpBox.getChildren().addAll(lblTCP, lblTCPStopId, txtTCPStopId, btnTCP, tcpOutput);
+
+        btnTCP.setOnAction(event -> {
+            String stopId = txtTCPStopId.getText().trim();
+
+            if (stopId.isEmpty()) {
+                tcpOutput.setText("Bitte geben Sie eine Stop-ID ein.");
+                return;
+            }
+
+            // Abruf der Daten über TCP im Hintergrund
+            new Thread(() -> {
+                try {
+                    String response = TCPCommunication.sendTCPMessage(stopId);
+                    javafx.application.Platform.runLater(() -> tcpOutput.setText(response));
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> tcpOutput.setText("Fehler: " + e.getMessage()));
+                }
+            }).start();
+        });
+
+        // Bereich 5: Muster-Stop-IDs als Dropdown anzeigen
         VBox testStopsBox = new VBox(10);
         testStopsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+
         Label lblTestStops = new Label("Muster-Stop-IDs für Tests:");
-        TextArea testStopsOutput = new TextArea();
-        testStopsOutput.setEditable(false);
+        ComboBox<String> testStopsDropdown = new ComboBox<>();
+        TextField searchField = new TextField();
+        searchField.setPromptText("Suche nach Haltestelle...");
+        Button btnSearch = new Button("Suchen");
+        TextArea selectedStopOutput = new TextArea();
+        selectedStopOutput.setEditable(false);
 
-        String testStopsData = "Linie U6:\n" +
-                "- Siebenhirten: 4600\n" +
-                "- Floridsdorf: 4623\n" +
-                "- Gumpendorfer Straße: 4609\n" +
-                "- Josefstädter Straße: 4613\n" +
-                "- Spittelau: 4618\n\n" +
-                "Linie 11A:\n" +
-                "- Heiligenstadt: 1140\n" +
-                "- Michelbeuern-AKH: 1141\n" +
-                "- Gersthof: 1142\n" +
-                "- Hernals: 1143\n";
+        List<String> dropdownItems = new ArrayList<>();
 
-        testStopsOutput.setText(testStopsData);
-        testStopsBox.getChildren().addAll(lblTestStops, testStopsOutput);
+        String csvPath = "C:\\Users\\Mahmut\\IdeaProjects\\LibreOeffis\\src\\main\\java\\fhtw\\libreoeffis\\wienerlinien-ogd-haltepunkte.csv";
 
-        // Hauptlayout zusammenstellen
-        mainBox.getChildren().addAll(realtimeBox, transportBox, routeBox, testStopsBox);
-        root.setCenter(mainBox);
+        try (BufferedReader reader = new BufferedReader(new FileReader(csvPath))) {
+            String line;
+            boolean isHeader = true;
+            while ((line = reader.readLine()) != null) {
+                if (isHeader) {
+                    isHeader = false;
+                    continue;
+                }
+                String[] parts = line.split(";");
+                if (parts.length >= 2) {
+                    String stopId = parts[0].trim();
+                    String stopText = parts[1].trim();
+                    dropdownItems.add(stopText + " (ID: " + stopId + ")");
+                }
+            }
+            dropdownItems.sort(String::compareTo);
+            testStopsDropdown.getItems().addAll(dropdownItems);
+        } catch (Exception e) {
+            testStopsDropdown.getItems().add("Fehler beim Laden der Stop-IDs aus der CSV: " + e.getMessage());
+        }
+
+        btnSearch.setOnAction(event -> {
+            String searchText = searchField.getText().toLowerCase().trim();
+            testStopsDropdown.getItems().clear();
+            if (searchText.isEmpty()) {
+                testStopsDropdown.getItems().addAll(dropdownItems);
+            } else {
+                dropdownItems.stream()
+                        .filter(item -> item.toLowerCase().contains(searchText))
+                        .forEach(filteredItem -> testStopsDropdown.getItems().add(filteredItem));
+            }
+        });
+
+        testStopsDropdown.setOnAction(event -> {
+            String selectedStop = testStopsDropdown.getValue();
+            if (selectedStop != null) {
+                selectedStopOutput.setText("Ausgewählte Haltestelle:\n" + selectedStop);
+            }
+        });
+
+        testStopsBox.getChildren().addAll(lblTestStops, searchField, btnSearch, testStopsDropdown, selectedStopOutput);
+
+        // Linke und rechte Sektionen in ein GridPane aufteilen
+        GridPane gridPane = new GridPane();
+        gridPane.setPadding(new Insets(10));
+        gridPane.setHgap(20);
+        gridPane.add(leftBox, 0, 0);
+
+        VBox rightBox = new VBox(20);
+        rightBox.getChildren().addAll(testStopsBox, tcpBox);
+        gridPane.add(rightBox, 1, 0);
+
+        leftBox.getChildren().addAll(realtimeBox, transportBox, routeBox);
+
+        root.setCenter(gridPane);
 
         // Erstelle die Scene und zeige das Fenster
-        Scene scene = new Scene(root, 800, 800);
+        Scene scene = new Scene(root, 1000, 800);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

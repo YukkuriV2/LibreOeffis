@@ -1,0 +1,5275 @@
+StopID;StopText
+2;Venediger Au
+3;Messe Prater
+4;Perspektivstraße
+5;Börse
+7;Praterstern, Lassallestraße
+8;Hauptbahnhof S U
+9;Julius-Raab-Platz
+10;Stubentor U, Dr.-Karl-Lueger-Platz
+11;Weihburggasse
+12;Schwarzenbergplatz
+13;Oper, Karlsplatz U
+14;Burgring
+15;Ring, Volkstheater U
+16;Parlament
+17;Rathausplatz, Burgtheater
+18;Schottentor U
+19;Börse
+20;Schottenring U
+21;Salztorbrücke
+22;Schwedenplatz U
+23;Julius-Raab-Platz
+26;Praterstern S U
+27;Venediger Au
+28;Perspektivstraße
+29;Messe Prater
+30;Elderschplatz
+31;Bösendorferstraße, Karlsplatz U
+33;Ring, Volkstheater U
+36;Westbahnhof S U
+37;Schemmerlstraße
+39;Hauptbahnhof S U
+40;Karl-Popper-Straße
+41;Julius-Raab-Platz
+42;Schwedenplatz U
+43;Salztorbrücke
+44;Schottenring U
+45;Börse
+46;Schottentor U
+47;Rathausplatz, Burgtheater
+48;Parlament
+49;Ring, Volkstheater U
+50;Burgring
+51;Oper, Karlsplatz U
+52;Schwarzenbergplatz
+53;Weihburggasse
+54;Stubentor U, Dr.-Karl-Lueger-Platz
+55;Julius-Raab-Platz
+56;Hoher Markt
+57;Hauptbahnhof Ost
+58;Hauptbahnhof Ost
+59;Schüttaustraße
+60;Schüttaustraße
+61;Gänsehäufel
+62;Schüttauplatz
+63;Schödlbergergasse
+64;Goethehof
+65;Kaisermühlen VIC U
+66;Kaisermühlen VIC U
+67;Seidelbastgasse
+68;Stavangergasse
+69;Haßlwanderweg
+70;Neue Donau Mitte
+71;Alfred-Adler-Straße
+72;Kaisermühlen, VIC U
+73;Goethehof
+74;Schödlbergergasse
+75;Schüttauplatz
+76;Mauthausgasse
+77;Haus des Meeres
+78;Siebenhirten
+79;Schottenring U
+81;Schwarzenbergplatz
+88;Beethovengang
+89;Habsburgergasse
+90;Beethovengang
+91;Nußdorf S
+92;Sickenberggasse
+93;Grinzinger Straße
+94;Halteraugasse
+95;Heiligenstadt, 12.-Februar-Platz
+96;Gunoldstraße
+97;Rampengasse
+98;Spittelau S U
+99;Liechtenwerder Platz
+100;Augasse
+101;Franz-Josefs-Bahnhof S
+102;Bauernfeldplatz
+103;Schlickgasse
+104;Augasse  (Schleife)
+105;Schwarzenbergplatz
+106;Gußhausstraße
+107;Plößlgasse
+108;Schloss Belvedere
+109;Quartier Belvedere S
+111;Quartier Belvedere S
+112;Schloss Belvedere
+113;Plößlgasse
+114;Gußhausstraße
+115;Seegasse
+116;Schlickgasse
+117;Bauernfeldplatz
+118;Franz-Josefs-Bahnhof S
+119;Augasse
+120;Liechtenwerder Platz
+121;Spittelau S U
+122;Rampengasse
+123;Gunoldstraße
+124;Heiligenstadt, 12.-Februar-Platz
+125;Halteraugasse
+126;Grinzinger Straße
+127;Sickenberggasse
+128;Nußdorf S
+130;Seegasse
+131;Eckpergasse
+132;Hintere Zollamtsstraße
+133;Gredlerstraße
+134;Schwedenplatz U
+135;Althanstraße
+136;Althanstraße
+137;Hietzing U
+138;Cumberlandstraße
+139;Ameisgasse
+140;Leyserstraße
+141;Herbeckstraße
+142;Alsegger Straße
+143;Gersthof S
+144;Weinhauser Gasse
+145;Aumannplatz
+146;Martinstraße
+147;Währinger Straße, Volksoper U
+148;Spitalgasse
+149;Sensengasse
+150;Schwarzspanierstraße
+151;Montleartstraße
+152;Burgersteingasse
+153;Breitenseer Straße, Braillegasse
+154;Breitenseer Straße, Braillegasse
+155;Burgersteingasse
+156;Montleartstraße
+157;Leyserstraße
+158;Ameisgasse
+159;Cumberlandstraße
+160;Schöffelgasse
+161;Landstraße, Wien Mitte S U
+162;Marxergasse
+163;Hintere Zollamtsstraße
+164;Radetzkyplatz
+165;Hetzgasse
+166;Löwengasse
+167;Wittelsbachstraße
+168;Prater Hauptallee
+169;Prater Hauptallee
+170;Wittelsbachstraße
+171;Löwengasse
+172;Hetzgasse
+173;Radetzkyplatz
+174;Hintere Zollamtsstraße
+175;Marxergasse
+176;Landstraße, Wien Mitte S U
+177;Kutschkergasse
+178;Ameisbachzeile, Hanuschkrankenhaus
+179;Lebingergasse
+180;Flötzersteigbrücke
+181;Matschgasse
+182;Ottakringer Bad
+183;Matschgasse
+184;Flötzersteigbrücke
+185;Lebingergasse
+186;Ameisbachzeile, Hanuschkrankenhaus
+187;Kutschkergasse
+188;Spitalgasse
+189;Währinger Straße, Volksoper U
+190;Martinstraße
+191;Aumannplatz
+192;Weinhauser Gasse
+193;Gersthof S
+194;Alsegger Straße
+195;Herbeckstraße
+196;Guneschgasse
+197;Döblinger Hauptstraße, Gatterburggasse
+198;Pokornygasse
+199;Barawitzkagasse
+200;Perntergasse
+201;Hohe Warte
+202;Perntergasse
+203;Barawitzkagasse
+204;Pokornygasse
+205;Döblinger Hauptstraße, Gatterburggasse
+206;Guneschgasse
+207;Glatzgasse
+208;Nußdorfer Straße U
+209;Canisiusgasse
+210;Nußdorfer Straße / Alserbachstraße
+211;Spitalgasse
+212;Döblinger Bad
+213;Nußdorfer Straße / Alserbachstraße
+214;Canisiusgasse
+215;Nußdorfer Straße U
+216;Glatzgasse
+217;Lange Gasse
+218;Skodagasse
+219;Brünnlbadgasse
+220;Alser Straße U
+221;Palffygasse
+222;Elterleinplatz
+223;Rosensteingasse
+224;Hernals, Wattgasse
+225;Bahnhof Hernals
+229;Bhf.Hls. - Bedarfshaltes
+230;Hernals, Wattgasse
+231;Rosensteingasse
+232;Elterleinplatz
+233;Palffygasse
+234;Alser Straße U
+235;Brünnlbadgasse
+236;Skodagasse
+237;Lange Gasse
+238;Landesgerichtsstraße
+239;Hainburger Straße
+240;Hohe Warte
+241;Maroltingergasse
+242;Maroltingergasse
+243;Weinheimergasse
+244;Redtenbachergasse
+245;Familienplatz
+246;Johann-Nepomuk-Berger-Platz
+247;Haberlgasse
+248;Brunnengasse
+249;Josefstädter Straße U
+250;Albertgasse
+251;Josefstädter Str. / Lederergasse
+252;Rathaus U
+253;Landstraße S U
+254;Hintzerstraße
+256;Apostelgasse
+257;Kardinal-Nagl-Platz U
+258;Lechnerstraße
+259;Landstraße S U
+262;Lechnerstraße
+263;Kardinal-Nagl-Platz U
+264;Rabengasse
+265;Klimschgasse
+266;Barichgasse
+267;Hintzerstraße
+268;Stubentor U
+269;Rathaus U
+270;Josefstädter Str. / Lederergasse
+271;Albertgasse
+272;Blindengasse
+273;Josefstädter Straße U
+274;Brunnengasse
+275;Neulerchenfelder Str. / Haberlgasse
+276;Johann-Nepomuk-Berger-Platz
+277;Familienplatz
+278;Redtenbachergasse
+279;Johannes-Krawarik-Gasse
+280;Kleistgasse
+281;Barichgasse
+282;Eslarngasse
+283;Rabengasse
+284;St. Marx S
+286;St. Marx S, Leberstraße
+287;Viehmarktgasse
+288;St. Marx S
+289;Grasbergergasse
+290;Hofmannsthalgasse
+291;Stubentor U
+292;Petrusgasse
+293;St. Marx S
+294;Rabengasse
+295;Eslarngasse
+296;Rochusgasse U
+297;Rochusgasse U
+298;Weyrgasse
+299;Raxstraße, Rudolfshügelgasse
+300;Gudrunstraße
+301;Columbusplatz
+302;Hauptbahnhof S U
+303;Quartier Belvedere S
+304;Fasangasse
+305;Kölblgasse
+306;Rennweg S
+307;Neulinggasse
+308;Sechskrügelgasse
+309;Praterstern
+310;Franzensbrücke
+311;Praterstern S U
+312;Rueppgasse
+313;Taborstraße
+314;Am Tabor
+315;Rebhanngasse
+316;Innstraße
+317;Traisengasse S
+318;Dresdner Straße U
+319;Höchstädtplatz
+320;Friedrich-Engels-Platz
+321;Friedrich-Engels-Platz
+322;Höchstädtplatz
+323;Dresdner Straße U
+324;Traisengasse S
+325;Innstraße
+326;Rebhanngasse
+327;Am Tabor
+328;Heinestraße, Taborstraße
+329;Rueppgasse
+330;Mühlfeldgasse
+332;Franzensbrücke
+333;Radetzkyplatz
+334;Sechskrügelgasse
+335;Neulinggasse
+336;Rennweg S
+337;Kölblgasse
+338;Weyrgasse
+339;Quartier Belvedere S
+340;Hauptbahnhof S U
+341;Columbusplatz
+342;Gudrunstraße
+343;Quellenplatz
+344;Oberzellergasse
+345;Praterstern S U
+346;Nordbahnstraße
+347;Am Tabor
+348;Nordwestbahnstraße
+349;Rauscherstraße
+350;Wallensteinplatz
+351;Klosterneuburger Str. / Wallensteinstraße
+352;Friedensbrücke U
+353;Franz-Josefs-Bahnhof S
+354;Nußdorfer Straße
+355;Lazarettgasse
+356;Lange Gasse
+357;Laudongasse
+358;Florianigasse
+359;Albertgasse
+360;Lerchenfelder Straße
+361;Burggasse
+362;Westbahnstraße
+363;Stollgasse
+364;Mariahilfer Straße / Kaiserstraße
+365;Josefstädter Straße U
+366;Neustiftgasse
+367;Neustiftgasse
+368;Westbahnhof (Bed.-HS)
+369;Simmeringer Haide
+370;Westbahnhof S U
+373;Stollgasse
+374;Westbahnstraße
+375;Burggasse
+376;Lerchenfelder Straße
+377;Blindengasse
+378;Florianigasse
+379;Laudongasse
+380;Lange Gasse
+381;Lazarettgasse
+382;Spitalgasse
+383;Nußdorfer Straße / Alserbachstraße
+384;Franz-Josefs-Bahnhof S
+385;Friedensbrücke U
+386;Klosterneuburger Str. / Wallensteinstraße
+387;Wallensteinplatz
+388;Rauscherstraße
+389;Nordwestbahnstraße
+390;Am Tabor
+391;Nordbahnstraße
+392;Mühlfeldgasse
+396;Gumpendorfer Straße U
+397;Margaretengürtel U
+398;Arbeitergasse, Gürtel
+399;Eichenstraße
+400;Matzleinsdorfer Platz S
+401;Knöllgasse
+402;Neilreichgasse
+403;Quellenplatz
+404;Reumannplatz U
+405;Gellertplatz
+406;Schrankenberggasse
+407;Bernhardtstalgasse
+408;Geiereckstraße
+409;Geiselbergstraße S
+410;Polkorabplatz
+411;Bernhardtstalgasse
+412;Enkplatz U, Grillgasse
+413;Abstellplatz Hlst. 69A (Umleitung)
+414;Abstellplatz 13A Südtiroler Platz (Umleitung)
+415;Polkorabplatz
+416;Geiselbergstraße S
+418;Geiereckstraße
+419;Schemmerlstraße, Unterfeld
+420;Schrankenberggasse
+421;Gellertplatz
+422;Reumannplatz U
+423;Quellenplatz
+424;Neilreichgasse
+425;Knöllgasse
+426;Matzleinsdorfer Platz S
+427;Eichenstraße
+428;Arbeitergasse, Gürtel
+429;Margaretengürtel U
+430;Gumpendorfer Straße U
+432;Franz-Eder-Weg
+433;1. Haidequerstraße Mitte
+434;Kopalgasse
+435;Enkplatz U, Grillgasse
+436;Rappachgasse
+437;Simoningplatz
+438;Haidestraße S
+439;1. Haidequerstraße Süd
+440;Kraftwerk Simmering
+442;Kraftwerk Simmering
+443;Oriongasse
+444;Simmeringer Haide
+445;Oriongasse
+446;Simoningplatz
+447;Rappachgasse
+448;Krausegasse
+449;1. Haidequerstraße Süd
+455;Michelbeuern U AKH
+458;Josefstädter Straße U
+460;Burggasse, Stadthalle U
+461;Burggasse, Stadthalle U
+462;Urban-Loritz-Platz
+464;Westbahnhof S U
+470;Bahnhof Meidling S U
+471;Dörfelstraße
+472;Haidestraße S
+473;Haidestraße S
+474;Haidestraße S
+475;Murlingengasse
+476;Dörfelstraße
+477;Bahnhof Meidling S U
+481;Mariahilfer Gürtel
+482;Mariahilfer Gürtel
+483;Westbahnhof S U
+484;Westbahnhof S U
+485;Urban-Loritz-Platz
+493;Währinger Straße, Volksoper U
+497;Nußdorfer Straße U
+500;Bhf. Meidling S U
+503;Sagedergasse
+504;Am Schöpfwerk
+505;Lichtensterngasse
+506;Nauheimergasse
+508;Burggasse, Stadthalle U
+509;Haidestraße S
+510;Franz-Eder-Weg
+511;Zanaschkagasse
+512;Lichtensterngasse
+513;Am Schöpfwerk
+514;Khleslplatz
+516;Wallrißstraße
+517;Wienerbergbrücke
+518;Bhf. Meidling S U
+519;Otto-Probst-Platz
+520;Gutheil-Schoder-Gasse
+521;Gersthof S
+522;Simonygasse
+523;Sommarugagasse
+524;Vinzenzgasse
+525;Blumengasse
+526;Elterleinplatz
+527;Inzersdorf,  Kirchenplatz
+528;Mayssengasse
+529;Neusteinhof
+530;Feßtgasse
+531;Panikengasse
+532;Camillo-Sitte-Gasse
+533;Guntherstraße
+534;Schweglerstraße
+535;Urban-Loritz-Platz
+538;Computerstraße
+539;Gutheil-Schoder-Gasse
+540;Zanaschkagasse
+541;Urban-Loritz-Platz
+542;Inzersdorf, Kirchenplatz
+543;Guntherstraße
+544;Camillo-Sitte-Gasse
+545;Panikengasse
+546;Feßtgasse
+547;Johann-Nepomuk-Berger-Platz
+548;Johann-Nepomuk-Berger-Platz
+549;Rosensteingasse
+550;Elterleinplatz
+551;Blumengasse
+552;Vinzenzgasse
+553;Sommarugagasse
+554;Simonygasse
+555;Frauengasse
+556;Johann-Nepomuk-Berger-Platz
+557;Nauheimergasse
+558;Jungbauerweg
+559;Kendlerstraße U
+560;Dornbach
+561;Liebknechtgasse
+562;Sandleitengasse
+563;Maroltingergasse
+564;Rankgasse
+565;Joachimsthalerplatz
+566;Gutraterplatz
+567;Laurentiusplatz
+568;Hütteldorfer Straße U
+569;Märzstraße
+570;Linzer Straße, Reinlgasse
+571;Johnstraße, Linzer Straße
+572;Schloss Schönbrunn
+573;Hietzing U
+574;Hietzing U
+575;Kendlerstraße U
+576;Schloss Schönbrunn
+577;Penzinger Straße
+578;Johnstraße, Linzer Straße
+579;Linzer Straße, Reinlgasse
+580;Märzstraße
+581;Hütteldorfer Straße U
+582;Laurentiusplatz
+583;Gutraterplatz
+584;Joachimsthalerplatz
+585;Rankgasse
+586;Maroltingergasse
+587;Sandleitengasse
+588;Liebknechtgasse
+590;Friedrich-Engels-Platz
+591;Handelskai S U
+592;Allerheiligengasse
+593;Engerthstraße / Traisengasse
+594;Innstraße
+595;Holubstraße
+596;Walcherstraße
+597;Vorgartenstraße U
+598;Hillerstraße
+600;Elderschplatz
+601;Offenbachgasse
+602;Stella-Klein-Löw-Weg
+603;Meiereistraße
+604;Stadion
+605;Marathonweg
+606;Praterbrücke
+607;Stadlauer Brücke
+608;Aignerstraße
+609;Leystraße
+610;Stadlauer Brücke
+611;Praterbrücke
+612;Marathonweg
+613;Stadion
+614;Stadion
+615;Pensionistenwohnhaus Prater
+616;Sturgasse
+617;Engerthstraße, Traisengasse
+618;Hillerstraße
+619;Walcherstraße
+620;Holubstraße
+621;Innstraße
+622;Engerthstraße, Traisengasse
+623;Allerheiligengasse
+624;Handelskai S U
+625;Friedrich-Engels-Platz
+626;Leystraße
+627;Aignerstraße
+628;Burggasse, Stadthalle U
+629;Griegstraße
+631;Gadnergasse
+633;Dietmayrgasse
+634;Gürtelbrücke
+635;Glatzgasse
+636;Nordbrücke
+637;Am Spitz
+638;Am Spitz
+639;Nordbrücke
+640;Nußdorfer Straße U
+641;Glatzgasse
+642;Gürtelbrücke
+643;Dietmayrgasse
+645;Lassallestraße U
+646;
+647;
+648;Lassallestraße
+649;Vorgartenstraße U
+650;Pensionsversicherungsanstalt
+651;Pfenninggeldgasse
+652;Possingergasse
+653;Schuhmeierplatz
+654;Familienplatz
+656;Wilhelminenstraße
+657;Albrechtskreithgasse
+658;Donaumarina
+659;Donaumarina U
+660;Alser Straße, Skodagasse
+661;Laudongasse
+662;Lederergasse
+663;Strozzigasse
+664;Neubaugasse / Burggasse
+665;Neubaugasse / Westbahnstraße
+666;Neubaugasse U
+667;Griegstraße
+668;Haus des Meeres
+669;Pilgramgasse U
+670;Margaretenplatz, Schönbrunner Straße
+671;Ziegelofengasse
+672;Leibenfrostgasse
+673;Johann-Strauß-Gasse
+674;Rainergasse
+675;Belvederegasse
+676;Kolschitzkygasse
+677;Forsthausgasse
+678;Dr.-Adolf-Schärf-Heim
+679;Bahnhof Heiligenstadt S U
+680;Dr.-Adolf-Schärf-Heim
+681;Forsthausgasse
+682;Esterhazygasse
+683;Edmund-Reim-Gasse
+684;Rothenburgstraße
+685;Hetzendorf S
+686;Eckartsaugasse
+687;Pilgramgasse U
+688;Neubaugasse U
+689;Leibnizgasse
+690;Südbahnhof S
+691;Mommsengasse
+692;Argentinierstraße
+693;Kolschitzkygasse
+694;Rainergasse
+695;Johann-Strauß-Gasse
+696;Leibenfrostgasse
+697;Ziegelofengasse
+698;Margaretenplatz, Schönbrunner Straße
+699;Pilgramgasse U
+700;Arsenal
+701;Inzersdorfer Straße / Bernhardtstalgasse
+702;Neubaugasse U
+703;Kirchengasse
+704;Siebensterngasse
+705;Kellermanngasse
+706;Piaristengasse
+707;Theater in der Josefstadt
+708;Laudongasse
+709;Fernkorngasse
+710;Unfallkrankenhaus Meidling
+711;Klinik Favoriten
+712;Davidgasse / Knöllgasse
+713;Belgradplatz
+714;Herzgasse
+715;Arthaberplatz
+716;Reumannplatz
+717;Arthaberplatz
+718;Herzgasse
+719;Belgradplatz
+720;Davidgasse / Knöllgasse
+721;Klinik Favoriten
+722;Bischoffgasse
+723;Schönbrunn U
+724;Schönbrunn U
+725;Schloss Schönbrunn
+726;Wilhelm-Kreß-Platz
+727;Pretschgasse
+728;Geiselbergstraße S
+729;Südtiroler Platz S U
+730;Südbahnhof S
+731;Am Kanal
+732;Lilienthalgasse
+733;Gräßlplatz
+734;Mitterfeldgasse
+735;Hasenleitengasse
+736;Schemmerlstraße
+737;Mitterfeldgasse
+738;Am Kanal
+739;Geiselbergstraße S
+740;Lilienthalgasse
+742;Hüttenbrennergasse
+743;Am Kanal, Hasenleitengasse
+744;Gattergasse
+745;Pretschgasse
+746;Wilhelm-Kreß-Platz
+748;Keplerplatz U
+749;Scalagasse
+750;Gattergasse
+751;Pilgramgasse U
+752;Am Kanal, Hasenleitengasse
+753;Reinprechtsdorfer Brücke
+754;Reinprechtsdorfer Straße / Arbeitergasse
+755;Fendigasse
+756;Matzleinsdorfer Platz S
+757;Evangelischer Friedhof
+758;Sonnleithnergasse
+759;Erlachplatz
+760;Wielandplatz
+761;Laxenburger Straße / Gudrunstraße
+762;Keplerplatz U
+763;Scalagasse
+764;Reumannplatz U
+765;Laxenburger Straße / Gudrunstraße
+766;Erlachplatz
+767;Sonnleithnergasse
+768;Matzleinsdorfer Platz S
+769;Fendigasse
+770;Reinprechtsdorfer Straße / Arbeitergasse
+771;Reinprechtsdorfer Brücke
+772;Bezirksamt Margareten
+773;Esterhazygasse
+774;Boschstraße, Halteraugasse
+775;Kahlenberg
+776;Elisabethwiese
+777;Leopoldsberg
+778;Elisabethwiese
+779;Eibesbrunnergasse
+780;Am Europlatz
+781;Eibesbrunnergasse
+782;Gesundheitszentrum Süd
+783;Altdorferstraße
+784;Stefan-Fadinger-Platz
+785;Gußriegelstraße
+786;Raxstraße / Rudolfshügelgasse
+787;Laxenburger Straße / Raxstraße
+788;Daumegasse
+789;Altes Landgut U
+790;Wienerbergbrücke
+791;Neulandschule
+792;Florian-Geyer-Gasse
+793;Siedlung Südost
+794;Langsulzgasse
+795;Männertreugasse
+796;Max-Mauermann-Gasse
+797;Grillgasse S
+798;Am Kanal
+799;Enkplatz U, Grillgasse
+800;Am Kanal
+801;Himmelstraße
+802;Siedlung Südost
+803;Florian-Geyer-Gasse
+804;Neulandschule
+805;Kreilplatz
+806;Altes Landgut U
+807;Am Europlatz
+808;Daumegasse
+809;Laxenburger Straße / Raxstraße
+810;Raxstraße / Rudolfshügelgasse
+811;Gußriegelstraße
+812;Stefan-Fadinger-Platz
+813;Clemens-Holzmeister-Straße
+814;Gesundheitszentrum Süd
+815;Eibesbrunnergasse
+816;Grillgasse S
+817;Max-Mauermann-Gasse
+818;Männertreugasse
+819;Langsulzgasse
+820;Lorystraße
+821;Swatoschgasse
+822;Swatoschgasse
+823;Kastanienallee
+824;Oberer Reisenbergweg
+825;Oberer Reisenbergweg
+826;Bahnhof Heiligenstadt S U
+827;Grinzinger Straße
+828;Fernsprechamt Heiligenstadt, Pfarrpl.
+829;Armbrustergasse
+830;Neugebauerweg
+831;Kliebergasse
+832;Blechturmgasse
+833;Hauptbahnhof S U
+834;Heinrich-Drimmel-Platz
+835;Wildgansplatz
+836;Baumgasse
+837;Schlachthausgasse U
+838;Donauzentrum
+839;Bretschneidergasse
+841;Schlachthausgasse U
+842;Erdbergstraße
+843;Baumgasse
+844;Wildgansplatz
+845;Heinrich-Drimmel-Platz
+846;Fasangasse
+847;Hauptbahnhof S U
+848;Blechturmgasse
+849;Kliebergasse
+850;Bretschneidergasse
+851;Matzleinsdorfer Platz S
+852;Schloss Schönbrunn
+853;Neugebauerweg
+854;Armbrustergasse
+855;Grinzing
+856;Cobenzlgasse
+857;Wagenwiese
+858;Fernsprechamt Heiligenstadt, Pfarrpl.
+859;Cobenzl-Parkplatz
+860;Johnstraße
+861;Krapfenwaldgasse
+862;Sulzwiese
+863;Feuerwache Grinzing
+864;Feuerwache Grinzing
+865;Kahlenberg
+866;Sulzwiese
+867;Krapfenwaldgasse
+868;Schemmelstraße
+869;Cobenzl-Parkplatz
+870;Grinzinger Straße
+871;Wagenwiese
+872;Cobenzlgasse
+873;Grinzing
+874;Rennbahnweg
+875;Seebaldgasse
+876;Julius-Ficker-Straße
+877;Gitlbauergasse
+879;Linzer Straße
+880;Kagran U
+881;Kagran U
+882;Märzstraße
+883;Siebeckstraße
+884;Steigenteschgasse
+885;Kagraner Platz U
+886;Kagraner Friedhof
+887;Leopoldau S U
+888;Gitlbauergasse
+889;Julius-Ficker-Straße
+890;Kagraner Friedhof
+891;Kagraner Platz
+892;Steigenteschgasse
+893;Siebeckstraße
+894;Kagraner Brücke
+895;Akkonplatz
+897;Schmelz, Gablenzgasse
+898;Johnstraße, Schuselkagasse
+899;Sebaldgasse
+900;Johnstraße U
+901;Märzstraße
+902;Linzer Straße
+903;Markomannenstraße
+904;Gewerbepark Kagran
+905;Breitenlee, Spargelfeldstraße
+906;Breitenlee, Ziegelhofstraße
+907;Breitenlee, Ort
+908;Agrarweg
+909;Neueßling
+910;Breitenlee, Friedhof
+911;Ludwig-Reindl-Gasse
+912;Breitenlee, Ziegelhofstraße
+913;Kalmusweg
+914;Neueßling
+915;Agrarweg
+916;Breitenlee, Ort
+917;Tierquartier
+918;Breitenlee, Spargelfeldstraße
+919;Gewerbepark Kagran
+920;Markomannenstraße
+921;Breitenlee, Friedhof
+922;Ludwig-Reindl-Gasse
+923;Kagraner Platz U
+924;Breitenlee, Arnikaweg
+925;Thujagasse
+926;Speierlinggasse
+927;Invalidensiedlung
+928;Speierlinggasse
+929;Thujagasse
+930;Algenweg
+931;Huflattichweg
+932;Daphneweg
+933;Maculangasse / Wagramer Straße
+934;Spitzweg
+935;Sommerweg
+936;Percostraße
+937;Wagramer Straße, Ostbahn
+938;Badeteich Süßenbrunn
+939;Bettelheimstraße
+940;Süßenbrunner Platz
+941;Breitenlee, Arnikaweg
+942;Hasenleiten, Industriegebiet
+943;Bettelheimstraße
+944;Neuhaufenstraße
+945;Badeteich Süßenbrunn
+946;Wagramer Straße, Ostbahn
+947;Percostraße
+948;Sommerweg
+949;Spitzweg
+951;Campingplatzweg
+952;Anton-Sattler-Gasse
+953;Anton-Sattler-Gasse
+956;Doningasse
+957;Melangasse
+958;Zehdengasse
+959;Agavenweg
+960;Schlachthausgasse U
+961;Praterbrücke
+962;Mühlwasserstraße
+963;Neuhaufenstraße
+966;Konstanziagasse
+967;Erzherzog-Karl-Straße S
+968;Konstanziagasse
+969;Hartlebengasse
+970;Zschokkegasse
+973;Deinleingasse, Schule
+974;Mühlwasserstraße
+975;Praterbrücke
+976;Rennbahnweg
+977;Agavenweg
+978;Strebersdorf, Edmund-Hawranek-Platz
+979;Strebersdorfer Platz
+980;Tierquartier
+981;Bernreiterplatz
+982;Mitterhofergasse
+983;Großjedlersdorf,  Jochbergengasse
+984;Ödenburger Straße, Schulzentrum
+985;Ödenburger Straße, Schulzentrum
+986;Großjedlersdorf,  Jochbergengasse
+987;Steinamangergasse
+988;Steinamangergasse
+989;Anton-Böck-Gasse
+990;Carabelligasse
+991;Sebaldgasse
+992;Sebaldgasse
+993;Schwanngasse
+994;Marco-Polo-Promenade
+995;Zehdengasse
+996;Melangasse
+997;Doningasse
+998;Kagraner Platz U
+999;Campingplatzweg
+1000;Schwedenplatz U
+1001;Karmeliterplatz
+1002;Taborstraße U
+1003;Heinestraße, Taborstraße
+1004;Seefeldergasse
+1005;Arminenstraße
+1006;Donaustadtstraße
+1007;Erzherzog-Karl-Straße S
+1008;Konstanziagasse
+1009;Langobardenstraße
+1010;Hardeggasse
+1011;Donauspital U
+1012;Hardeggasse
+1013;Langobardenstraße
+1014;Seefeldergasse
+1015;Erzherzog-Karl-Straße S
+1016;Donaustadtstraße
+1017;Arminenstraße
+1018;Kagraner Brücke
+1019;Taborstraße U
+1020;Karmeliterplatz
+1021;Donauspital U
+1022;Marienbrücke
+1023;Polgarstraße
+1024;Aspernstraße U
+1025;Aspernstraße, Oberdorfstraße
+1026;Siegesplatz
+1027;Lohwaggasse
+1028;Saltenstraße
+1029;Flugfeldstraße
+1030;Lannesstraße
+1031;Kirschenallee
+1032;Eßling, Schule
+1033;Podlahagasse
+1034;Englisch-Feld-Gasse
+1035;Groß-Enzersdorf, Stadtmauer
+1036;Groß-Enzersdorf
+1037;Eßling, Stadtgrenze
+1038;Eßling, Stadtgrenze
+1039;Heinrich-von-Buol-Gasse
+1040;Polgarstraße
+1041;Groß-Enzersdorf, Stadtmauer
+1042;Englisch-Feld-Gasse
+1043;Podlahagasse
+1044;Eßling, Schule
+1045;Kirschenallee
+1046;Lannesstraße
+1047;Flugfeldstraße
+1048;Saltenstraße
+1049;Lohwaggasse
+1050;Siegesplatz
+1051;Aspernstraße, Oberdorfstraße
+1052;Aspernstraße U
+1053;Zschokkegasse
+1054;Hartlebengasse
+1055;Konstanziagasse
+1056;St.-Michael-Gasse
+1057;St.-Michael-Gasse
+1058;Sorgenthalgasse
+1059;Heinrich-von-Buol-Gasse
+1060;Dunantgasse
+1061;Bunsengasse
+1062;Koloniestraße
+1063;Lorystraße
+1064;Haspingerplatz
+1065;Eugen-Bormann-Gasse
+1067;Kagraner Platz
+1068;Afritschgasse
+1069;Pogrelzstraße
+1070;Hirschstetten, Ort
+1071;Hirschstetten S
+1072;Amongasse
+1073;Haschafeld
+1074;Gotthelfgasse
+1075;Gotthelfgasse
+1076;Großfeldsiedlung U
+1077;Siemensstraße, Heinrich-von-Buol-Gasse
+1078;Hirschstetten, Süßenbrunner Straße
+1079;Hirschstetten, Süßenbrunner Straße
+1080;Aspern, Zachgasse
+1081;Felmayergasse
+1083;Amongasse
+1084;Hirschstetten S
+1085;Hirschstetten, Ort
+1086;Pogrelzstraße
+1087;Afritschgasse
+1088;Trillergasse
+1089;Jedlersdorf S
+1090;Lokomotivgasse
+1091;Koloniestraße
+1092;Hopfengasse
+1093;Obergfellplatz
+1094;Anton-Störck-Gasse
+1095;Jedlesee, Bellgasse
+1096;Richard-Neutra-Gasse
+1097;Hertha-Kräftner-Gasse
+1098;Hertha-Kräftner-Gasse
+1099;Richard-Neutra-Gasse
+1100;Großfeldsiedlung U
+1101;Dopschstraße
+1102;Adolf-Loos-Gasse
+1103;Leopoldau S U
+1104;Bubergasse
+1105;Oswald-Redlich-Straße
+1106;Kürschnergasse
+1107;Moritz-Dreger-Gasse
+1108;Langfeldgasse
+1109;Dopschstraße
+1110;Sankt-Michael-Gasse
+1111;Leopoldauer Platz
+1112;Eipeldauer Straße
+1113;Serpentingasse
+1114;Edelsteingasse
+1115;Töllergasse
+1116;Hawlicekgasse
+1117;Sebastian-Kohl-Gasse
+1118;Patrizigasse
+1119;Kefedergrundgasse
+1120;Floridsdorf S U
+1121;Pulkaugasse
+1122;Mitterhofergasse
+1123;Leopoldauer Straße
+1124;Bubergasse
+1125;Floridsdorf S U
+1126;Kefedergrundgasse
+1127;Patrizigasse
+1128;Sebastian-Kohl-Gasse
+1129;Hawlicekgasse
+1130;Töllergasse
+1131;Edelsteingasse
+1132;Serpentingasse
+1133;Eipeldauer Straße
+1134;Leopoldauer Platz
+1135;Sankt-Michael-Gasse
+1136;Dopschstraße
+1137;Moritz-Dreger-Gasse
+1138;Kürschnergasse
+1139;Oswald-Redlich-Straße
+1140;Doderergasse
+1141;Uhlirzgasse
+1142;Leopoldau S U
+1143;Adolf-Loos-Gasse
+1144;Langfeldgasse
+1145;Ruthnergasse
+1146;Scottgasse
+1147;Justgasse
+1148;Skraupstraße
+1149;Berzeliusgasse
+1150;Großjedlersdorf
+1152;Schippergasse
+1153;Kollarzgasse
+1154;Allissen
+1155;Grellgasse
+1156;Draugasse
+1157;Dahliengasse
+1158;Illgasse
+1159;Achengasse
+1160;Lavantgasse, Schule
+1161;Lavantgasse
+1162;Iselgasse
+1163;Pulkaugasse
+1164;Leopoldau S U
+1165;Lafnitzgasse
+1166;Pulkaugasse
+1167;Kainachgasse
+1168;Achengasse
+1169;Illgasse
+1170;Dahliengasse
+1171;Draugasse
+1172;Grellgasse
+1173;Allissen
+1174;Kollarzgasse
+1175;Schippergasse
+1177;Großjedlersdorf
+1178;Skraupstraße
+1179;Berzeliusgasse
+1180;Bernreiterplatz
+1181;Ratzenhofergasse
+1182;Ratzenhofergasse
+1183;Strebersdorfer Platz
+1184;Egon-Friedell-Gasse
+1185;Obkirchergasse
+1186;Sauerburggasse
+1187;Daringergasse
+1188;Bellevuestraße
+1189;Karthäuserstraße
+1190;Wexstraße
+1191;Sievering
+1192;Sievering
+1193;Obkirchergasse
+1194;Karthäuserstraße
+1195;Bellevuestraße
+1196;Daringergasse
+1197;Sauerburggasse
+1198;Gürtelbrücke
+1199;Jägerstraße U
+1201;Gürtelbrücke
+1202;Döblinger Steg
+1203;Heiligenstädter Brücke
+1204;Muthgasse
+1205;Geistingergasse
+1206;Bahnhof Heiligenstadt S U
+1207;Bahnhof Heiligenstadt S U
+1208;Mooslackengasse
+1209;
+1210;Heiligenstädter Brücke
+1211;Döblinger Steg
+1212;Schottentor U
+1213;Schwarzspanierstraße
+1214;Hardtgasse
+1215;Oberdöbling S
+1216;Silbergasse
+1217;Sieveringer Straße
+1218;Paradisgasse
+1219;An den langen Lüssen
+1220;Grinzing
+1221;Grinzing
+1222;An den langen Lüssen
+1223;Paradisgasse
+1224;Sieveringer Straße
+1225;Silbergasse
+1226;Oberdöbling S
+1227;Hardtgasse
+1228;Glatzgasse
+1229;Börnergasse
+1230;Nußdorfer Straße U
+1231;Währinger Park
+1232;Hardtgasse
+1233;Krottenbachstraße S
+1234;Flotowgasse
+1235;Rodlergasse
+1236;Kratzlgasse
+1237;Gustav-Pick-Gasse
+1238;Glanzing
+1239;Strehlgasse
+1240;Kleingartenverein Hackenberg
+1241;Neustift, Agnesgasse
+1242;Neustift am Walde
+1243;Celtesgasse
+1244;Salmansdorf
+1245;Kammerergasse
+1246;Bahnhof Heiligenstadt S U
+1247;Weitlofgasse
+1248;Fröschelgasse
+1249;Fröschelgasse
+1250;Salmannsdorf
+1251;Celtesgasse
+1252;Neustift am Walde
+1253;Neustift, Agnesgasse
+1254;Kleingartenverein Hackenberg
+1255;Strehlgasse
+1256;Kammerergasse
+1257;Glanzing
+1258;Gustav-Pick-Gasse
+1259;Kratzlgasse
+1260;Rodlergasse
+1261;Krottenbachstraße S
+1262;Obersteinergasse
+1263;Flotowgasse
+1264;Glatzgasse
+1265;Bernreiterplatz
+1266;Börnergasse
+1267;Stadlau, Sozialmedizinisches Zentrum Ost
+1268;Dänenstraße
+1269;Nußdorfer Straße U
+1270;Börse
+1271;Berggasse
+1272;Bauernfeldplatz
+1273;Nußdorfer Straße / Alserbachstraße
+1274;Währinger Straße, Volksoper U
+1275;Sternwartestraße
+1276;Gymnasiumstraße
+1278;Breitenlee, Schule
+1279;Cottagegasse
+1280;Gregor-Mendel-Straße
+1281;Linneplatz
+1282;Dänenstraße
+1283;Hugo-Wolf-Park
+1284;Döblinger Friedhof
+1285;Felix-Dahn-Straße
+1286;Oberdöbling S
+1287;Breitenlee, Schule
+1288;Oberdöbling S
+1289;Silbergasse
+1290;Peter-Jordan-Straße
+1291;Borkowskigasse
+1292;Dänenstraße
+1293;Linneplatz
+1294;Gregor-Mendel-Straße
+1295;Cottagegasse
+1296;Währinger Park
+1297;Gymnasiumstraße
+1298;Sternwartestraße
+1299;Währinger Straße, Volksoper U
+1301;Bauernfeldplatz
+1302;Berggasse
+1303;Schottentor U
+1304;Egon-Friedell-Gasse
+1305;Felmayergasse
+1306;Siemensstraße, Heinrich-von-Buol-Gasse
+1307;Afritschgasse
+1308;Bhf. Heiligenstadt S U
+1309;Amtshaus Muthgasse
+1310;Türkenschanzplatz
+1311;Erndtgasse
+1312;Scheibenbergstraße
+1313;Pötzleinsdorf
+1314;Dunantgasse
+1315;Pötzleinsdorf
+1316;Scheibenbergstraße
+1317;Erndtgasse
+1318;Türkenschanzplatz
+1319;Carabelligasse, Ruthnergasse
+1320;Pötzleinsdorf
+1321;Khevenhüllerstraße
+1322;Pötzleinsdorfer Friedhof
+1323;Neustifter Friedhof 1. Tor
+1324;Neustifter Friedhof 2. Tor
+1325;Liechtensteinstraße - Schottentor U
+1326;Neustifter Friedhof 3.Tor
+1327;Neustifter Friedhof 2.Tor
+1328;Neustifter Friedhof 1.Tor
+1329;Pötzleinsdorfer Friedhof
+1330;Khevenhüllerstraße
+1331;Pötzleinsdorf
+1334;Marietta-Blau-Gasse
+1335;Marietta-Blau-Gasse
+1336;Währinger Straße, Volksoper U
+1337;Hildebrandgasse
+1338;Vinzenzgasse
+1339;Antonigasse
+1340;Sommarugagasse
+1341;Hildebrandgasse
+1342;Michelbeuern U AKH
+1343;Glanzing
+1344;Grinzinger Straße
+1345;Schottentor U
+1346;Landesgerichtsstraße
+1347;Zimmermannplatz
+1348;Hernals S
+1349;Dornbach
+1350;Dornbacher Straße
+1351;Himmelmutterweg
+1352;Neuwaldegg (End-Hst.)
+1353;Neuwaldegg (Anfang-Hst.)
+1354;Himmelmutterweg
+1355;Dornbacher Straße
+1356;Dornbach
+1357;Hernals S
+1358;Ährengrubenweg
+1359;Neustift, Agnesgasse
+1360;Hernalser Gürtel
+1361;Yppengasse
+1362;Mayssengasse
+1363;Wilhelminenstraße
+1364;Römergasse
+1365;Sandleitengasse
+1366;Römergasse
+1367;Wilhelminenstraße
+1368;Mayssengasse
+1369;Dornbach
+1370;Frauengasse
+1371;Hernalser Gürtel
+1372;Brünnlbadgasse
+1373;Yppengasse
+1374;Ährengrubenweg
+1375;Ring, Volkstheater U
+1376;Auerspergstraße
+1377;Strozzigasse
+1378;Schottenfeldgasse
+1379;Thaliastraße U
+1380;Brunnengasse
+1381;Thaliastraße, Haberlgasse
+1382;Feßtgasse
+1383;Schuhmeierplatz
+1384;Ottakring S U
+1385;Maroltingergasse
+1386;Joachimsthalerplatz
+1387;Ottakring S U
+1388;Schuhmeierplatz
+1389;Feßtgasse
+1390;Thaliastraße, Haberlgasse
+1391;Brunnengasse
+1392;Thaliastraße U
+1393;Schottenfeldgasse
+1394;Strozzigasse
+1395;Auerspergstraße
+1396;Holbeingasse
+1397;Starhemberg-Kaserne
+1398;Starhemberg-Kaserne
+1399;Holbeingasse
+1400;Ring, Volkstheater >
+1401;Volkstheater U
+1402;Kellermanngasse
+1403;Neubaugasse / Neustiftgasse
+1404;Zieglergasse / Neustiftgasse
+1405;Kaiserstraße / Neustiftgasse
+1406;Thaliastraße >, Koppstraße
+1407;Kirchstetterngasse
+1408;Panikengasse
+1409;Possingergasse
+1410;Pfenninggeldgasse
+1411;Gutraterplatz
+1413;Rankgasse
+1414;Joachimsthalerplatz
+1415;Waidäckergasse
+1416;Schrekergasse
+1417;Reichmanngasse
+1418;Otto Wagner Areal
+1419;Klinik Penzing
+1420;Klinik Penzing
+1421;Otto Wagner Areal
+1422;Reichmanngasse
+1423;Schrekergasse
+1424;Waidäckergasse
+1425;Joachimsthalerplatz
+1426;Moeringgasse
+1427;Schmelz, Gablenzgasse
+1428;Brüßlgasse
+1429;Camillo-Sitte-Gasse
+1430;Vogelweidplatz - Stadthalle
+1431;Burggasse, Stadthalle U
+1432;Kaiserstraße / Burggasse
+1433;Zieglergasse / Burggasse
+1434;Neubaugasse / Burggasse
+1435;St.-Ulrichs-Platz
+1436;Neilreichgasse / Troststraße
+1438;Klinik Ottakring
+1439;Klinik Ottakring
+1440;Volkstheater U
+1441;Stiftgasse
+1442;Neubaugasse, Westbahnstraße
+1443;Zieglergasse
+1444;Kaiserstraße, Westbahnstraße
+1445;Urban-Loritz-Platz
+1446;Beingasse
+1447;Schweglerstraße U
+1448;Huglgasse
+1449;Johnstraße U
+1450;Hütteldorfer Straße U
+1451;Hickelgasse - nur für Pe
+1452;Breitensee S
+1453;Leyserstraße
+1454;Hütteldorfer Straße /  Lützowgasse
+1455;Seckendorfstraße
+1456;Waidhausenstraße
+1457;Hütteldorfer Straße / Hochsatzengasse
+1458;Baumgarten
+1459;Rettichgasse
+1460;Rosentalgasse
+1461;Hütteldorf, Bujattigasse
+1462;Hütteldorf, Bujattigasse
+1463;Satzberggasse
+1464;Rettichgasse
+1465;Baumgarten
+1466;Hochsatzengasse
+1467;Waidhausenstraße
+1468;Seckendorfstraße
+1469;Lützowgasse
+1470;Leyserstraße
+1471;Breitensee S
+1472;Hütteldorfer Straße U
+1473;Johnstraße U
+1474;Huglgasse
+1475;Schweglerstraße U
+1476;Beingasse
+1477;Urban-Loritz-Platz
+1478;Kaiserstraße, Westbahnstraße
+1479;Zieglergasse
+1480;Neubaugasse, Westbahnstraße
+1481;Stiftgasse
+1482;Volkstheater U
+1483;Ungargasse, Neulinggasse
+1484;Ziehrerplatz
+1485;Rasumofskygasse
+1486;Siebensterngasse
+1487;Siebensterngasse
+1488;Ziehrerplatz
+1489;Ungargasse, Neulinggasse
+1490;Karlsplatz U
+1491;Schwarzenbergplatz
+1492;Lisztstraße
+1493;Am Modenapark
+1495;Rochusgasse U
+1496;Geusaugasse
+1497;Rasumofskygasse
+1498;Rochusgasse U
+1499;Am Modenapark
+1500;Lisztstraße
+1501;Schwarzenbergplatz
+1502;Karlsplatz U
+1503;Schlachthausgasse U
+1506;Siebeckstraße
+1507;Häußlergasse
+1508;Donaustadtstraße
+1509;Wiedgasse
+1510;Langobardenstraße
+1512;Donaustadtstraße
+1513;Häußlergasse
+1514;Bernoullistraße
+1516;Kagran U
+1518;Kirsteweg
+1519;Klederinger Straße
+1520;Unterlaa, Stadtgrenze
+1521;Klederinger Straße
+1522;Kirsteweg
+1523;Unterlaa
+1524;Bahnhof Breitensee
+1527;Ottakring S U
+1528;Ottakring S U
+1529;Wilhelminenspital
+1530;Gutraterplatz
+1531;Westbahnhof S U
+1532;Staglgasse
+1533;Mariahilfer Straße, Geibelgasse
+1534;Rustengasse
+1535;Anschützgasse
+1536;Winckelmannstraße
+1537;Penzinger Straße
+1538;Diesterweggasse
+1539;Ameisgasse
+1540;Lützowgasse
+1541;Gusenleithnergasse
+1542;Zehetnergasse
+1543;Gruschaplatz
+1544;Hochsatzengasse
+1545;Baumgarten
+1548;Westbahnhof S U, Gerstnerstraße
+1549;Westbahnhof S U, Gerstnerstraße
+1550;Urban-Loritz-Platz
+1551;Hochsatzengasse
+1552;Gruschaplatz
+1553;Zehetnergasse
+1554;Gusenleithnergasse
+1555;Lützowgasse
+1556;Ameisgasse
+1557;Diesterweggasse
+1558;Linzer Straße, Reinlgasse
+1559;Anschützgasse
+1560;Rustengasse
+1561;Mariahilfer Straße, Geibelgasse
+1562;Staglgasse
+1564;Kahlenberg
+1565;Grinzinger Allee
+1566;Zouvalgasse
+1567;Zouvalgasse
+1568;Hetmanekgasse
+1569;Museumsquartier U
+1570;Burgring
+1571;Getreidemarkt
+1572;Stiegengasse
+1573;Haus des Meeres
+1574;Esterhazygasse
+1575;Brückengasse
+1576;Sonnenuhrgasse
+1577;Gumpendorfer Straße U
+1578;Stiegergasse
+1579;Grimmgasse
+1580;Weiglgasse
+1581;Hollergasse
+1582;Rudolfsheim, Anschützgasse
+1583;Hollergasse
+1584;Grimmgasse
+1585;Stiegergasse
+1586;Gumpendorfer Straße U
+1587;Sonnenuhrgasse
+1588;Brückengasse
+1589;Siebeneichengasse
+1590;Haus des Meeres
+1591;Stiegengasse
+1592;Getreidemarkt
+1593;Hirschengasse
+1594;Hirschengasse
+1595;Unfallkrankenhaus Meidling
+1596;Hietzing U
+1597;Dommayergasse
+1598;Wenzgasse
+1599;Fichtnergasse
+1600;Verbindungsbahn
+1601;Unter St. Veit, Hummelgasse
+1602;Verbindungsbahn
+1603;Fichtnergasse
+1604;Wenzgasse
+1605;Dommayergasse
+1606;Rodaunbrücke
+1607;Rodaunbrücke
+1608;Niederhofstraße U
+1609;Hütteldorfer Straße U (Bedarf)
+1610;Hietzing U
+1611;Gloriettegasse
+1612;Stadlergasse
+1613;Jagdschloßgasse
+1614;Preyergasse
+1615;Hofwiesengasse
+1616;Speising, Hermesstraße
+1617;Riedelgasse
+1618;Sillerplatz
+1619;Franz-Asenbauer-Gasse
+1620;Maurer Hauptplatz
+1621;Maurer Lange Gasse
+1622;Anton-Krieger-Gasse
+1623;Kaiser-Franz-Josef-Straße
+1624;Rodaun
+1625;Rodaun
+1626;Kaiser-Franz-Josef-Straße
+1627;Anton-Krieger-Gasse
+1628;Maurer Lange Gasse
+1629;Maurer Hauptplatz
+1630;Franz-Asenbauer-Gasse
+1631;Sillerplatz
+1632;Riedelgasse
+1633;Speising, Hermesstraße
+1634;Hofwiesengasse
+1635;Preyergasse
+1636;Jagdschloßgasse
+1637;Stadlergasse
+1638;Gloriettegasse
+1639;Dommayergasse
+1640;Dörfelstraße
+1641;Maurer Berg
+1642;Rodauner Straße
+1643;Lindauergasse
+1644;Kaserngasse
+1645;Gebirgsgasse
+1646;Maurer Hauptplatz
+1647;Karl-Schwed-Gasse
+1648;Am Spiegeln
+1649;Taglieberstraße
+1650;Rudolf-Zeller-Gasse
+1651;Bhf. Atzgersdorf S
+1652;Atzgersdorf, Kirchenplatz
+1654;Leopoldigasse
+1655;Dr.-Neumann-Gasse
+1656;Liesing S
+1657;Knotzenbachgasse
+1658;Dr.-Neumann-Gasse
+1659;Scheugasse
+1660;Liesing S
+1661;Dr.-Neumann-Gasse
+1662;Leopoldigasse
+1663;Brunner Straße, Erlaaer Straße
+1664;Bhf. Atzgersdorf S, Knotzenbachgasse
+1665;Bhf. Atzgersdorf S
+1666;Rudolf-Zeller-Gasse
+1667;Taglieberstraße
+1668;Am Spiegeln
+1669;Karl-Schwed-Gasse
+1670;Speisinger Straße
+1671;Maurer Hauptplatz
+1672;Gebirgsgasse
+1673;Kaserngasse
+1674;Lindauergasse
+1675;Rodauner Straße
+1676;Maurer Berg
+1677;Rudolf-Waisenhorn-Gasse
+1678;Oper, Karlsplatz >
+1679;Bärenmühldurchgang
+1680;Karlsplatz U
+1681;Schleifmühlgasse
+1682;Preßgasse
+1683;Bhf. Meidling S U
+1684;Margaretenplatz
+1685;Hans-Mandl-Berufsschule
+1686;Bacherplatz
+1687;Reinprechtsdorfer Straße / Arbeitergasse
+1688;Einsiedlerplatz
+1689;Arbeitergasse, Gürtel
+1690;Wolfganggasse
+1691;Dörfelstraße
+1692;Aßmayergasse
+1693;Aßmayergasse
+1694;Hans-Mandl-Berufsschule
+1695;Wolfganggasse
+1696;Arbeitergasse, Gürtel
+1697;Einsiedlerplatz
+1698;Reinprechtsdorfer Straße / Arbeitergasse
+1699;Bacherplatz
+1700;Klimtgasse
+1701;Margaretenplatz, Schönbrunner Straße
+1702;Schönbrunner Str. / Kettenbrückengasse
+1703;Preßgasse
+1704;Bärenmühldurchgang
+1706;Bhf. Meidling S U, Eichenstraße
+1707;Montecuccoliplatz
+1709;Resselgasse
+1710;Oper, Karlsplatz U
+1711;Paulanergasse
+1712;Mayerhofgasse
+1713;Johann-Strauß-Gasse
+1714;Laurenzgasse
+1715;Kliebergasse
+1716;Marx-Meidlinger-Straße
+1717;Flurschützstraße, Längenfeldgasse
+1718;Aßmayergasse
+1719;Wattmanngasse, Elisabethallee
+1720;Wienerbergbrücke
+1721;Sonnergasse
+1722;Küniglberg, ORF-Zentrum
+1723;Hetzendorf S
+1724;Schloss Hetzendorf
+1725;Rosenhügelstraße
+1726;Atzgersdorfer Straße
+1727;Wattmanngasse
+1728;Hofwiesengasse
+1729;Küniglberg, ORF-Zentrum
+1730;Klinik Hietzing
+1731;Versorgungsheimplatz
+1732;Wolkersbergenstraße
+1733;Klimtgasse
+1734;Bhf. Atzgersdorf S, Knotzenbachgasse
+1735;Wolkersbergenstraße
+1736;Versorgungsheimplatz
+1737;Klinik Hietzing
+1738;Hermesstraße
+1739;Wattmanngasse
+1740;Atzgersdorfer Straße
+1741;Rosenhügelstraße
+1742;Schloss Hetzendorf
+1743;Hetzendorf S
+1744;Altmannsdorfer Straße
+1745;Sonnergasse
+1746;Wienerbergbrücke
+1747;Südwestfriedhof 1. Tor
+1748;Aßmayergasse
+1749;Flurschützstraße, Längenfeldgasse
+1750;Marx-Meidlinger-Straße
+1751;Laurenzgassse
+1752;Johann-Strauß-Gasse
+1753;Mayerhofgasse
+1754;Paulanergasse
+1755;Südwestfriedhof 2. und 8. Tor
+1756;Karlsplatz U
+1757;Siebertgasse
+1758;Südwestfriedhof 3. und 7. Tor
+1759;Südwestfriedhof 2. und 8. Tor
+1760;Hohenbergstraße
+1761;Südwestfriedhof 3. und 7. Tor
+1762;Flurschützstraße / Längenfeldgasse
+1763;Clemens-Holzmeister-Straße
+1764;Niederhofstraße U
+1766;Meidling Hauptstraße U
+1767;Rosasgasse
+1768;Pohlgasse
+1769;Theergasse
+1770;Gatterhölzl
+1771;Hohenfelsplatz
+1772;Weißenthurngasse
+1773;Gaßmannstraße
+1774;Graf-Seilern-Gasse
+1775;Edelsinnstraße
+1776;Schloss Hetzendorf
+1777;Am Fasangarten
+1779;Marschallplatz
+1780;Südwestfriedhof 1. Tor
+1781;Marschallplatz
+1782;Schloss Hetzendorf
+1783;Edelsinnstraße
+1784;Gaßmannstraße
+1785;Weißenthurngasse
+1786;Hohenfelsplatz
+1787;Stranitzkygasse
+1788;Theergasse
+1789;Pohlgasse
+1790;Rosasgasse
+1791;Rotenmühlgasse
+1792;Meidling Hauptstraße U
+1793;Graffgasse
+1794;Niederhofstraße U
+1795;Hohenbergstraße
+1796;Flurschützstraße / Längenfeldgasse
+1797;Unfallkrankenhaus Meidling
+1798;Gesundheitszentrum Süd
+1799;Montecuccoliplatz
+1800;Meidling Hauptstraße U
+1801;Ruckergasse
+1802;Hohenbergstraße
+1803;Altmannsdorfer Straße
+1804;Sagedergasse
+1805;Jungnickelweg
+1806;Steinsee
+1807;Mühlbreiten
+1808;Schloss Alterlaa
+1809;Josef-Österreicher-Gasse
+1810;Brunner Straße, Erlaaer Straße
+1811;Atzgersdorf, Friedhof
+1814;Liesing, Industriegelände West
+1815;Liesing, Friedhof
+1816;Liesing, Feuerwache
+1817;Pellmannbrücke
+1818;Liesing S
+1819;Alterlaa U
+1820;Am Fasangarten
+1821;Pellmannbrücke
+1822;Liesing-Feuerwache
+1823;Liesing, Friedhof
+1824;Liesing, Industriegelände West
+1825;An den Steinfeldern
+1826;Carlbergergasse
+1827;Atzgersdorf, Friedhof
+1828;Brunner Straße, Erlaaer Straße
+1829;Josef-Österreicher-Gasse
+1830;Schloss Alterlaa
+1831;Mühlbreiten
+1832;Hohenbergstraße
+1833;Steinsee
+1834;Jungnickelweg
+1835;Sagedergasse
+1836;Altmannsdorfer Straße
+1837;Haschkagasse
+1838;Ruckergasse
+1839;Eduard-Kittenberger-Gasse
+1840;Liesinger-Flur-Gasse
+1841;Fa. Perfekta
+1842;Wienerbergbrücke
+1843;Sonnergasse
+1844;Brunner Straße / Erlaaer Straße
+1845;Graffgasse
+1847;Bhf. Meidling S U, Schedifkaplatz
+1848;Bhf. Meidling < >, Schedifkaplatz
+1849;Sonnergasse
+1850;Meidling Hauptstraße U
+1851;Steinsee
+1852;Rossakgasse
+1853;Goldhammergasse
+1854;Meischlgasse
+1855;Erlaaer Spitz
+1856;Hetmanekgasse
+1863;Perfektastraße U
+1864;Bobiesgasse
+1865;Erlaaer Spitz
+1866;Meischlgasse
+1867;Goldhammergasse
+1868;Rossakgasse
+1869;Laxenburger Straße / Sahulkastraße
+1870;Clemens-Holzmeister-Straße
+1871;Fa. Perfekta
+1872;Liesinger-Flur-Gasse
+1873;Eduard-Kittenberger-Gasse
+1874;An den Steinfeldern
+1875;Davidgasse
+1876;Troststraße
+1877;Windtenstraße
+1878;Stefan-Fadinger-Platz
+1880;Stefan-Fadinger-Platz
+1881;Windtenstraße
+1882;Troststraße
+1883;Davidgasse
+1884;Knöllgasse
+1887;Hubermanngasse
+1888;Hubermanngasse
+1889;Otto-Probst-Platz
+1890;Willendorfer Gasse
+1891;Sterngasse
+1892;Neusteinhof
+1893;Sterngasse
+1894;Wienerfeld
+1895;Sindinggasse
+1896;Gußriegelstraße
+1897;Perfektastraße U
+1898;Computerstraße
+1899;Computerstraße, Gutheil-Schoder-Gasse
+1903;Inzersdorf, Kolpingstraße
+1905;Richard-Strauss-Straße
+1907;Brunner Straße / Erlaaer Straße
+1908;Atzgersdorf, Kirchenplatz
+1909;Corvinusgasse
+1910;Liesing, Schulzentrum
+1911;Liesing, Schulzentrum
+1912;Corvinusgasse
+1913;Liesing S
+1914;Purkytgasse
+1915;Schwarzenhaidestraße
+1916;Computerstraße
+1918;Breiteneckergasse
+1919;Sobotagasse
+1920;Triesterstraße / Rossakgasse
+1921;Dobrowskygasse
+1922;Inzersdorf, Zetschegasse
+1923;Traviatagasse
+1924;Arthaberplatz
+1925;Laxenburger Straße / Troststraße
+1926;Neilreichgasse / Troststraße
+1927;Sterngasse
+1928;Raxstraße, Rudolfshügelgasse
+1929;Traviatagasse
+1930;Neilreichgasse / Troststraße
+1931;Laxenburger Straße / Troststraße
+1932;Arthaberplatz
+1933;Quellenplatz
+1934;Dobrowskygasse
+1935;Kinskygasse
+1936;Purkytgasse
+1937;Speditionsstraße
+1938;Reumannplatz U
+1939;Troststraße
+1940;Laxenburger Straße / Troststraße
+1941;Laxenburger Straße / Raxstraße
+1942;Sibeliusstraße
+1943;Franz-Schreker-Gasse
+1944;Oberlaaer Straße
+1945;Siedlung Blumental
+1946;Inzersdorf, Friedhof
+1947;Pfarrgasse
+1949;Schwarzenhaidestraße
+1950;Alterlaa U
+1951;Carlbergergasse
+1952;Altmannsdorfer Straße
+1953;Inzersdorf, Großmarkt
+1955;Wienerfeld
+1957;Wagner-Schönkirch-Gasse
+1958;Wienerfeld
+1961;Leopoldigasse
+1962;Leopoldigasse
+1963;Alterlaa U
+1964;Steinsee
+1965;Schwarzenhaidestraße
+1966;Purkytgasse
+1967;Pfarrgasse
+1968;Inzersdorf, Friedhof
+1969;Siedlung Blumental
+1970;Oberlaaer Straße
+1971;Wienerfeld
+1972;Sibeliusstraße
+1973;Selma-Lagerlöf-Gasse
+1974;Laxenburger Straße / Raxstraße
+1975;Kurt-Tichy-Gasse
+1976;Kurt-Tichy-Gasse
+1977;Selma-Lagerlöf-Gasse
+1978;Josef-Enslein-Platz
+1979;Stockholmer Platz
+1980;Rothneusiedl
+1981;Himberger Straße
+1982;Franzosenweg
+1983;Weidelstraße
+1984;Hämmerlegasse
+1985;Bischofgasse
+1986;Leopoldsdorfer Straße
+1987;Oberlaaer Platz
+1988;Johann-Friedl-Gasse
+1989;Unterlaaer Straße
+1990;Sebastianbrücke
+1991;Unterlaa
+1992;Sebastianbrücke
+1993;Unterlaaer Straße
+1994;Johann-Friedl-Gasse
+1995;Oberlaaer Platz
+1996;Leopoldsdorfer Straße
+1997;Bischofgasse
+1998;Hämmerlegasse
+1999;Weidelstraße
+2000;Franzosenweg
+2001;Berlepschgasse
+2002;Rothneusiedl
+2003;Stockholmer Platz
+2004;Josef-Enslein-Platz
+2005;Laxenburger Straße / Troststraße
+2006;Ettenreichgasse, Schulzentrum
+2007;Reumannplatz U
+2008;Wagner-Schönkirch-Gasse
+2009;Enkplatz, Grillgasse
+2010;Schwarzenbergplatz
+2011;Zentralfriedhof 3.Tor
+2012;Unteres Belvedere
+2013;Rennweg S
+2014;Kleistgasse
+2015;Oberzellergasse
+2016;St. Marx S
+2017;Ettenreichgasse, Schulzentrum
+2018;Litfaßstraße
+2019;Molitorgasse
+2020;Zippererstraße U
+2021;Hauffgasse
+2023;Braunhubergasse
+2024;Simmering S U
+2025;Fickeysstraße
+2026;Weißenböckstraße
+2027;Zentralfriedhof 1.Tor
+2028;Zentralfriedhof 2.Tor
+2029;Zentralfriedhof 3.Tor
+2030;Zentralfriedhof 2.Tor
+2031;Zentralfriedhof 1.Tor
+2032;Weißenböckstraße
+2033;Fickeysstraße
+2034;Simmering S U
+2035;Braunhubergasse
+2036;Enkplatz U, Grillgasse
+2037;Zentralfriedhof 3.Tor
+2038;Hauffgasse
+2039;Zippererstraße U
+2040;Molitorgasse
+2041;Litfaßstraße
+2042;Trappweg
+2043;St. Marx S
+2044;Oberzellergasse
+2045;Kleistgasse
+2046;Rennweg S
+2047;Unteres Belvedere
+2048;Heizwerkstraße
+2049;Heizwerkstraße
+2050;Zentralfriedhof, 3.Tor
+2051;Zentralfriedhof, 4.Tor
+2052;Hauptwerkstätte
+2053;Etrichstraße
+2054;Deutschstraße
+2055;Schwechat, Brauerei
+2056;Schwechat, Wiener Straße
+2057;Schwechat, Brauerei
+2058;Simmering S U
+2059;Etrichstraße
+2060;Hauptwerkstätte
+2061;Zentralfriedhof 4.Tor
+2062;Südrandstraße
+2063;Südrandstraße
+2064;Kornauthgasse
+2065;Simmering S U
+2066;Unter der Kirche
+2067;Rohrhofergasse
+2068;Lindenbauergasse
+2069;Florian-Hedorfer-Straße
+2070;Am Himmelreich
+2071;Hörtengasse
+2072;Luzegasse
+2073;Klebindergraben
+2074;Bleriotgasse
+2075;Pantucekgasse
+2076;Trappweg
+2077;Anton-Stilling-Platz
+2078;Kronfußgasse
+2079;Kronfußgasse
+2081;Am Kanal, Hasenleitengasse
+2082;Hasenleitengasse, Schemmerlstraße
+2083;Unter der Kirche
+2084;Florian-Hedorfer-Straße
+2085;Kaiserebersdorfer Friedhof
+2086;Schloss Neugebäude
+2087;Hörtengasse
+2088;Am Himmelreich
+2089;Florian-Hedorfer-Straße
+2090;Lindenbauergasse
+2091;Rohrhofergasse
+2092;Bleriotgasse
+2093;Adamovichgasse
+2094;Lamezanstraße
+2095;Inzersdorf, Slamastraße
+2096;Pfarrgasse, Traviatagasse
+2097;Anton-Stilling-Platz
+2099;Simmering S U
+2100;Praterstern S U
+2101;Vivariumstraße
+2102;Kurzbauergasse
+2103;Josef-Gall-Gasse
+2104;Wittelsbachstraße
+2105;Friedensgasse
+2106;Lukschgasse
+2107;Stadionallee
+2108;Stadionbrücke
+2109;Schlachthausgasse
+2111;Stadionbrücke
+2112;Lukschgasse
+2113;Friedensgasse
+2114;Wittelsbachstraße / Schüttelstraße
+2115;Josef-Gall-Gasse
+2116;Kurzbauergasse
+2117;Franzensbrücke
+2127;Tenschertstraße
+2128;Jochen-Rindt-Straße
+2129;Kolbegasse
+2131;Stadionbrücke
+2133;Wasserwiese
+2134;Hauptallee, Lusthausstraße
+2135;Lusthaus, Aspernallee
+2136;Lusthaus
+2137;Kolbegasse
+2138;Jochen-Rindt-Straße
+2139;Lusthaus, Aspernallee
+2140;Hauptallee, Lusthausstraße
+2141;Wasserwiese
+2142;Tenschertstraße
+2143;Deutschstraße
+2144;Weißenböckstraße
+2145;Weißenböckstraße
+2146;Rustenschacherallee
+2156;Geringergasse
+2157;Jägerstraße U
+2158;Floridsdorfer Brücke
+2159;Floridsdorfer Brücke
+2160;Schottenring U
+2161;Obere Donaustraße
+2162;Obere Augartenstraße
+2163;Gaußplatz
+2164;Klosterneuburger Str. / Wallensteinstr.
+2165;Gerhardusgasse
+2166;Wexstraße
+2167;Jägerstraße U
+2168;Höchstädtplatz
+2169;Friedrich-Engels-Platz
+2170;Hubertusdamm
+2171;Matthäus-Jiszda-Straße
+2172;Floridsdorf S U
+2173;Am Spitz
+2174;Nordbrücke
+2175;Koloniestraße
+2176;Hopfengasse
+2177;Winkeläckerstraße
+2178;Autokaderstraße
+2179;Rußbergstraße
+2180;Edmund-Hawranek-Platz
+2181;Edmund-Hawranek-Platz
+2182;Rußbergstraße
+2183;Autokaderstraße
+2184;Winkeläckerstraße
+2185;Hopfengasse
+2186;Koloniestraße
+2187;Nordbrücke
+2188;Am Spitz
+2189;Floridsdorf S U
+2190;Matthäus-Jiszda-Straße
+2191;Hubertusdamm
+2192;Bahnsteggasse
+2193;Jägerstraße U
+2194;Wexstraße
+2195;Gerhardusgasse
+2196;Klosterneuburger Str. / Wallensteinstr.
+2197;Gaußplatz
+2198;Obere Augartenstraße
+2199;Obere Donaustraße
+2200;Carabelligasse
+2201;Carabelligasse
+2202;Wallensteinplatz
+2203;Brigittaplatz
+2204;Jägerstraße U
+2205;Floridsdorfer Markt
+2206;Brünner Straße S
+2207;Shuttleworthstraße
+2208;Großjedlersdorf
+2209;Brünner Straße / Hanreitergasse
+2210;Anton-Schall-Gasse
+2211;Van-Swieten-Kaserne
+2212;Stammersdorf
+2213;Bahnsteggasse
+2214;Schottenring U
+2216;Van-Swieten-Kaserne
+2217;Anton-Schall-Gasse
+2218;Brünner Straße / Hanreitergasse
+2219;Großjedlersdorf
+2220;Shuttleworthstraße
+2221;Brünner Straße S
+2222;Floridsdorfer Markt
+2223;Brigittaplatz
+2224;Wallensteinplatz
+2225;Gaußplatz
+2226;Empergergasse
+2227;Empergergasse
+2228;Franz-Jonas-Platz
+2229;Per-Albin-Hansson-Siedlung-Ost
+2230;Per-Albin-Hansson-Siedlung-Ost
+2231;Tesarekplatz
+2232;Otto-Probst-Straße
+2233;Schleiergasse
+2234;Altes Landgut
+2235;Alaudagasse
+2236;Stockholmer Platz
+2237;Rothneusiedl
+2238;Per-Albin-Hansson-Siedlung-Ost
+2239;Laaer-Berg-Straße
+2240;Oberlaa U
+2241;Laaer-Berg-Straße
+2242;Reumannplatz U
+2243;Reumannplatz U
+2244;Otto-Probst-Platz
+2245;Per-Albin-Hansson-Siedlung-Ost
+2246;Rothneusiedl
+2247;Stockholmer Platz
+2248;Alaudagasse
+2249;Altes Landgut
+2250;Schleiergasse
+2251;Troststraße
+2252;Otto-Probst-Straße
+2253;Tesarekplatz
+2254;Raxstraße, Rudolfshügelgasse
+2255;Sahulkastraße
+2256;Wienerfeldgasse
+2257;Frödenplatz
+2258;Wienerfeldgasse
+2259;Sahulkastraße
+2260;Raxstraße, Rudolfshügelgasse
+2261;Frödenplatz
+2262;Klinik Penzing
+2263;Otto Wagner Areal
+2264;Raimannstraße
+2265;Baumgartner Friedhof, 5. Tor
+2266;Tinterstraße
+2267;Waidhausenstraße
+2268;Gruschaplatz
+2269;Unter St. Veit U
+2270;Zehetnergasse
+2271;Seckendorfstraße
+2272;Baumgartner Friedhof, 3. Tor
+2273;Baumgartner Friedhof, 5. Tor
+2274;Niederpointenstraße
+2275;An der Niederhaid
+2276;Friedjunggasse
+2277;Friedjunggasse
+2278;7. Haidequerstraße
+2279;Tenschertstraße
+2280;Tenschertstraße
+2281;Baumgartner Friedhof, 3. Tor
+2293;Schwechat, Wiener Straße
+2294;Hackinger Straße
+2295;Hochsatzengasse
+2296;Ober St. Veit U
+2297;Pantucekgasse, Widholzgasse
+2298;Leberberg
+2299;Svetelskystraße
+2300;Kaiserebersdorf, Zinnergasse
+2305;Liesing
+2311;Zinnergasse, Kaiserebersdorf
+2312;Svetelskystraße
+2313;Leberberg
+2314;Pantucekgasse, Widholzgasse
+2315;Svetelskystraße
+2316;Mehlführergasse
+2317;Schartlgasse
+2318;Löwenthalgasse
+2319;Maireckergasse
+2320;Korbgasse
+2321;Pumgasse
+2322;Brunner Straße / Erlaaer Straße
+2323;Gerbergasse
+2324;Rodaun
+2325;Willergasse, Schule
+2326;Willerbrücke
+2327;Kunerolgasse
+2328;Gregorygasse
+2329;Kirchfeldgasse
+2330;Altmannsdorfer Straße
+2331;Bhf. Meidling S U, Eichenstraße
+2332;Mehrzweckhalle Oberlaa
+2333;Willerbrücke
+2334;Willergasse, Schule
+2335;Mehrzweckhalle Oberlaa
+2336;Maireckergasse
+2337;Kaiser-Franz-Josef-Straße
+2338;Pumgasse
+2339;Korbgasse
+2340;Steinergasse
+2341;Dreherstraße, Hoefftgasse
+2342;Steinergasse
+2343;Floridsdorf S U
+2344;Rudolf-Waisenhorn-Gasse
+2345;Floridsdorf S U
+2346;Kaiser-Franz-Josef-Straße
+2347;Rodaun
+2348;Arsenal
+2349;Arsenalsteg
+2350;Arsenalsteg
+2351;Kaiserebersdorfer Friedhof
+2352;Pantucekgasse
+2353;Kaiserebersdorf, Dreherstraße
+2354;Halterlacken
+2355;Mühlsangergasse
+2356;Kaiserebersdorf, Zinnergasse
+2357;Wildholzgasse
+2358;Kaiserebersdorf, Sängergasse
+2359;Floridsdorf S U
+2360;Kaiserebersdorf, Münnichplatz
+2361;Hoefftgasse
+2362;Valiergasse
+2363;Kaiserebersdorf, Zinnergasse
+2364;Mühlsangergasse
+2365;Halterlacken
+2366;Pantucekgasse
+2367;Kaiserebersdorfer Friedhof
+2368;Widholzgasse
+2369;Freytaggasse
+2370;Hoßplatz
+2371;Fultonstraße
+2372;Carminweg
+2373;Josef-Baumann-Gasse
+2374;Saikogasse
+2375;Kagraner Platz U
+2376;Saikogasse
+2377;Josef-Baumann-Gasse
+2378;Carminweg
+2379;Fultonstraße
+2380;Hoßplatz
+2381;Freytaggasse
+2382;Pasettistraße
+2383;Brigittagasse
+2384;Rauscherstraße
+2385;Wasnergasse
+2386;Karl-Meißl-Straße
+2387;Gaußplatz
+2388;Obere Augartenstraße
+2389;Leopoldsgasse
+2390;Tandelmarktgasse
+2391;Karmeliterplatz
+2392;Glockengasse
+2393;Praterstraße
+2394;Traisengasse S
+2395;Nestroyplatz U
+2396;Karmeliterplatz
+2397;Tandelmarktgasse
+2398;Leopoldsgasse
+2399;Obere Augartenstraße
+2400;Karl-Meißl-Straße
+2401;Wasnergasse
+2402;Brigittagasse
+2403;Hardeggasse U
+2404;Donauspital U
+2405;Kapellenweg
+2406;Oberdorfstraße
+2407;Zschokkegasse
+2408;Donauspital
+2409;Am Bahnhof
+2410;Langobardenstraße
+2411;Hardeggasse U
+2412;Emil-Behring-Weg
+2413;Am Rosenhügel
+2414;Am Rosenhügel
+2415;Am Rosenhügel
+2418;Ernst-Happel-Stadion
+2420;Stadion U
+2422;Stadion U
+2424;Ernst-Happel-Stadion
+2425;Emil-Behring-Weg
+2426;Donauspital
+2427;Zschokkegasse
+2428;Leberstraße - St.Marx
+2429;Praterbrücke
+2430;Klaschkaweg
+2431;Klaschkaweg
+2432;Stammersdorf, Freiheitsplatz
+2433;Josef-Flandorfer-Straße
+2434;Dattlergasse
+2435;Kummergasse
+2436;Gschweidlgasse
+2437;Toni-Fritsch-Weg
+2438;Toni-Fritsch-Weg
+2439;Gschweidlgasse
+2440;Kummergasse
+2441;Dattlergasse
+2442;Josef-Flandorfer-Straße
+2443;Brünner Straße / Hanreitergasse
+2444;Großjedlersdorf
+2445;Jedlersdorfer Platz
+2448;Brünner Straße / Hanreitergasse
+2449;Praterbrücke
+2450;Jungbauerweg
+2451;Grohnergasse
+2452;Hervicusgasse
+2453;Hervicusgasse
+2454;Zentralfriedhof 4.Tor
+2455;Zentralfriedhof 4.Tor
+2456;Leberweg
+2457;Leberweg
+2458;Mantlergasse
+2459;Allerheiligenplatz
+2460;Obachgasse
+2461;Lichtblaustraße
+2462;Bettelheimstraße
+2463;Stallarngasse
+2464;Bhf. Süßenbrunn S
+2465;Stallarngasse
+2466;Bettelheimstraße
+2467;Lichtblaustraße
+2468;Obachgasse
+2469;Brachlessing-Mühle
+2470;Lieblgasse
+2471;Maculangasse / Wagramer Straße
+2472;Franz-Eduard-Matras-Gasse
+2473;Theodor-Kramer-Straße
+2474;Hochmuthgasse
+2475;Hochmuthgasse
+2476;Theodor-Kramer-Straße
+2477;Franz-Eduard-Matras-Gasse
+2478;Schillingstraße
+2479;Rudolf-Hausner-Gasse
+2480;Erzherzog-Karl-Straße S
+2481;Genochplatz
+2482;Miriam-Makeba-Gasse
+2483;Hirschstetten, Süßenbrunner Straße
+2484;Süßenbrunner Straße / Oberfeldgasse
+2485;Jakob-Bindel-Platz
+2486;Korianderweg
+2487;Korianderweg
+2488;Jakob-Bindel-Platz
+2489;Süßenbrunner Straße / Oberfeldgasse
+2490;Hirschstetten, Süßenbrunner Straße
+2491;Miriam-Makeba-Gasse
+2492;Genochplatz
+2493;Schillingstraße
+2494;Höchstädtplatz
+2495;Lorenz-Müller-Gasse
+2496;Lorenz-Müller-Gasse
+2497;Höchstädtplatz
+2498;Spittelau S U
+2499;Spittelau S U
+2500;Rennweg S
+2501;Klinik Landstraße
+2502;Eslarngasse
+2503;Wällischgasse
+2504;Ludwig-Koeßler-Platz
+2505;Ludwig-Koeßler-Platz
+2507;Würtzlerstraße
+2508;Nottendorfer Gasse
+2509;Erdberg
+2510;Modecenterstraße
+2511;Kappgasse
+2512;Ravelinstraße
+2513;Ravelinstraße
+2514;Kappgasse
+2515;Modecenterstraße
+2516;Erdberg
+2517;Nottendorfer Gasse
+2518;Guglgasse
+2519;Guglgasse
+2520;Wachthausgasse
+2523;Wällischgasse
+2524;Kardinal-Nagl-Platz
+2525;Apostelgasse
+2526;Kundmanngasse
+2527;Rochusgasse
+2528;Kundmanngasse
+2531;Wachthausgasse
+2532;Jägerstraße U
+2533;Pappenheimgasse
+2534;Wexstraße
+2535;Aspernallee, Schule
+2536;Wehlistraße
+2537;Aspernallee, Schule
+2538;Süßenbrunner Straße / Breitenleer Straße
+2539;Gewerbepark Stadlau
+2540;Hilde-Hannak-Gasse
+2541;Gewerbepark Stadlau
+2542;Niedermoserstraße
+2543;Lichtblaustraße
+2544;Niedermoserstraße
+2545;Alterlaa U
+2546;Traviatagasse
+2547;Inzersdorf, Slamastraße
+2548;Richard-Strauss-Straße
+2549;Lamezanstraße
+2550;Adamovichgasse
+2551;Frödenplatz
+2552;Obachgasse
+2553;Grundäckergasse
+2554;Grundäckergasse
+2555;Kagran U
+2556;Prandaugasse
+2557;Arakawastraße
+2558;Josef-Baumann-Gasse
+2559;Veterinärmedizinische Universität
+2560;Vorwärtsplatz
+2561;Zehdengasse
+2562;Vorwärtsplatz
+2563;Veterinärmedizinische Universität
+2564;Josef-Baumann-Gasse
+2565;Arakawastraße
+2566;Prandaugasse
+2567;Bhf. Meidling S U, Eichenstraße
+2568;Schlachthausgasse
+2569;Martin-Luther-King-Park
+2570;Martin-Luther-King-Park
+2571;Heizwerkstraße
+2572;Südrandstraße, Heizwerkstraße
+2573;Südrandstraße, Heizwerkstraße
+2574;Heizwerkstraße
+2575;Simmering S U, Kaiserebersdorfer Straße
+2576;Simmering S U, Kaiserebersdorfer Straße
+2577;Johannes-von-Gott-Platz
+2578;Antonsplatz
+2579;Reumannplatz U
+2580;Rudolf-Hausner-Gasse
+2581;Hermann-Gebauer-Straße
+2582;Hilde-Hannak-Gasse
+2583;Hermann-Gebauer-Straße
+2584;Gottschalkgasse
+2585;Simmering S U, Simmeringer Platz
+2586;Grillgasse
+2587;Lorystraße
+2588;Simmering S U
+2590;Langobardenstraße, Kapellenweg
+2591;Trondheimgasse
+2592;Oberdorfstraße
+2593;Trondheimgasse
+2594;Langobardenstraße, Kapellenweg
+2595;Oberdorfstraße
+2596;Polgarstraße
+2597;Kaiserebersdorf, Münnichplatz
+2598;Dr.-Hertha-Firnberg-Straße
+2599;Wienerberg City
+2600;Gasometer U
+2601;Polgarstraße
+2602;Dückegasse
+2603;Franzsosengraben
+2604;Franzosengraben
+2605;OE3 Haus
+2606;Enkplatz U
+2607;Clemens-Holzmeister-Straße
+2608;Belgradplatz
+2609;Altmannsdorfer Straße
+2610;Karlsplatz / Lothringerstraße
+2611;Karlsplatz U
+2612;Halban-Kurz-Straße
+2613;Halban-Kurz-Straße
+2614;Siemensstraße S
+2615;Eßling, Stadtgrenze
+2616;Mühlweg
+2617;Mühlweg
+2618;Johnstraße U
+2619;Viehmarktgasse
+2620;Viehmarktgasse
+2621;Akademietheater
+2622;Akademietheater
+2623;Zwerchäckerweg, Breitenleer Straße
+2624;Zwerchäckerweg
+2625;Zwerchäckerweg
+2626;Zwerchäckerweg, Breitenleer Straße
+2627;Undsetgasse
+2628;St. Marx S
+2629;Absbergbrücke
+2631;Konstanziagasse
+2632;Stadionbad
+2633;Stranitzkygasse
+2634;Kagran U
+2635;Schmerlingplatz, Volkstheater U
+2636;Brüßlgasse
+2637;Kagran U Ausstiegstelle 26A
+2638;Kagran U 26A
+2639;Ziegelofengasse
+2640;Am Heumarkt
+2641;Am Heumarkt
+2642;Praterstern (blw)
+2643;Stachegasse
+2644;Stachegasse
+2645;Fasangasse
+2646;Tinterstraße
+2647;Adalbert-Stifter-Straße, Jägerstraße
+2648;Adalbert-Stifter-Straße, Jägerstraße
+2654;Zinnergasse, Kaserne
+2655;Weinzierlgasse
+2656;Phillipsgasse
+2657;Phillipsgasse
+2659;Praterstern S U
+2660;Hanuschkrankenhaus
+2661;Simmering SU
+2662;Fröhlichgasse
+2663;Leopoldau S U
+2664;Kagraner Friedhof
+2665;Kagraner Friedhof
+2666;Anton-Sattler-Gasse
+2667;Anton-Sattler-Gasse
+2668;Rennbahnweg U
+2669;Tillmanngasse
+2670;Voitgasse
+2671;Hietzing U
+2672;Schlachthausgasse U
+2673;Katharina-Scheiter-Gasse
+2674;Südtiroler Platz S U
+2675;Pierre-de-Coubertin-Platz
+2676;Pierre-de-Coubertin-Platz
+2677;Ernst-Happel-Stadion (Bedarfshaltestelle)
+2678;Stadion U
+2679;Valiergasse
+2680;Valiergasse
+2681;Landstraße S U
+2682;Volkstheater
+2683;Volkertplatz
+2684;Rathaus
+2685;Taborstraße U
+2686;Heinestraße
+2687;Kleine Stadtgutgasse
+2689;Elderschplatz
+2690;Krieau U
+2691;Elderschplatz
+2692;Praterkai S
+2693;Schipanygasse
+2694;Schipanygasse
+2695;Praterkai S
+2696;Neustifter Friedhof 3. Tor
+2697;Stadion U
+2698;Krieau U
+2699;Praterkai S
+2700;Krieau U
+2701;Kagraner Platz
+2702;Sturgasse
+2703;Hausfeldstraße U
+2704;Praterstern S U
+2705;Leopold-Moses-Gasse
+2706;Harkortstraße
+2708;Erlafstraße
+2709;Messe Prater >
+2710;Messe Prater U
+2711;Elderschplatz
+2712;Krieau U
+2713;Kafkastraße
+2714;Messe Prater U
+2715;Molkereistraße
+2716;Max-Winter-Platz
+2718;Harkortstraße
+2719;Leopold-Moses-Gasse
+2720;Stephansplatz U
+2721;Michaelerplatz
+2722;Fünfhausgasse
+2723;Fünfhausgasse
+2724;Südbahnhof, Ostbahn
+2725;Südbahnhof, Ostbahn
+2726;Luzegasse
+2727;Roschegasse
+2728;Altes Landgut
+2729;Stadlau S U
+2730;Billgasse
+2731;Löschniggasse
+2732;Mittleres Hausfeld
+2733;Billgasse
+2734;Mittleres Hausfeld
+2735;Kornblumenweg
+2736;Hausfeldstraße U
+2737;Am Heidjöchl
+2738;Löschniggasse
+2739;Hirschstetten Ort
+2740;Roschegasse
+2741;Unter St. Veit, Verbindungsbahn
+2743;Dirmhirngasse
+2744;Jakov-Lind-Straße
+2745;Jakov-Lind-Straße
+2746;Hillerstraße
+2747;Sturgasse
+2748;Stadlau S U
+2749;Bettelheimstraße
+2750;Stadionbad
+2751;Fabergasse
+2752;Florian-Hedorfer-Straße
+2754;Obere Augartenstraße
+2755;Brigittaplatz
+2756;Mooslackengasse
+2757;Brigittaplatz
+2758;Wallensteinplatz
+2759;Taborstraße U
+2760;Liesing, Bad
+2761;Pellmanngasse
+2762;Josef-Meder-Gasse
+2763;Siebenhirten, Brunner Straße
+2764;An den Steinfeldern
+2765;Carlbergergasse
+2766;Kugelmanngasse
+2767;Herziggasse
+2768;Eitnergasse
+2769;Stipcakgasse
+2770;Siedlung Wienerflur
+2771;Atzlergasse
+2772;Sevcikgasse
+2773;Sevcikgasse
+2774;Wienerflurgasse
+2775;Siedlung Wienerflur
+2776;Stipcakgasse
+2777;Hetmanekgasse
+2778;Eitnergasse
+2779;Herziggasse
+2780;Kugelmanngasse
+2781;Carlbergergasse
+2782;An den Steinfeldern
+2783;Industriegelände Liesing-West
+2784;Brunner Straße, Ketzergasse
+2785;Josef-Meder-Gasse
+2786;Pellmanngasse
+2787;Liesing, Bad
+2788;Vösendorf-Siebenhirten
+2789;Schwechat, Rathausplatz
+2790;Schwechat, Hauptplatz
+2791;Schwechat, Ehrenbrunngasse
+2792;Schwechat, Hauptplatz
+2793;Schwechat, Plankenwehrstraße
+2794;Ziegelhofstraße, Oberfeldgasse
+2795;Badeteich Hirschstetten
+2796;Karl-Bednarik-Gasse
+2798;Perfektastraße U
+2799;Schwechat, Möhringgasse
+2800;Schwechat, Möhringgasse
+2801;Friedensbrücke U
+2802;Roßauer Lände U
+2805;Roßauer Lände U
+2806;Friedensbrücke U
+2808;Braunschweiggasse
+2809;Unter St. Veit
+2810;Ober St. Veit
+2811;Bhf. Hütteldorf
+2812;Unter St. Veit
+2813;Braunschweiggasse
+2814;Hietzing
+2815;Am Schöpfwerk
+2816;Erlaaer Straße
+2817;Perfektastraße
+2818;Erlaaer Straße
+2819;Am Schöpfwerk U
+2820;Stadtpark
+2821;Stadtpark
+2822;Stadlau
+2823;Aspernstraße U
+2852;Umleitung N6 Gudrunstraße
+2854;Umleitung N64 über Hohenbergstraße
+2855;Dummy für U4
+2856;
+2859;Umleitung 24A, N23 Wagramer Straße
+2875;Zentralfriedhof 3.Tor
+2876;Wartegleis Bahnhof Simmering
+2877;Auf der Schmelz
+2878;Schmelz, Gablenzgasse
+2879;Pensionistenwohnhaus Laaer Berg
+2880;Schmelz, Gablenzgasse
+2881;Auf der Schmelz
+2882;Alaudagasse U
+2883;Minciostraße
+2884;Schanzstraße, Akkonplatz
+2885;Schanzstraße, Akkonplatz
+2887;Johnstraße U
+2888;TREFFPUNKT MUSEUM MARIA-THERESIEN-PLATZ
+2889;KUNST HAUS WIEN
+2890;Museumsplatz
+2891;Mariahilfer Straße / Stiftgasse
+2892;Königsklostergasse
+2895;HEERESGESCHICHTLICHES MUSEUM
+2896;Mariahilfer Straße / Stiftgasse
+2897;Heldenplatz
+2899;Albertinaplatz
+2900;Alaudagasse U
+2901;Kärntner Straße
+2902;Riemergasse
+2903;Stephansplatz U
+2904;Hoher Markt
+2905;Schwertgasse
+2906;Renngasse
+2907;Helferstorferstraße
+2909;Himberger Straße
+2910;Schottentor U
+2911;Teinfaltstraße
+2912;Weidelstraße
+2913;Oberlaa U, Laaer-Berg-Straße
+2914;Graben, Petersplatz
+2915;Stephansplatz U
+2916;Riemergasse
+2917;Stubentor U
+2918;Oberlaa U
+2919;Wienerfeld
+2920;Schwarzenbergplatz
+2921;Oberlaa U, Laaer-Berg-Straße
+2922;Hoher Markt
+2923;Oper, Karlsplatz >
+2924;Albertinaplatz
+2925;Salzgries
+2926;Michaelerplatz
+2927;Leopoldsdorfer Straße
+2928;Weidelstraße
+2929;Himberger Straße
+2930;Neulaa U
+2931;Neulaa U
+2932;Alaudagasse U
+2933;Rotenturmstraße
+2934;Schwedenplatz U
+2935;Plankengasse
+2936;Julius-Ficker-Straße
+2937;Aderklaaer Straße U
+2938;Herrengasse U
+2939;Alaudagasse U
+2940;Schottenring U
+2941;Rudolfsplatz
+2942;Concordiaplatz
+2943;Schwechat, BHF S
+2944;Brandstätte
+2945;Habsburgergasse
+2946;Joseph-Roth-Gasse
+2947;Börse
+2948;Joseph-Roth-Gasse
+2949;Traisengasse S
+2950;Lorenz-Böhler-Unfallkrankenhaus
+2951;Dresdner Straße U
+2952;Lorenz-Böhler-Unfallkrankenhaus
+2953;Possingergasse
+2954;Julius-Ficker-Straße
+2955;Dammstraße
+2956;Lorenz-Böhler-Unfallkrankenhaus
+2957;Dresdner Straße U
+2958;Dammstraße
+2959;Bhf. Meidling <>, Schedifkaplatz
+2960;Gunoldstraße
+2961;Barawitzkagasse, Hohe Warte
+2962;Saarplatz
+2963;Silbergasse
+2964;Gatterburggasse
+2965;Chimanistraße
+2966;Dänenstraße
+2967;Türkenschanzplatz
+2968;Gersthof S
+2969;Czartoryskigasse
+2970;Richthausenstraße
+2971;Schuhmeierplatz
+2972;Albrechtskreithgasse
+2973;Hernals, Wattgasse
+2974;Kaiserebersdorf, Zinnergasse
+2975;Pensionsversicherungsanstalt
+2976;Richthausenstraße
+2977;Wilhelminenstraße
+2978;Familienplatz
+2979;Hernals, Wattgasse
+2980;Czartoryskigasse
+2981;Gersthof S
+2982;Türkenschanzplatz
+2983;Blaasstraße
+2984;Hardtgasse
+2985;Gatterburggasse
+2986;Silbergasse
+2987;Saarplatz
+2988;Barawitzkagasse, Hohe Warte
+2989;Gunoldstraße
+2990;Waldgasse
+2991;Reumannplatz U
+2992;Eisenstadtplatz
+2993;Urselbrunnengasse
+2994;Theodor-Sickel-Gasse
+2996;Kronawettergasse
+2997;Filmteichstraße
+2998;Laaer Berg, Kurpark Nordeingang
+2999;Höchstädtplatz
+3000;Weißenböckstraße
+3001;Lorenz-Böhler-Unfallkrankenhaus
+3002;Lorenz-Böhler-Unfallkrankenhaus
+3003;Gaußplatz
+3004;Kafkastraße (Schleife)
+3005;Prinzgasse
+3006;Hasibederstraße
+3007;Hausfeldstraße S
+3008;Hasibederstraße
+3009;Zanggasse
+3010;Gladiolenweg
+3011;Hausfeldstraße  U
+3012;Laaer Berg, Kurpark Nordeingang
+3013;Filmteichstraße
+3014;Kronawettergasse
+3015;Lehenstraße
+3016;Theodor-Sickel-Gasse
+3017;Urselbrunnengasse
+3018;Eisenstadtplatz
+3027;Waldgasse
+3038;Panethgasse
+3039;Weingartenallee
+3040;Süßenbrunn, Sportpark
+3042;Arnikaweg
+3043;Siebeckstraße
+3045;Kagraner Brücke
+3046;Saikogasse
+3047;Arminenstraße
+3048;Siebeckstraße
+3049;Steinbrechergasse
+3050;Benatzkygasse
+3051;Veitschiweg
+3052;Kagran U
+3053;Siedlung Einigkeit
+3054;Leopoldauer Straße
+3055;Siedlung Sonnheim
+3056;Eisstoßgasse
+3057;Kagran U
+3058;Kagran U
+3060;Kagraner Brücke
+3061;Alte Donau
+3062;Julius-Payer-Gasse
+3064;Kagran U
+3066;Kagraner Platz U
+3067;Kagran U
+3068;Kraygasse
+3069;Kraygasse
+3071;Kolletschkagasse
+3076;Julius-Payer-Gasse
+3077;Alte Donau
+3083;Fischergrund
+3084;Memlinggasse
+3085;Kagran U
+3086;Kagran, U-Bahn
+3087;Lieblgasse
+3088;Tillmanngasse
+3089;Puchgasse
+3090;Hosnedlgasse Nord
+3091;Obachgasse
+3092;Maculangasse
+3093;Puchgasse
+3094;Tillmanngasse
+3095;Lieblgasse
+3096;Senekowitschgasse
+3097;Hosnedlgasse Süd
+3098;Maculangasse
+3099;Voitgasse
+3100;Haspingerplatz
+3101;Mayerweckstraße
+3102;Heinrich-von-Buol-Gasse
+3104;Franz-Sebek-Straße
+3105;Ruthnergasse
+3106;Skraupstraße
+3107;Haspingerplatz
+3108;Großjedlersdorf, Jochbergengasse
+3109;Siemensstraße S
+3110;Blumengärten Hirschstetten
+3111;Murraygasse
+3112;Gladiolenweg
+3113;Zanggasse
+3114;Zanggasse
+3115;Prinzgasse
+3117;Murraygasse
+3118;Blumengärten Hirschstetten
+3119;Giefinggasse
+3120;Heinrich-von-Buol-Gasse
+3121;Sorgenthalgasse
+3122;Meriangasse
+3123;Rußbergstrasse
+3124;Bhf. Strebersdorf S
+3125;Rußbergstraße
+3126;Strebersdorf, Edmund-Hawranek-Platz
+3127;Siemensstraße S
+3128;Prandaugasse
+3129;Himmelteich
+3130;Längenfeldgasse U
+3131;Korbergasse
+3132;Gaudenzdorfer Gürtel
+3133;Am Hundsturm
+3134;
+3135;Pilgramgasse U
+3136;Castelligasse
+3137;Siebenbrunnengasse
+3138;Zentaplatz
+3139;Fendigasse
+3140;Embelgasse
+3141;Siebenbrunnenfeldgasse
+3142;Jahngasse
+3143;Ramperstorffergasse
+3144;Siebenbrunnengasse
+3145;Kohlgasse
+3146;Am Hundsturm
+3147;Gaudenzdorfer Gürtel
+3148;Steinhagegasse
+3149;Arndtstraße
+3150;Spengergasse
+3151;Eichenstraße
+3152;Stiegergasse
+3153;Henriettenplatz
+3154;Mariahilfer Straße, Geibelgasse
+3155;Schmelzbrücke
+3156;Schweglerstraße U
+3157;Schweglerstraße U
+3158;Schmelzbrücke
+3159;Mariahilfer Straße, Geibelgasse
+3160;Henriettenplatz
+3161;Wehrbrücklstraße
+3162;Längenfeldgasse U
+3163;Grenzgasse
+3164;Grenzgasse
+3166;Franz-Sebek-Straße
+3167;Richard-Tauber-Gasse
+3168;Josef-Prangl-Straße
+3169;Jura-Soyfer-Gasse
+3170;Alaudagasse U
+3171;Ada-Christen-Gasse
+3172;Max-Fleischer-Gasse
+3173;Wendstattgasse
+3174;Hubert-Gsur-Gasse
+3175;Adolf-Unger-Gasse
+3176;Stockholmer Platz
+3177;Himberger Straße
+3178;Sulzengasse
+3179;Großmarktstraße
+3180;Sulzengasse
+3181;Oberlaaer Straße
+3182;Großmarktstraße
+3183;Ziegelhofstraße
+3184;Spargelfeldstraße
+3185;Süßenbrunnerstraße
+3186;Gewerbepark Stadlau
+3187;Forstnergasse
+3190;Stockholmer Platz
+3191;Forstnergasse
+3192;Gewerbepark Stadlau
+3193;Süßenbrunner Straße
+3194;Kaisermühlenstraße
+3195;Kaisermühlenstraße
+3196;Spargelfeldstraße
+3197;Ziegelhofstraße
+3198;Forchheimergasse
+3199;Am Tabor
+3200;Bhf. Meidling S U, Eichenstraße
+3201;Tanbruckgasse
+3202;Ruckergasse
+3203;Ratschkygasse
+3204;Schwenkgasse
+3205;Tivoligasse
+3206;Aichholzgasse
+3207;Meidling Hauptstraße U
+3213;Haschkagasse
+3214;Aichholzgasse
+3215;Tivoligasse
+3216;Gatterholzgasse
+3217;Pohlgasse
+3218;Ruckergasse
+3219;Tanbruckgasse
+3220;Zeleborgasse
+3221;Dörfelstraße
+3222;Inzersdorf, Birostraße
+3223;Birostraße Mitte
+3224;Haspingerplatz
+3225;Spittelbreitengasse
+3226;Gatterholzgasse
+3227;Tivoligasse
+3228;Ernanigasse
+3229;Ernanigasse
+3230;Cossmanngasse
+3231;Deutschordenstraße
+3232;Linzer Straße, Flötzersteig
+3233;Stockholmer Platz
+3234;Wahlberggasse
+3235;Henckellgasse
+3236;Hüttelberg
+3237;Henckellgasse
+3238;Steinböckengasse
+3239;Rosentalgasse
+3240;Angermayergasse
+3241;Bahnhofstraße
+3242;Bhf. Hütteldorf S U
+3243;Albert-Schweitzer-Gasse
+3244;Auhof
+3245;Wolfgang-Pauli-Gasse
+3246;Zimbagasse
+3247;Weidlingau, Herzmanskystraße
+3248;Hadersdorf, Hauptstraße
+3249;Badgasse
+3250;Hadersdorf, Hauptstraße
+3251;Weidlingau, Herzmanskystraße
+3252;Autobahnraststation Auhof
+3253;Auhof, Umspannwerk
+3254;Uranusweg
+3255;Merkurweg
+3256;Siriusweg
+3257;Mondweg
+3258;Pfarrwiesenstraße
+3259;Stammhausstraße
+3260;Glossystraße
+3261;Josef- Ressel-Straße
+3262;Hüttergasse
+3263;Ferdinand-Frey-Weg
+3264;Wolfersberg, Schöffelplatz
+3265;Korngoldgasse
+3266;Cottagestraße
+3267;Hüttergasse
+3268;Josef-Ressel-Straße
+3269;Oskar-Simony-Straße
+3270;Riedstraße
+3271;Pfarrwiesenstraße
+3272;Mondweg
+3273;Alois-Behr-Straße
+3274;Freesienweg
+3275;Hütteldorfer Friedhof
+3276;Samptwandnergasse
+3277;Anzengruberstraße
+3278;Hadersdorf, Bahnhof S
+3279;Albert-Schweitzer-Gasse
+3280;Badgasse
+3281;Hadersdorf, Bahnhof S
+3282;Bhf. Hütteldorf S U
+3283;Bhf. Hütteldorf S U
+3284;Karl-Bekehrty-Straße
+3285;Eichbachgasse
+3286;Jägerwaldsiedlung
+3287;Haidersberggasse
+3288;Nikolaus-Pytty-Gasse
+3289;Knödelhüttenstraße
+3290;Moschingergasse
+3291;Haspelmeistergasse
+3292;Edenstraße
+3293;Dostgasse
+3294;Elsbeergasse
+3295;Günselgasse
+3296;Hänflingweg
+3297;Ammerweg
+3298;Siedlung Kordon
+3299;Feuerwache Am Steinhof
+3300;Siedlung Kordon
+3301;Ammerweg
+3302;Hänflingweg
+3303;Günselgasse
+3304;Elsbeergasse
+3305;Dostgasse
+3306;Kerbelgasse
+3307;Ulmenstraße
+3308;Jubiläumswarte
+3309;Jubiläumswarte
+3310;Hütteldorf, Bujattigasse
+3311;Carl-Appel-Straße
+3312;Steigenteschgasse
+3313;Kagraner Platz U
+3314;Fritz-Feigl-Weg
+3315;Contiweg
+3316;Contiweg
+3317;Fritz-Feigl-Weg
+3318;Kagraner Platz U
+3319;Seestadt >
+3320;Christine-Touaillon-Straße
+3321;Lannesstraße
+3322;Lannesstraße
+3323;Christine-Touaillon-Straße
+3324;Eßling, Schule
+3325;Schlachthammerstraße
+3326;Wiethestraße
+3327;Raphael-Donner-Allee
+3328;Mühlhäufel
+3329;Auernheimergasse
+3330;Kaposigasse
+3331;Eßling, Wegmayersiedlung
+3332;Bambergergasse
+3333;Ultzmanngasse
+3334;Raphael-Donner-Allee
+3335;Wiethestraße
+3336;Mühlhäufelgasse
+3337;Rosalia-Chladek-Gasse
+3338;Seestadt U
+3339;Aspern Nord SU
+3340;Strigelgasse
+3341;Heringgasse
+3342;Asparagusweg
+3343;Daphneweg
+3344;Huflattichweg
+3345;Neueßling
+3346;Asparagusweg
+3347;Heringgasse
+3348;Strigelgasse
+3349;Bhf. Hütteldorf S U
+3350;Tiefer Graben
+3351;Renngasse
+3352;Südportalstraße
+3353;Trabrennstraße
+3354;Sieveringer Straße
+3355;Sieveringer Friedhof
+3356;Vernholzgasse
+3357;Seestadt  U
+3358;Maria-Trapp-Platz
+3359;Hannah-Arendt-Platz
+3360;Johann-Kutschera-Gasse
+3361;An den alten Schanzen
+3362;Johann-Kutschera-Gasse
+3363;Hannah-Arendt-Platz
+3364;Maria-Trapp-Platz
+3365;Seestadt  U
+3366;Gertrude-Fröhlich-Sandner-Straße
+3367;Sonnwendgasse
+3368;Alfred-Adler-Straße
+3369;Alfred-Adler-Straße
+3370;Sonnwendgasse
+3371;Hauptbahnhof Süd
+3372;Michael-Neumann-Gasse
+3373;Michael-Neumann-Gasse
+3374;Malzgasse
+3375;Deutschordenstraße
+3376;Deutschordenstraße
+3377;Franzosenweg
+3378;Rosiwalgasse
+3379;Indigoweg
+3380;Bhf. Blumental S
+3381;Kledering, Kirche
+3382;Kledering, Bahnhofplatz
+3383;Bhf. Blumental S
+3384;Indigoweg
+3385;Rosiwalgasse
+3386;Franzosenweg
+3387;Oberlaa U
+3388;Unterlaa, Stadtgrenze
+3391;Kledering, Bhf. S
+3394;
+3395;Zentralfriedhof, 9.Tor
+3401;Vera-Schwarz-Gasse
+3402;Ernst-Krenek-Gasse
+3403;Großmarktstraße
+3404;Röbbelinggasse
+3405;Röbbelinggasse
+3406;Neueßling
+3407;Senekowitschgasse
+3408;Troststraße U
+3409;Laxenburger Straße, Troststraße
+3410;Valiergasse
+3411;Wopenkastraße
+3412;Bhf. Kaiserebersdorf S
+3413;Wopenkastraße
+3414;Bhf. Kaiserebersdorf S
+3415;Baudißgasse
+3416;Ailecgasse
+3417;Bertl-Hayde-Gasse
+3418;Bertl-Hayde-Gasse
+3419;
+3420;Ailecgasse
+3421;Baudißgasse
+3422;Etrichstraße
+3423;Klingerstraße
+3424;Klingerstraße
+3425;Oberlaa U
+3426;Forchheimergasse
+3427;Greta-Keller-Gasse
+3428;Pa Siebenhirten
+3429;Oberdorfstraße
+3430;Oberdorfstraße
+3431;Absberggasse
+3432;Breitenlee, Schule
+3433;Absberggasse
+3434;Absberggasse
+3435;Absberggasse
+3436;Absberggasse
+3437;Alfred-Adler-Straße
+3438;Hlawkagasse
+3439;Hlawkagasse
+3440;Schottenring U
+3441;Geiereckstraße
+3442;Geiereckstraße
+3443;Melchartgasse
+3444;Melchartgasse
+3445;Krakauer Straße
+3446;Bruno-Marek-Allee
+3447;Bruno-Marek-Allee
+3448;Krakauer Straße
+3449;Nordbahnstraße
+3450;Praterstern
+3451;Paukerwerkstraße
+3452;Paukerwerkstraße
+3453;Niedermeierweg
+3454;Niedermeierweg
+3455;Schattenfrohgasse
+3456;Gerasdorf, Bhf S
+3457;Josef-Böck-Gasse
+3458;Gerasdorf, Neue Mittelschule
+3459;Gerasdorf, Postamt
+3460;Gerasdorf, Neue Mittelschule
+3461;Josef-Böck-Gasse
+3462;Gerasdorf, Bhf. S
+3463;Schattenfrohgasse
+3464;Gerasdorf, Postamt
+3465;Siemensstraße S
+3466;Neu Leopoldau
+3504;Glatzgasse
+3516;Spittelau S U
+3517;Vorarlberger Allee
+3518;Vorarlberger Allee
+3519;Zentralfriedhof, 9.Tor
+3520;Franz-Lehar-Gasse
+3521;Dummy Einschub Leopoldau
+3522;Dummy Einzieher Leopoldau
+3523;Sahulkastraße
+3524;Wienerfeldgasse
+3525;Erlaaer Straße U
+3526;Erlaaer Straße U
+3527;Neubaugasse U
+3528;Neubaugasse, Westbahnstraße
+3529;Neubaugasse, Burggasse
+3561;Floridsdorf S U
+3562;Brunner Straße, Ketzergasse
+3563;Liesing, Industriegelände Süd
+3564;Lemböckgasse
+3565;Siebenhirten U
+3566;Nowakgasse
+3621;Großfeldsiedlung-Bubergasse
+3622;Nowakgasse
+3623;Siebenhirten U
+3624;Lemböckgasse
+3625;Liesing, Industriegelände Süd
+3677;Sterngasse
+3700;Börsegasse
+3701;Schottentor U (Bedarf)
+3703;Börse
+3704;Liechtenwerder Platz
+3705;Fehlingergasse
+3706;Kagran U - Bedarf
+3707;Marsanogasse
+3708;Marsanogasse
+3709;Nußdorfer Straße U
+3710;Nußdorfer Straße
+3711;Schottentor (Bedarf)
+3712;Siccardsburggasse
+3713;Leebgasse
+3714;Gräßlplatz
+3715;Reumannplatz U
+3718;Bahnhof Kagran Expedit
+3720;Maurer-Lange-Gasse
+3721;Kledering, Kirche
+3722;Großmarktstraße
+3723;Ernst-Krenek-Gasse
+3724;Vera-Schwarz-Gasse
+3725;Alterlaa U
+3729;Pötzleinsdorf
+3730;Ring, Volkstheater U
+3732;Schloss Neugebäude
+3733;Tiroler Gasse
+3734;Montecuccoliplatz
+3735;Am Platz
+3736;Stranzenberggasse
+3737;Sankt-Hemma-Kirche
+3738;Preyergasse
+3739;Hofwiesengasse
+3740;Speising, Hermesstrasse
+3741;Strampfergasse
+3742;Dr.-Schober-Straße
+3743;Pensionistenwohnhaus Föhrenhof
+3744;Buchbindergasse
+3745;Glawatschweg
+3746;Sankt-Hubertus-Platz
+3747;Nästlbergergasse
+3748;Dostalgasse
+3749;Wittgensteinstraße
+3750;Ursulinenkloster
+3751;Heudörfelgasse
+3752;Franz-Asenbauer-Gasse
+3753;Maurer Friedhof
+3754;Bhf. Atzgersdorf S
+3755;Pensionistenwohnhaus Atzgersdorf
+3756;Endemanngasse
+3757;Tullnertalgasse
+3758;Pflaumengasse
+3759;Am Rosenhügel
+3760;Dorfmeistergasse
+3761;Pensionistenwohnhaus Hetzendorf
+3762;Rosenhügelstraße
+3763;Atzgersdorfer Straße
+3764;Ursulinenkloster
+3765;Wittgensteinstraße
+3766;Dostalgasse
+3767;Nästlbergergasse
+3768;Sankt-Hubertus-Platz
+3769;Glawatschweg
+3770;Buchbindergasse
+3771;Pensionistenwohnhaus Föhrenhof
+3772;Strampfergasse
+3773;Lainzer Tor
+3774;Hofwiesengasse
+3775;Preyergasse
+3776;Sankt-Hemma-Kirche
+3777;Stranzenberggasse
+3778;Atzgersdorfer Straße
+3779;Siedlung Rosenhügel
+3780;Pensionistenwohnhaus Rosenberg
+3782;Deißenhofergasse
+3783;Eberstorferweg
+3785;Ruzickagasse
+3786;Eberstorferweg
+3787;Deißenhofergasse
+3788;Pensionistenwohnhaus Rosenberg
+3789;Siedlung Rosenhügel
+3790;Atzgersdorfer Straße
+3791;Stranzenberggasse
+3792;Zanggasse
+3793;Zanggasse
+3794;Endemanngasse
+3795;Filmteichstraße
+3796;Gartenschaugasse
+3797;Bergtaidingweg
+3798;Bergtaidingweg
+3799;Gartenschaugasse
+3809;Hödlgasse
+3810;Ruzickagasse
+3811;Lainzer Tor
+3812;Jenbachgasse
+3813;Kleiner Ring
+3814;Kleiner Ring
+3815;Jenbachgasse
+3816;Dr.-Schober-Straße
+3817;Zifferergasse
+3818;Wolfgang-Mühlwanger-Straße
+3819;Krautackergasse
+3820;Lehenstraße
+3821;Oberlaa, Friedhof
+3822;Krautackergasse
+3823;Wolfgang-Mühlwanger-Straße
+3824;Himmelteich
+3825;Welthandelsplatz
+3826;Aspern Nord  S U
+3827;Barthgasse
+3828;Hermine-Jursa-Gasse
+3829;Maria-Jacobi-Gasse
+3830;Neu Marx
+3831;Maria-Jacobi-Gasse
+3832;Hermine-Jursa-Gasse
+3833;Baumgasse
+3834;Schlachthausgasse U
+3835;Südtiroler Platz, Hauptbahnhof
+3836;Südtiroler Platz, Hauptbahnhof
+3837;Paul-Wagner-Gasse
+3838;Jedletzbergerstraße
+3839;Paul-Wagner-Gasse
+3840;Jedletzbergerstraße
+3841;Reumannplatz U
+3842;Altes Landgut
+3844;Attemsgasse
+3845;Endemanngasse
+3846;Atzgersdorf, Ziedlergasse
+3847;Hietzing U
+3848;Großer Biberhaufen
+3849;Oberlaaer Platz
+3850;Rudolfsheim, Anschützgasse
+3851;Schottentor U
+3852;Floridsdorf S U
+3853;Matzleinsdorfer Platz S
+3854;Eichenstraße
+3855;
+3856;U-Bahnfahrt
+3857;Zentralfriedhof, 2.Tor
+3858;Campus Wiener Netze
+3859;U-Bahnfahrt
+3860;Lechnerstraße
+3861;Dietrichgasse
+3862;Valentingasse
+3863;Valentingasse
+3864;Maurer-Berg
+3865;Rodaun
+3866;Rodaunbrücke
+3867;An der Liesing
+3868;Urban-Loritz-Platz
+3869;Bahnhof Hütteldorf U
+3871;Gersthof S
+3872;Schindlergasse
+3873;Schindlergasse
+3874;Gersthof S
+3875;Eduardgasse
+3876;Johann-Nepomuk-Vogl-Platz
+3877;Johann-Nepomuk-Vogl-Platz
+3878;Eduardgasse
+3879;Nussdorf, Beethovengang
+3880;Nussdorfer Friedhof
+3881;Heiligenstädter Friedhof
+3882;Ferdinand-Platzer-Gasse
+3883;Ferdinand-Platzer-Gasse
+3884;Kaisergrund
+3885;Kaisergrund
+3886;Praterstern SU
+3887;Südwestfriedhof, 2. und 8. Tor
+3888;Südwestfriedhof, 2. und 8. Tor
+3889;Mona-Lisa-Steiner-Weg
+3890;Mona-Lisa-Steiner-Weg
+3891;Emil-Behring-Weg
+3892;Emil-Behring-Weg
+3893;Lavendelweg
+3894;Lavendelweg
+3895;Atzgersdorf, Bildungscampus
+3896;Gregorygasse
+3897;Auer-Welsbach-Straße
+3898;Seybelgasse
+3899;Seybelgasse
+3900;Schloss Alterlaa
+3901;Auer-Welsbach-Straße
+3902;Atzgersdorf, Bildungscampus
+3903;Liesing S
+3904;Käthe-Recheis-Gasse
+3905;Ilse-Buck-Straße
+3906;Käthe-Recheis-Gasse
+3907;Ilse-Buck-Straße
+3908;Neubaugasse, Burggasse
+3909;Donaustadtbrücke
+3910;Donaustadtbrücke
+3911;Aspern Nord SU
+3912;Atzgersdorf, Ziedlergasse
+3913;Marietta-Blau-Gasse
+3914;An der Kuhtrift
+3915;Dückegasse
+3916;Hans-Czermak-Gasse
+3917;Hans-Czermak-Gasse
+3918;Satzingerweg
+3919;Erna-Musik-Gasse
+3920;Hans-Czermak-Gasse
+3921;Sofienalpenstraße, Roßkopfgasse
+3922;Sofienalpenstraße, Roßkopfgasse
+3938;Breitenfurter Straße, Willergasse
+3939;Breitenfurter Straße, Willergasse
+3940;Haselbrunnerstraße
+3941;Haselbrunnerstraße
+3942;Kalksburg, Kirchenplatz
+3943;Kalksburg, Kirchenplatz
+3944;Gütenbachstraße
+3945;Kalksburg, Lodererweg
+3946;Obachgasse
+3947;Breitenlee, Rautenweg
+3948;Fuchsienweg
+3949;Pelargonienweg
+3950;Breitenlee, Rautenweg
+3951;Schillingstraße
+3952;Aderklaaer Straße U
+3953;Wassermanngasse
+3954;Wassermanngasse
+3955;Doderergasse
+3956;Uhlirzgasse
+3957;Egon-Friedell-Gasse
+3958;Süßenbrunner Platz
+3959;Richthausenstraße
+3960;St.-Michael-Gasse
+3961;Julius-Ficker-Straße
+3962;Schillingstraße
+3963;Obachgasse
+3964;Julius-Ficker-Straße
+3965;St.-Michael-Gasse
+3966;Zentralfriedhof, 11.Tor
+3967;Vorgartenstraße U
+3968;Bhf. Zentralfriedhof S
+3969;Bhf. Zentralfriedhof S
+3970;Zentralfriedhof 11. Tor
+3971;Sängergasse
+3972;Svetelskystraße
+3973;Halblehenweg
+3974;Halblehenweg
+3975;Breitenlee, Schule
+3976;Wildgartenallee
+3977;Wildgartenallee
+3989;Zentralfriedhof 3. Tor
+3990;Zentralfriedhof 3. Tor
+3991;Zentralfriedhof 3. Tor
+3992;Zentralfriedhof 3. Tor
+4101;Reumannplatz
+4102;Kagran
+4103;Keplerplatz
+4104;Alte Donau
+4105;Südtiroler Platz
+4106;Kaisermühlen, V.I.C.
+4107;Taubstummengasse
+4108;Donauinsel
+4109;Karlsplatz
+4110;Vorgartenstraße
+4111;Stephansplatz
+4112;Praterstern
+4113;Schwedenplatz
+4114;Nestroyplatz
+4115;Nestroyplatz
+4116;Schwedenplatz
+4117;Praterstern
+4118;Stephansplatz
+4119;Vorgartenstraße
+4120;Karlsplatz
+4121;Donauinsel
+4122;Taubstummengasse
+4123;Kaisermühlen, V.I.C.
+4124;Südtiroler Platz
+4125;Alte Donau
+4126;Keplerplatz
+4127;Kagran
+4128;Reumannplatz
+4129;Troststraße
+4130;Altes Landgut
+4131;Alaudagasse
+4132;Neulaa
+4133;Oberlaa
+4134;Oberlaa
+4135;Neulaa
+4136;Alaudagasse
+4137;Altes Landgut
+4138;Troststraße
+4181;Kagraner Platz
+4182;Rennbahnweg
+4183;Aderklaaer Straße
+4184;Großfeldsiedlung
+4185;Leopoldau
+4186;Kagraner Platz
+4187;Rennbahnweg
+4188;Aderklaaer Straße
+4189;Großfeldsiedlung
+4190;Leopoldau
+4191;Leopoldau Abstellbahnhof
+4201;Schottenring
+4202;Karlsplatz
+4203;Schottentor
+4204;Museumsquartier
+4205;Rathaus
+4206;Volkstheater
+4209;Volkstheater
+4210;Rathaus
+4211;Museumsquartier
+4212;Schottentor
+4213;Karlsplatz
+4214;Schottenring
+4251;Aspernstraße
+4252;Donauspital
+4253;Hardeggasse
+4254;Stadlau
+4255;Donaumarina
+4256;Donaustadtbrücke
+4257;Stadion
+4258;Krieau
+4259;Messe
+4260;Praterstern
+4261;Taborstraße
+4262;Taborstraße
+4263;Praterstern
+4264;Messe
+4265;Krieau
+4266;Stadion
+4267;Donaustadtbrücke
+4268;Donaumarina
+4269;Stadlau
+4270;Hardeggasse
+4271;Donauspital
+4272;Aspernstraße
+4273;Oberes Hausfeld
+4274;Hausfeldstraße
+4275;Aspern Nord
+4276;Seestadt
+4277;Seestadt
+4278;Aspern Nord
+4279;Hausfeldstraße
+4280;Oberes Hausfeld
+4282;Stadion
+4401;Hütteldorf
+4402;Heiligenstadt
+4403;Ober St. Veit
+4404;Friedensbrücke
+4405;Unter St. Veit
+4406;Roßauer Lände
+4407;Braunschweiggasse
+4408;Schottenring
+4409;Hietzing
+4410;Schwedenplatz
+4411;Schönbrunn
+4412;Landstraße
+4413;Meidling, Hauptstraße
+4414;Stadtpark
+4415;Margaretengürtel
+4416;Karlsplatz
+4417;Pilgramgasse
+4418;Kettenbrückengasse
+4419;Kettenbrückengasse
+4420;Pilgramgasse
+4421;Karlsplatz
+4422;Margaretengürtel
+4423;Stadtpark
+4424;Meidling Hauptstraße
+4425;Landstraße
+4426;Schönbrunn
+4427;Schwedenplatz
+4428;Hietzing
+4429;Schottenring
+4430;Braunschweiggasse
+4431;Roßauer Lände
+4432;Unter St. Veit
+4433;Friedensbrücke
+4434;Ober St. Veit
+4435;Heiligenstadt
+4436;Hütteldorf
+4437;Längenfeldgasse
+4438;Längenfeldgasse
+4439;Spittelau
+4440;Spittelau
+4603;Nußdorfer Straße
+4604;Währinger Straße - Volksoper
+4605;Michelbeuern - AKH
+4606;Alser Straße
+4607;Josefstädter Straße
+4608;Thaliastraße
+4609;Burggasse - Stadthalle
+4610;Westbahnhof
+4611;Gumpendorfer Straße
+4612;Längenfeldgasse
+4613;Niederhofstraße
+4614;Bahnhof Meidling
+4615;Bahnhof Meidling
+4616;Niederhofstraße
+4617;Längenfeldgasse
+4618;Gumpendorfer Straße
+4619;Westbahnhof
+4620;Burggasse - Stadthalle
+4621;Thaliastraße
+4622;Josefstädter Straße
+4623;Alser Straße
+4624;Michelbeuern - AKH
+4625;Währinger Straße - Volksoper
+4626;Nußdorfer Straße
+4627;Spittelau
+4629;Tscherttegasse
+4630;Am Schöpfwerk
+4631;Alterlaa
+4632;Erlaaer Straße
+4633;Perfektastraße
+4634;Siebenhirten
+4635;Siebenhirten
+4636;Perfektastraße
+4637;Erlaaer Straße
+4638;Alterlaa
+4639;Am Schöpfwerk
+4640;Tscherttegasse
+4641;Jägerstraße
+4642;Dresdner Straße
+4643;Handelskai
+4644;Neue Donau
+4645;Floridsdorf
+4646;Floridsdorf
+4647;Neue Donau
+4648;Handelskai
+4649;Dresdner Straße
+4650;Jägerstraße
+4651;Spittelau
+4700;Praterstern (blw)
+4701;Ring, Volkstheater U (Bedarfs-Hst.)
+4703;Raffaleg. / Wallensteinpl.
+4704;Gräßlplatz
+4708;Anastasius-Grün-Gasse
+4709;Währinger Gürtel
+4710;Rosensteingasse (Einschübe)
+4711;Lorenz-Bayer-Platz
+4716;ehemalige Schleife - nicht mehr vorhanden
+4717;Peitlgasse
+4718;Brünner Straße / Hanreitergasse
+4723;Breitensee S
+4727;Dörfelstraße
+4729;Praterstern (L. 81, Bed.)
+4730;Radetzkystraße, Matthäusgasse
+4732;Zentralfriedhof 3.Tor
+4733;Zentralfriedhof 3.Tor
+4734;Simmeringer Hauptstraße
+4735;Simmeringer Hauptstraße
+4736;Kagraner Friedhof
+4737;Neuwaldegg
+4739;Prater Messegelände
+4740;Messestraße
+4795;Hauptwerkstätte 1
+4796;Hauptwerkstätte 2
+4797;Hauptwerkstätte 3
+4798;Hauptwerkstätte 4
+4799;Hauptwerkstätte 5
+4802;Raxstraße, Betriebsgarage
+4803;Arthaberplatz
+4804;Quellenplatz
+4805;Laxenburger Straße / Gudrunstraße
+4806;Columbusplatz
+4807;Hauptbahnhof S U
+4808;Hauptbahnhof S U
+4809;Laxenburger Straße / Gudrunstraße
+4810;Quellenplatz
+4811;Raxstraße, Betriebsgarage
+4816;Großbauerstraße
+4817;Großbauerstraße
+4818;Agnesgasse Prov.
+4822;Lusthaus
+4823;Freudenau, Rennplatz
+4824;Freudenau, Rennplatz
+4825;Lusthaus
+4826;Obkirchergasse
+4827;Friedlgasse
+4829;Reumannplatz U
+4834;Ottakringer Bad
+4836;Laaer Berg, Kurpark Nordosteingang
+4837;Hederichgasse
+4838;Burgenlandgasse
+4840;Laimgrubengasse
+4841;Laimgrubengasse
+4842;Absbergbrücke
+4843;Resselgasse
+4900;Erdberg
+4901;Schlachthausgasse
+4902;Kardinal-Nagl-Platz
+4903;Rochusgasse
+4904;Landstraße
+4905;Stubentor
+4906;Stephansplatz
+4907;Herrengasse
+4908;Volkstheater
+4909;Volkstheater
+4910;Herrengasse
+4911;Stephansplatz
+4912;Stubentor
+4913;Landstraße
+4914;Rochusgasse
+4915;Kardinal-Nagl-Platz
+4916;Schlachthausgasse
+4917;Erdberg
+4918;Neubaugasse
+4919;Zieglergasse
+4920;Westbahnhof
+4921;Westbahnhof
+4922;Zieglergasse
+4923;Neubaugasse
+4924;Schweglerstraße
+4925;Johnstraße
+4926;Johnstraße
+4927;Schweglerstraße
+4928;Hütteldorfer Straße
+4929;Kendlerstraße
+4930;Ottakring
+4931;Ottakring
+4932;Kendlerstraße
+4933;Hütteldorfer Straße
+4934;Gasometer
+4935;Zippererstraße
+4936;Enkplatz
+4937;Simmering
+4938;Simmering
+4939;Enkplatz
+4940;Zippererstraße
+4941;Gasometer
+5001;Bleibtreustraße
+5002;Wildpretstraße
+5003;11. Haidequerstraße
+5004;Margetinstraße
+5005;Alberner Hafenzufahrtsstraße West
+5006;Alberner Hafenzufahrtsstraße
+5007;Freudenauer, Hafenbrücke
+5009;Alberner Hafen
+5010;Mannswörther Straße
+5011;Sendnergasse
+5012;Alberner Straße
+5013;Kaiserebersdorf, Münnichplatz
+5014;Kaiserebersdorf, Münnichplatz
+5015;Alberner Straße
+5016;Sendnergasse
+5017;Mannswörther Straße
+5020;Freudenauer, Hafenbrücke
+5021;Alberner Hafenzufahrtsstraße
+5022;Alberner Hafenzufahrtsstraße West
+5023;Margetinstraße
+5024;11. Haidequerstraße
+5025;Wildpretstraße
+5026;Bleibtreustraße
+5027;7. Haidequerstraße
+5028;1. Haidequerstraße Mitte
+5032;Hetzendorfer Straße
+5033;Hetzendorfer Straße
+5034;Alberner Hafenzufahrtsstraße
+5038;Döblerhofstraße
+5041;Landwehrstraße
+5042;Artillerieplatz
+5043;Kaiserebersdorf, Zinnergasse
+5044;Kaiserebersdorf, Zinnergasse
+5045;Artillerieplatz
+5046;Landwehrstraße
+5053;Albern
+5054;Fabianistraße
+5055;Warneckestraße
+5056;Warneckestraße
+5057;Fabianistraße
+5058;Albern
+5060;Neu Albern
+5061;Neu Albern
+5062;Stadion (für Langwende)
+5063;Ober St. Veit U, Franz-Boos-Gasse
+5065;Oberlaa U
+5066;Oberlaa U
+5067;Seitenhafenbrücke
+5068;Seitenhafenbrücke
+5069;Atzgersdorf, Bildungscampus
+5070;Floridsdorf S U
+5071;Spinnerin am Kreuz
+5072;Rennbahnweg U
+5073;Aspernstraße U
+5074;
+5075;
+5076;
+5077;
+5078;
+5079;Matzleinsdorfer Platz S U
+5080;Quellenstraße, Triester Straße
+5081;Quellenstraße, Triester Straße
+5082;Leopoldine-Padaurek-Straße
+5083;Leopoldine-Padaurek-Straße
+5196;Simonygasse
+5197;Czartoryskigasse
+5198;Inzersdorf, Friedhof
+5199;Per-Albin-Hansson-Siedlung
+5200;Cobenzl-Parkplatz
+5201;Börse
+5202;Bergmillergasse
+5203;Bahnhof Hütteldorf U
+5204;Bergmillergasse
+5205;Bahnhof Heiligenstadt S U
+5206;Bahnhof Heiligenstadt S U
+5207;Nußdorfer Straße U
+5208;Zentraltanklager
+5209;Großjedlersdorf
+5210;Sendnergasse
+5211;Mannswörther Straße
+5212;Alberner Hafen
+5213;Mannswörther Straße
+5214;Sendnergasse
+5215;Dampfkraftwerk-Donaustadt
+5216;Primavesigasse
+5217;Mayredergasse
+5218;Fuchsenzeile
+5219;Podhagskygasse
+5220;Schukowitzgasse
+5221;Pfalzgasse
+5222;Breitenlee, Schule
+5223;Asperner Heldenplatz
+5224;Oberdorfstraße
+5225;Lavantgasse, Schule
+5226;Zentralfriedhof, 3. Tor
+5227;Erzherzog-Karl-Straße S
+5228;Salzgries
+5229;Breitenlee, Rautenweg
+5230;Per-Albin-Hansson-Siedlung
+5231;Küniglberg, ORF-Zentrum
+5232;Schukowitzgasse
+5233;Kieslerweg
+5234;Hausfeldstraße  U
+5235;Neue Donau U
+5236;Pensionistenwohnhaus Laaer Berg
+5237;Josef-Prangl-Straße
+5238;Inzersdorf, Großmarkt
+5239;Laxenburger Straße, Richard-Tauber-Gasse
+5240;Pensionistenwohnhaus Atzgersdorf
+5241;Aspern Nord  U
+5242;Ober St. Veit U, Franz-Boos-Gasse
+5243;Ober St. Veit U
+5244;Preindlgasse
+5400;Schönbrunn
+5401;Weinhauser Gasse
+5402;Längenfeldgasse U
+5403;Pilgramgasse
+5404;Stockholmer Platz
+5405;Stockholmer Platz
+5406;Paulinensteig
+5407;Karlsplatz U
+5408;Kettenbrückengasse
+5409;Pilgramgasse
+5410;Spengergasse
+5411;Kempfengerngasse
+5412;Bernhardtstalgasse
+5413;Donaustadtbrücke
+5414;Donaustadtbrücke
+5415;
+5416;Karlsplatz >
+5417;Landstraße
+5418;Alaudagasse
+5419;Predigtstuhl
+5420;Otto-Höltzl-Weg
+5421;Margaretengürtel
+5422;Altmannsdorfer Straße
+5423;Neubaugasse, Burggasse
+5424;Breitenfurter Straße
+5425;Neulaa U
+5426;Zentralfriedhof, 2. Tor
+5427;Schlachthausgasse U
+5428;Dampfkraftwerk
+5429;provisorische Haltestelle
+5430;Neubaugasse U
+5431;Hintere Zollamsstraße
+5432;Praterstern SU
+5433;
+5434;Grenzgasse
+5435;Keplerplatz
+5436;Absberggasse
+5437;Absberggasse
+5439;Sahulkastraße
+5440;Wienerfeldgasse
+5441;Migerkastraße
+5442;Strebersdorf, Edmund-Hawranek-Platz
+5443;Floridsdorfer Markt
+5444;Bahnsteggasse
+5445;Bahnsteggasse
+5446;Hütteldorfer Straße >
+5447;Breitensee S
+5448;Neusteinhof
+5449;Gutheil-Schoder-Gasse
+5484;Versorgungsheimplatz
+5501;Schwedenplatz U
+5502;Schwedenplatz U
+5503;Schwedenplatz
+5504;Schwedenplatz
+5505;Schwedenplatz
+5506;Schwedenplatz
+5507;Schwedenplatz U
+5508;Schwedenplatz
+5509;Kaisermühlen Vienna-International-Center
+5510;Kagraner Brücke
+5518;Martin-Gaunersdorfer-Gasse
+5520;Kaisermühlen Vienna-International-Center
+5521;Vorgartenstraße
+5524;Reichsbrücke
+5525;Gredlerstraße
+5526;Mühlschüttel
+5527;Scheffelstraße
+5528;Fickeysstraße
+5529;Liechtenwerder Platz
+5530;Friedrich-Engels-Platz
+5533;Nordbrücke / Gebauergasse
+5535;Lokomotivgasse
+5536;Trillergasse
+5538;Matthäus-Jiszda-Straße
+5539;Friedrich-Engels-Platz
+5542;Matthäus-Jiszda-Straße
+5544;Jedlersdorf S
+5545;Schottenring, Herminengasse
+5546;Obere Augartenstraße
+5547;Gaußplatz
+5548;Simmering S U
+5549;Stammersdorf B7
+5557;Morelligasse
+5558;Broßmannplatz
+5559;Am Spitz
+5560;Broßmannplatz
+5561;Längenfeldgasse
+5564;Urban-Loritz-Platz
+5568;Schottentor U
+5569;Schottenring
+5570;Kettenbrückengasse
+5573;Karlsplatz U
+5574;Kettenbrückengasse
+5575;Brückengasse
+5576;Margaretengürtel
+5577;Längenfeldgasse
+5580;Hietzing U
+5581;Schloss Schönbrunn
+5584;Stiegergasse
+5585;Morelligasse
+5586;Theodor Körner Gasse
+5587;Alaudagasse U
+5588;Adelheid-Popp-Gasse
+5589;Jochen-Rindt-Straße
+5590;Kirchfeldgasse
+5591;Gregorygasse
+5592;Kunerolgasse
+5593;Gerbergasse
+5596;Laurenzgasse
+5598;Miriam-Makeba-Gasse
+5599;Silbergasse
+5600;Oper, Karlsplatz >
+5601;Oper, Karlsplatz >
+5602;Oper, Karlsplatz >
+5603;Oper, Karlsplatz >
+5604;Oper, Karlsplatz >
+5605;Oper, Karlsplatz U
+5606;Oper, Karlsplatz >
+5607;Oper, Karlsplatz >
+5608;Zieglergasse
+5609;Zieglergasse
+5610;Meidling, Hauptstraße
+5611;Dommayergasse
+5612;Schwenkgasse
+5614;Schwenkgasse
+5615;Edelsinnstraße
+5616;Spinnerin am Kreuz
+5617;Kundratstraße
+5618;Kundratstraße
+5619;Gumpendorfer Straße
+5620;Hans-Mandl-Berufsschule
+5621;Hans-Mandl-Berufsschule
+5623;Laurenzgasse
+5624;Himberger Straße
+5627;Belvederegasse
+5628;Resselgasse
+5629;Oberlaaer Straße
+5630;Litfaßstraße
+5631;Molitorgasse
+5632;Zippererstraße
+5633;Hauffgasse
+5634;Enkplatz, Grillgasse
+5636;Simmering
+5637;Bahnhof Simmering (Bedarf)
+5643;Florian-Hedorfer-Straße
+5644;Grillgasse
+5645;Hauffgasse
+5646;Zippererstraße
+5647;Molitorgasse
+5648;Litfaßstraße
+5649;Geringergasse
+5652;Simmering S U, Simmeringer Platz
+5653;Matzleinsdorferplatz
+5654;Eichenstraße
+5655;Arbeitergasse, Gürtel
+5656;Gaudenzdorfer Gürtel
+5657;Gumpendorfer Straße
+5658;Westbahnhof
+5659;Urban-Loritz-Platz
+5660;Thaliastraße
+5661;Josefstädter Straße
+5662;Alser Straße
+5663;Währinger Straße
+5664;Nußdorfer Straße
+5665;Währinger Straße
+5666;Alser Straße
+5667;Josefstädter Straße
+5668;Thaliastraße
+5669;Westbahnhof
+5670;Gumpendorfer Straße
+5671;Gaudenzdorfer Gürtel
+5672;Arbeitergasse, Gürtel
+5673;Eichenstraße
+5674;Matzleinsdorfer Platz
+5675;Matzleinsdorfer Platz
+5677;Svetelskystraße
+5678;Schwarzenbergplatz
+5679;Perfektastraße
+5680;Talpagasse
+5681;Ketzergasse
+5682;Siebenhirten U
+5683;Krankenhaus Lainz
+5685;Versorgungsheim Lainz
+5686;Krankenhaus Lainz
+5687;Speising, Hermesstraße
+5688;Johann-Strauß-Gasse
+5691;Auerspergstraße
+5692;Volkstheater
+5693;Museumsquartier
+5694;Maroltingergasse
+5695;Lorenz Mandl Gasse
+5696;Bergmillergasse
+5697;Bahnhof Hütteldorf SU
+5698;Bergmillergasse
+5699;Quellenplatz
+5700;Taubstummengasse
+5701;Taubstummengasse
+5702;Asperner Heldenplatz
+5703;Kapellenweg
+5704;Donauspital U
+5705;Langobardenstraße
+5706;Siebeckstraße
+5707;Praterstern
+5708;Nestroyplatz
+5709;Nestroyplatz
+5710;Praterstern
+5711;Vorgartenstraße
+5712;Rennbahnweg
+5713;Siebeckstraße
+5714;Rennbahnweg U
+5715;Martin-Gaunersdorfer-Gasse
+5716;Kürschnergasse
+5717;Otto-Probst-Straße
+5719;Sibeliusstraße
+5721;Raxstraße, Rudolfshügelgasse
+5722;Sibeliusstraße
+5723;Frödenplatz
+5724;Otto-Probst-Straße
+5725;Johannesgasse
+5726;Strebersdorf, Edmund-Hawranek-Platz
+5727;Gladiolenweg
+5728;Am Heidjöchl
+5729;Neu Breitenlee
+5730;Prinzgasse
+5731;Oberfeldgasse
+5732;Stammersdorf
+5733;Van-Swieten-Kaserne
+5734;Anton-Schall-Gasse
+5735;Empergasse
+5736;Brünner Straße / Hanreitergasse
+5737;Floridsdorf S U
+5738;Matthäus-Jiszda-Straße
+5739;Brünner Straße / Hanreitergasse
+5740;Empergergasse
+5741;Anton-Schall-Gasse
+5742;Van-Swieten-Kaserne
+5743;Eßling, Schule
+5744;Neuwaldegg
+5745;Julius-Tandler-Platz, Franz-Josefs-Bahnhof
+5746;Nußdorfer Platz
+5747;Lichtentalergasse
+5748;Julius-Tandler-Platz, Franz-Josefs-Bahnhof
+5749;Sieveringer Straße
+5750;Paradisgasse
+5753;Offenbachgasse
+5754;Offenbachgasse
+5755;Pensionistenwohnhaus Prater
+5756;Michelbeuern
+5757;Michelbeuern
+5758;Siebenhirten, Baslergasse
+5759;Donauinsel
+5760;Donauinsel
+5761;Sechshauser Gürtel
+5762;Margaretengürtel
+5763;Glatzgasse
+5766;An den langen Lüssen
+5767;Westbahnhof, Gerstnerstraße
+5768;Mariahilfer Straße / Stiftgasse
+5769;Kennedybrücke, Hietzing
+5771;Messegelände, Südportal
+5772;Westbhahnhof >
+5773;Neubaugasse
+5774;Neubaugasse
+5775;Museumsquartier
+5776;Westbahnhof, Europaplatz
+5777;Sechshauser Gürtel
+5778;Weißenböckstraße
+5779;Penzinger Straße
+5780;Penzinger Straße
+5784;Trontheimgasse
+5785;Steigenteschgasse
+5786;Gersthof
+5787;Leopoldauer Platz
+5788;Leopoldauer Platz
+5789;Stadion
+5790;Donaumarina U
+5791;Hütteldorf, Bujattigasse
+5792;Wolfersberggasse
+5793;Utendorfgasse
+5794;Samptwandergasse
+5795;Wolf in der Au <
+5796;Mariabrunn Kirche
+5797;Badgasse
+5798;Mariabrunn Kirche
+5799;Mariabrunn Kirche
+5810;Wolf in der Au S
+5811;Samptwandergasse
+5812;Utendorfgasse
+5813;Wolfersberggasse
+5814;Hütteldorf, Bujattigasse
+5815;Weißenböckstraße
+5816;Wienflussaufsicht
+5817;Wienflussaufsicht
+5818;Martin-Gaunersdorfer-Gasse
+5819;Am Schöpfwerk, Eibesbrunnergasse
+5820;Am Schöpfwerk, Eibesbrunnergasse
+5821;Auhof
+5822;Badgasse
+5823;Frederick-Loewe-Weg
+5824;Donaumarina, Chrastekgasse
+5825;Aspernallee
+5826;Dammhaufengasse
+5827;Grünhaufenbrücke
+5828;Freudenauer Hafenstraße
+5829;Winterhafen
+5830;Hafen Freudenau
+5831;Kraftwerk Freudenau
+5832;Freudenauer, Hafenbrücke
+5833;Freudenauer, Hafenbrücke
+5834;Kraftwerk Freudenau
+5835;Hafen Freudenau
+5836;Winterhafen
+5837;Freudenauer Hafenstraße
+5838;Grünhaufenbrücke
+5839;Dammhaufengasse
+5840;Hellingstraße
+5841;Seitenhafenstraße
+5842;Hellingstraße
+5843;Seitenhafenstraße
+5844;Pfaffenaugasse
+5845;Pfaffenaugasse
+5846;Westbahnhof S U
+5847;Berresgasse
+5848;Grete-Zimmer-Gasse
+5849;Grete-Zimmer-Gasse
+5850;Berresgasse
+5851;Thaliastraße >
+5852;Thaliastraße >
+5900;Schedifkaplatz
+5901;Schöpfwerk
+5902;Gutheil-Schoder-Gasse
+5903;Inzersdorf Personenbahnhof
+5904;Neu Erlaa
+5905;Schönbrunner Allee
+5906;Vösendorf-Siebenhirten
+5907;Vösendorf-SCS
+5908;Maria Enzersdorf-Südstadt
+5909;Wiener Neudorf
+5910;Griesfeld
+5911;Neu Guntramsdorf
+5912;Guntramsdorf Lokalbahn
+5913;Eigenheimsiedlung
+5914;Möllersdorf
+5915;Traiskirchen Lokalbahn
+5916;Tribuswinkel - Josefsthal
+5917;Pfaffstätten Rennplatz
+5918;Melkergründe
+5919;Leesdorf
+5920;Baden Viadukt
+5921;Baden Josefsplatz
+5922;Baden Viadukt
+5923;Leesdorf
+5924;Melkergründe
+5925;Pfaffstätten Rennplatz
+5926;Tribuswinkel - Josefsthal
+5927;Traiskirchen Lokalbahn
+5928;Möllersdorf
+5929;Eigenheimsiedlung
+5930;Guntramsdorf Lokalbahn
+5931;Neu Guntramsdorf
+5932;Griesfeld
+5933;Wiener Neudorf
+5934;Maria Enzersdorf-Südstadt
+5935;Vösendorf-SCS
+5936;Vösendorf-Siebenhirten
+5937;Schönbrunner Allee
+5938;Neu Erlaa
+5939;Inzersdorf Personenbahnhof
+5940;Gutheil-Schoder-Gasse
+5941;Schöpfwerk
+5942;Schedifkaplatz
+5943;Karlsplatz
+5944;Wolfganggasse
+5945;Wolfganggasse
+5946;Baden Landesklinikum
+5947;Baden Landesklinikum
+5950;Kagraner Platz
+5951;Rennbahnweg
+5952;Aderklaaer Straße
+5953;Aderklaaer Straße
+5954;Rennbahnweg
+5955;Kagraner Platz
+5956;Kliebergasse
+5957;Blechturmgasse
+5958;Südtiroler Platz S U
+5959;Blechturmgasse
+5960;Kliebergasse
+5961;Kagraner Platz U
+5962;Reumannplatz U
+5971;Urania
+5998;Mehrzweckhalle Oberlaa (Bedarfshaltestelle)
+5999;Mehrzweckhalle Oberlaa (Bedarfshaltestelle)
+6000;Altes Landgut
+6001;Bahnhof Kagran
+6002;Bahnhof Floridsdorf
+6003;Bahnhof Brigittenau
+6004;Bahnhof Gürtel
+6005;Bahnhof Hernals
+6006;Bahnhof Ottakring
+6007;Bahnhof Breitensee
+6008;Bahnhof Rudolfsheim
+6009;Bahnhof Speising
+6010;Bahnhof Favoriten
+6011;Bahnhof Simmering
+6012;Garage Vorgartenstraße A
+6013;Garage Grinzing Ausfahrt
+6014;Garage Spetterbrücke Aus
+6015;Garage Raxstraße
+6016;Gar. Leopoldau Ausfahrt
+6018;Bhf. WLW
+6019;SR Abstellplatz
+6021;ZK Abstellplatz
+6022;RP Abstellplatz
+6023;Praterstern Abstellplatz
+6024;Bahnhof Rudolfsheim (Bedarf)
+6025;Abstellplatz Stefan-Fadi
+6026;Abstellplatz der Linie 38
+6027;Abstellplatz
+6028;Rösslergasse Wagenhalle
+6029;OK Abstellplatz
+6030;Bhf. Michelbeuern
+6031;Abstellplatz Kagran 93A
+6032;Abstellplatz der Linie 7
+6033;SR Abstellplatz
+6034;Abstellplatz der Linie 13A
+6035;Abstellplatz Schleife Südbahnhof
+6036;Abstellplatz der Linie 1
+6037;Abstellplatz Kagran Platz
+6038;Abstellplatz der Linie 24A
+6039;Abstellplatz Linie 25A
+6040;Abstellplatz Kagran
+6041;Abstellplatz Kagran 93A
+6042;Abstellplatz der Linie 31A
+6043;Abstellplatz der Linie 40A
+6044;Abstellplatz 57A
+6045;Abstellplatz der Linie 59A
+6046;Abstellplatz der Linie 63A (Lobkowitzbrücke)
+6047;KP Abstellplatz
+6048;HF Abstellplatz
+6049;Abstellplatz der Linie 64
+6050;Abstellplatz der Linie 6
+6051;Abstellplatz der Linie 74A
+6052;Abstellplatz 39A
+6053;Abstellplatz Bhf. Heiligenstadt S U
+6054;Abstellplatz der Linie 67A
+6056;Abstellplatz der Linie N25
+6059;Abstellplatz der Linie N75
+6060;Abstellplatz der Linie 32A Großjedlersdorf
+6061;FL Abstellplatz
+6062;Wagenhalle Erd.
+6063;JO abgestellt
+6064;Abstellplatz der Linie 5A
+6065;Abstellplatz der Linie 28A Floridsdorf
+6066;Abstellplatz der Linie 29A Floridsdorf
+6067;Abstellplatz der Linie 83A
+6069;Abstellplatz Breitensee
+6070;Abstellplatz Rudolfsheim
+6071;Abstellplatz D Augasse
+6072;HI Abstellplatz
+6073;MH Abstellplatz
+6074;Abstellplatz der Linie 1
+6075;PH Abstellplatz
+6076;SA Abstellplatz
+6077;Abstellplatz Alterlaa U
+6078;Abstellplatz Alterlaa U
+6079;Abstellpl. 14A Reumannpl
+6080;favexp
+6081;Abstpl.  30A und 32A GJ
+6083;Abstellplatz für RBL HASTUS (IDENT mit Abstellplatz 74A)
+6084;Abstellplatz (N)35(A) RBL
+6085;Abstellplatz der Linie 7 Eichenstraße
+6086;Abstellplatz d. L. 70A
+6087;Abstellplatz der Linie 65A Garage Rax
+6091;Abstellplatz d. L. N31
+6092;Abstellplatz d. L. N46
+6094;Abstellplatz Heiligenstadt S U
+6097;Abstellplatz d. L. N41
+6098;Abstellplatz d. L. N31 Schottenring
+6099;Abstellplatz d. L. N62
+6100;Abstellplatz d. L. N58
+6101;Kaisermühlen Abstellplatz
+6102;Alte Donau Abstellgleis
+6103;Abstellplatz 34A
+6104;Abstellplatz 11A Elderschplatz
+6105;Schlachthausgasse U (Abstellplatz)
+6106;Gar. Leopoldau Abstellplatz
+6108;Bf Erdberg Halle 3
+6109;Bahnhof Ottakring
+6110;Bahnhof Favoriten Abstellplatz
+6111;Abstellplatz Oberlaa
+6114;Abstellplatz der Linie 65A
+6115;Garage Spetterbrücke
+6120;Abstellplatz Groß-Enzersdorf
+6122;pa. Aspernstraße
+6123;Abstellplatz Simmeringer Platz
+6125;Abstellplatz Hauptbahnhof 13A
+6126;Abstellplatz Bahnhof Simmering
+6127;Abstellplatz Schottenring 3A
+6132;Abstellplatz der Linie 13A Hauptbahnhof ab 2015
+6133;Abstellplatz der Linie 84A am Bushof Stadlau S U
+6134;Bahnhof Rudolfsheim Abstellplatz
+6135;Abstellplatz Siebenhirten
+6137;Abstellplatz Brünnerstr., Hanreiterg.
+6138;Abstellplatz Siebenhirten
+6140;Abstellplatz Zentralfriedhof 3. Tor
+6142;Abstellplatz Seestadt
+6143;Abstellplatz Leopoldau
+6144;Abstellplatz Hausfeldstraße
+6401;Bahnhof Kagran Kurzführung
+6402;Bahnhof Floridsdorf Kurzführung
+6403;Bahnhof Brigittenau Kurzführung
+6405;Bhf Hernals Kurzführung
+6406;Bhf.Otg.-Bedarf (Einzieher)
+6407;Bahnhof Rudolfsheim Kurzführung
+6408;Bahnhof Speising Kurzführung
+6409;Bahnhof Favoriten Kurzführung
+6410;Bhf.Simmering
+6501;Bahnhof Kagran
+6502;Bahnhof Floridsdorf
+6503;Bahnhof Brigittenau
+6504;Bahnhof Gürtel
+6505;Bahnhof Hernals
+6506;Bahnhof Ottakring
+6507;Bahnhof Breitensee
+6508;Bahnhof Rudolfsheim
+6509;Bahnhof Speising
+6510;Bahnhof Favoriten
+6511;Bahnhof Simmering
+6512;Garage Vorgartenstraße E
+6513;Garage Grinzing Einfahrt
+6514;Garage Spetterbrücke Ein
+6515;Garage Raxstraße Einfahr
+6516;Gar. Leopoldau Einfahrt
+6518;Bhf. Wasserleitungswiese
+6528;Rösslergasse Wagenhalle
+6530;Bhf. Michelbeuern
+6595;Kagraner Platz Abstellanlage
+7001;A2
+7003;Behelf
+7004;Behelf Otg III
+7005;AEW Wendeanlage
+7006;Signal 255 MB
+7008;Bhf.Rdh. / Halle III - A
+7009;Gleis 11 U3
+7041;Heiligenstadt
+7043;Heiligenstadt
+7050;Ottakring
+7300;Bahnhof Rudolfsheim Kurzführung Halle 3 Gleis 7
+7301;
+7302;
+7303;Vorgartenstraße
+7304;
+7305;
+7306;
+7307;
+7308;
+7309;
+7310;
+7311;
+7312;
+7313;
+7314;
+7315;Leopoldau
+7316;Karlsplatz
+7317;
+7318;
+7319;
+7320;
+7321;Rosensteingasse
+7322;Elterleinplatz
+7323;Palffygasse
+7324;Alser Straße
+7325;Hernalser Gürtel
+7326;Feßtgasse
+7327;Thaliastraße
+7338;Quellenstraße
+7339;Gudrunstraße
+7340;Anschützgasse
+7341;Westbahnhof
+7342;Laudongasse
+7343;Fendigasse
+7344;Ober St Veit
+7345;Weinhauser Gasse
+7346;Aumannplatz
+7347;Aspern Nord
+7348;Johann-Nepomuk-Berger-Platz
+7349;Schuhmeierplatz
+7350;Altmannsdorfer Straße
+7351;Rothenburgstraße
+7352;
+7353;
+7354;Karlsplatz
+7355;
+7356;
+7357;Hohenbergstraße
+7358;Nußdorfer Straße, Alserbachstraße
+7359;Ottakring SU
+7360;Maroltingergasse
+7361;Maroltingergasse
+7362;Stillfriedplatz
+7363;Lederergasse
+7364;Atzgersdorf, Bildungscampus
+7365;Atzgersdorf, Ziedlergasse
+7366;Gerbergasse
+7367;Schwarzhaidestraße
+7368;Hernals S
+7369;Dornbach
+7370;Dornbach
+7371;Hernals <
+7372;
+7373;Kutschkergasse
+7374;Kutschkergasse
+7375;Martinstraße
+7376;Martinstraße
+7377;Aumannplatz
+7378;Aumannplatz
+7379;Aumannplatz
+7380;Weinhauser Gasse
+7381;Süßenbrunner Straße, Oberfeldgasse
+7382;Süßenbrunner Straße, Oberfeldgasse
+7383;Spargelfeldstraße
+7384;Spargelfeldstraße
+7385;Ziegelhofstraße
+7386;Frederick-Loewe-Weg
+7387;Prinzgasse
+7388;Zanggasse
+7389;Zanggasse
+7390;
+7391;Am Schöpfwerk >
+7392;Zanaschkagasse
+7393;Ilse-Buck-Straße
+7394;Seestadt U
+7395;Ilse-Buck-Straße
+7396;Eichenstraße
+7397;Mariahilfer Gürtel
+7398;Mariahilfer Gürtel
+7399;Atzgersdorf. Ziedlergasse
+7404;Piaristengasse
+7412;Salztorbrücke
+7416;Fasangasse
+7417;Heinrich-Drimmel-Platz
+7418;Schweizer-Garten-Straße
+7419;Kaiserebersdorf, Münnichplatz
+7420;Vorgartenstraße U
+7421;Walcherstraße
+7422;Walcherstraße
+7500;Behelf
+7503;Behelf Eßling
+7504;Behelf Siegesplatz
+7524;Bhf.Gtl., Bedarfshaltest
+7526;Quartier Belvedere S (Expedit)
+7531;Wexstraße (Bedarf)
+7537;Beethovengang (Sprsp.)
+7540;Wexstraße (Bedarf)
+7541;Zentralfriedhof 3.Tor
+7542;Bhf.Otg.-Bedarf (Einzieher)
+7548;Karlsplatz U  ( Museeu
+7549;Oberdorfstraße (Sprsp.)
+7550;Baumgarten (Sprsp.)
+7551;Joachimsthalerplatz
+7552;Josefstädter Straße U
+7553;Dummy
+7556;Leberschleife
+7599;Baumgarten
+7681;Am Schöpfwerk
+7682;Am Schöpfwerk
+7683;Erlaaer Straße
+7684;Erlaaer Straße
+7685;Perfektastraße
+7701;Schwedenplatz U
+7702;Schwedenplatz U
+7703;Gredlerstraße
+7704;Winckelmannstraße
+8000;Glatzgasse
+8004;Viktor-Wittner-Gasse
+8005;Kahlergasse
+8006;Eßling, Friedhof
+8007;Adam-Betz-Gasse
+8008;Lieglerstraße
+8009;Deindorfstraße
+8010;Eßling, Schippanisiedlung
+8011;Schoeppelgasse
+8012;Gernotgasse
+8013;Dörmanngasse
+8014;Niklas-Eslarn-Straße
+8015;Wehrbrücklstraße
+8016;Michelbeuern U AKH
+8017;Memlinggasse
+8023;Teiläckergasse
+8024;Hänischgasse
+8026;Ziffererstraße
+8027;Niklas-Eslarn-Straße
+8028;Dörmanngasse
+8029;Gernotgasse
+8035;Eßling, Friedhof
+8036;Eßling, Schule
+8037;Simonsgasse
+8038;Kirschenallee
+8039;Viktor-Wittner-Gasse
+8040;Duchekgasse
+8041;Ultzmanngasse
+8044;Donaustadtbrücke
+8045;Donaustadtbrücke
+8046;Wehrbrücklstraße, Gernotgasse
+8047;Rosenbergstraße
+8048;Eßling, Friedhof
+8049;Simonsgasse
+8050;Hardeggasse U
+8051;Hardeggasse U
+8052;In der Au
+8053;In der Au
+8054;Aspernstraße U
+8055;Aspernstraße U
+8056;Aspernstraße, Oberdorfstraße
+8057;Dampfkraftwerk-Donaustadt
+8058;Primavesigasse
+8059;Mayredergasse
+8060;Fuchsenzeile
+8061;Podhagskygasse
+8062;Schukowitzgasse
+8063;Pfalzgasse
+8064;Ginsterweg
+8065;Breitenlee, Ort
+8066;Lackenjöchelgasse
+8067;Scheedgasse
+8068;Pirquetgasse
+8069;Resedaweg
+8070;Margeritenweg
+8071;Kornblumenweg
+8072;Scheedgasse
+8073;Neu Breitenlee
+8074;Schukowitzgasse
+8075;Kieslerweg
+8076;Marderweg
+8077;Schierlinggrundbrücke
+8078;Orchisgasse
+8079;Wulzendorfstraße
+8080;Hirschstetten, Süßenbrunner Straße
+8081;Oberfeldgasse, Spargelfeldstraße
+8082;Eibischweg
+8083;Bibernellweg
+8084;Kapellergasse
+8085;Breitenlee, Spargelfeldstraße
+8086;Spargelfeldstraße Nord
+8087;Breitenlee, Rautenweg
+8088;Oleandergasse
+8089;Pelargonienweg
+8090;Fuchsienweg
+8091;Am Rain
+8092;Breitenlee, Ziegelhofstraße
+8093;Pichlgasse
+8094;Kapellergasse
+8095;Karl-Bednarik-Gasse
+8096;Badeteich Hirschstetten
+8097;Am Krautgarten
+8098;Langobardenstraße
+8099;Wulzendorfstraße
+8100;Binsenweg
+8101;Schütthäufel
+8102;Korbweidenweg
+8103;Hardeggasse U
+8104;Hardeggasse U
+8105;Einsiedeleigasse
+8106;Seifertstraße
+8107;Ghelengasse
+8108;St. Veiter Tor
+8109;Ghelengasse
+8110;Stock im Weg
+8111;Gemeindeberggasse
+8112;Gobergasse
+8113;Wolkersbergenstraße
+8114;Ratmannsdorfgasse
+8115;Veitingergasse
+8116;Tolstojgasse
+8117;Schrutkagasse
+8118;Rossinigasse
+8119;Hietzing U
+8120;Am Platz
+8121;Tiroler Gasse
+8122;Montecuccoliplatz
+8123;Stranzenberggasse
+8124;Atzgersdorfer Straße
+8125;Pensionistenwohnhaus Hetzendorf
+8126;Dorfmeistergasse
+8127;Gernotgasse
+8128;Pensionistenwohnhaus Rosenberg
+8129;Schluckergasse
+8130;Pfaumengasse
+8131;Tullnertalgasse
+8132;Endemanngasse
+8133;Pensionistenwohnhaus Atzgersdorf
+8134;Bhf. Atzgersdorf S
+8135;Maurer Friedhof
+8136;Franz-Asenbauer-Gasse
+8137;Heudörfelgasse
+8138;Mayredergasse
+8139;Aspern Nord S U
+8140;Ostbahnbegleitstraße
+8141;Ostbahnbegleitstraße
+8143;Hietzing U
+8144;Ennsgasse
+8145;Gebirgsgasse
+8162;Steigenteschgasse
+8163;Mariahilfer Straße, Geibelgasse
+8164;Agavenweg
+8165;Fuchsenzeile
+8166;Fuchsenzeile
+8167;Aspern Nord S U, Mayrederbrücke
+8168;Aspern Nord S U, Mayrederbrücke
+8169;Aspern Nord S U,
+8198;Polgarstraße
+8199;Rosenackerstraße
+8200;Dornbach
+8201;Steinmüllergasse
+8202;Jenschikweg
+8203;Umlauftgasse
+8204;Spinozagasse
+8207;Jenschikweg
+8208;Spinozagasse
+8209;Karl-Metschl-Gasse
+8210;Vorderhainbach, Augustinerwaldgasse
+8211;Trollwiese
+8212;Roßkopfgasse, Hainbachgasse
+8213;Hainbachgasse
+8214;Laskywiesengasse
+8215;Hinterhainbach
+8216;Roßkopfgasse
+8217;Trollwiese
+8218;Vorderhainbach, Augustinerwaldgasse
+8480;Rosannagasse
+8481;Frohes-Schaffen-Weg
+8482;Tauschekgasse
+8483;Petritschgasse
+8484;Leopoldau, Betriebsgarage
+8485;Trillergasse
+8486;Brünner Straße <
+8487;Ignaz-Köck-Straße
+8488;Ignaz-Köck-Straße
+8489;Brünner Straße <
+8490;Leopoldau, Betriebsgarage
+8491;Petritschgasse
+8492;Tauschekgasse
+8493;Frohes-Schaffen-Weg
+8494;Rosannagasse
+8495;Großjedlersdorf
+8501;Schüttauplatz
+8502;Harrachgasse
+8503;Neue Donau Mitte
+8504;Mendelssohngasse
+8505;Neue Donau Mitte
+8506;Dampfschiffhaufen
+8507;Donaustadtbrücke U
+8509;Kleehäufel
+8510;Raffineriestraße, Ostbahnbrücke
+8511;Kierischitzweg
+8512;Dampfkraftwerk
+8513;Raffineriestraße, Biberhaufenweg
+8514;Frachtenbahnhof Lobau
+8515;Panozzalacke
+8516;Lobgrundstraße
+8518;Finsterbuschstraße, Nord
+8519;Finsterbuschstraße, Mitte
+8520;Finsterbuschstraße, Öllager
+8521;Ölhafen
+8522;Finsterbuschstraße, Öllager
+8523;Finsterbuschstraße, Mitte
+8524;Finsterbuschstraße, Nord
+8525;Zentraltanklager
+8526;Lobgrundstraße
+8527;Panozzalacke
+8528;Frachtenbahnhof Lobau
+8529;Raffineriestraße, Biberhaufenweg
+8530;Dampfkraftwerk
+8531;Kierischitzweg
+8532;Raffineriestraße, Ostbahnbrücke
+8533;Kleehäufel
+8535;Donaustadtbrücke U
+8536;Dampfschiffhaufen
+8537;Kaisermühlenstraße
+8538;Mühlwasserstraße
+8539;Kanalstraße
+8540;Strandbad Stadlau
+8541;Wohnpark Lobau
+8542;Stadlauer Friedhof
+8543;Ehrenpreisgasse
+8544;Tamariskengasse
+8545;Wulzendorfstraße
+8546;Orchisgasse
+8547;Binsenweg
+8548;Schierlinggrundbrücke
+8549;Schütthäufel
+8550;Ulanenweg
+8551;Husarenweg
+8552;Naufahrtbrücke
+8553;Großer Biberhaufen
+8554;Mühlwasser
+8555;Brockhausengasse
+8556;Mühlhäufelweg
+8557;Plattensteinergasse
+8558;Haßlwanderweg
+8559;Stavangergasse
+8560;Seidelbastgasse
+8561;Wulzendorfstraße
+8562;Tamariskengasse
+8563;Ehrenpreisgasse
+8564;Stadlauer Friedhof
+8565;Sanddorngasse
+8566;Wohnpark Lobau
+8567;Strandbad Stadlau
+8568;Kanalstraße
+8569;Franz-Pletersky-Weg
+8570;Mühlwasserstraße
+8571;Kaisermühlenstraße
+8576;Benatzkygasse
+8583;Kanalstraße
+8584;Zillbauerplatz
+8585;Schillwasserweg
+8586;Rallenweg
+8587;An der Bien
+8588;Lobaugasse
+8589;Danzergasse
+8590;Asperner Heldenplatz
+8591;Oberdorfstraße
+8592;Plattensteinergasse
+8593;Danzergasse
+8594;Lobaugasse
+8595;An der Bien
+8596;Brockhausengasse
+8597;Mühlwasser
+8598;Großer Biberhaufen
+8599;Naufahrtbrücke
+8600;Husarenweg
+8601;Rallenweg
+8602;Schillwasserweg
+8603;Zillbauerplatz
+8604;Fischergrund
+8605;Eisstoßgasse
+8606;Siedlung Sonnheim
+8607;Siedlung Einigkeit
+8608;Veitschiweg
+8609;Steinbrechergasse
+8610;Arminenstraße
+8611;Kagran >
+8612;Steigenteschgasse
+8613;Portnergasse
+8614;Mergenthalerplatz
+8615;Freihofsiedlung
+8616;Kagraner Anger
+8617;Neukagran
+8618;Siebenbürgerstraße
+8620;Erzherzog-Karl-Straße <
+8621;Smolagasse
+8623;Schreinerweg
+8624;Siebenbürgerstraße
+8625;Neukagran
+8626;Kagraner Anger
+8627;Freihofsiedlung
+8628;Mergenthalerplatz
+8629;Portnergasse
+8630;Aspernstraße, Oberdorfstraße
+8631;Goldregengasse
+8632;Pilotengasse
+8633;Reglergasse
+8634;An den alten Schanzen
+8635;Kornblumenweg
+8636;Hagedornweg
+8637;Hausfeldstraße U
+8638;Kornblumenweg
+8640;An den alten Schanzen
+8641;Reglergasse
+8642;Aurikelweg
+8643;Soldanellenweg
+8644;Haberlandtgasse
+8645;Hirschstetten, Ort
+8646;Mühlau
+8647;Donaustadtbrücke U
+8648;Donaustadtbrücke U
+8649;Haschafeld
+8651;Aspernstraße, Oberdorfstraße
+8652;Oberdorfstraße
+8653;Heustadelgasse, Schule
+8654;Hoechlegasse
+8655;Jägermaiszufahrt
+8656;Heustadelgasse
+8657;Auspitzgasse
+8658;Mühlau
+8659;Leidlweg
+8660;Dumreichergasse
+8661;Bambergergasse
+8664;Duchekgasse
+8673;Bambergergasse
+8674;Dumreichergasse
+8675;Arztgasse
+8676;Haengasse
+8677;Auspitzgasse
+8678;Heustadelgasse
+8679;Jägermaiszufahrt
+8680;Hoechlegasse
+8681;Heustadelgasse, Schule
+8682;Aspernstraße U
+8683;Aspernstraße U
+8685;Aspernstraße U
+8687;Eßling, Schule
+8688;Franz-Pletersky-Weg
+8689;Harrachgasse
+8691;Otto-Weber-Gasse
+8692;Aspern, Sportplatz
+8693;Aspern, Sportplatz
+8694;Pfalzgasse
+8695;Lackenjöchelgasse
+8696;Breitenlee, Ort
+8697;Im Gestockert
+8698;Im Gestockert
+8699;Otto-Weber-Gasse
+8730;Lange Allee
+8731;Deinleingasse
+8732;Angelibad
+8733;Stadlau < >
+8734;Angelibad
+8735;Deinleingasse
+8736;Schreinerweg
+8750;Bhf. Meidling S U, Schedifkaplatz
+8752;Am Hubertusdamm
+8753;Am Hubertusdamm
+8754;Neue Donau U
+8755;Kugelfanggasse
+8756;Josef-Melichar-Gasse
+8757;Friedstraße
+8758;Warhanekgasse
+8759;Wildbadgasse
+8760;Wildbadgasse
+8761;Donauturm
+8762;Donauturm
+8763;Verbindungsweg
+8764;Verbindungsweg
+8765;Donau-City-Nord
+8766;Donau-City-Nord
+8767;Alte Donau U
+8768;Alte Donau U
+8769;Bundessportbad
+8770;Bundessportbad
+8771;Strandbad Alte Donau
+8772;Strandbad Alte Donau
+8773;ArbeiterInnenstrand
+8774;ArbeiterInnenstrand
+8775;Warhanekgasse
+8776;Friedstraße
+8777;Josef-Melichar-Gasse
+8778;Sandrockgasse
+8779;Frömmlgasse
+8780;Frömmlgasse
+8781;Floridsdorf SU
+8782;Dunantgasse
+8783;Jedlesee, Bellgasse
+8784;Jeneweingasse
+8785;Jeneweingasse
+8786;Anton-Bosch-Gasse
+8787;Anton-Bosch-Gasse
+8788;Jedleseer Friedhof
+8789;Jedleseer Friedhof
+8790;Jedlesee, Überfuhrstraße
+8791;Jedlesee, Überfuhrstraße
+8792;Meyerbeergasse
+8793;Meyerbeergasse
+8794;Zallingergasse
+8795;Zallingergasse
+8796;Voltelinistraße
+8797;Voltelinistraße
+8798;Schwarzlackenau
+8799;Schwarzlackenau
+8800;Segelzentrum Nord
+8801;Segelzentrum Nord
+8802;Lohnergasse
+8803;Lohnergasse
+8804;Hoffherr-Schrantz-Gasse
+8805;Hofherr-Schrantz-Gasse
+8806;Vohburggasse
+8807;Vohburggasse
+8808;Strohbogasse
+8810;Tonfabrikgasse
+8811;Tonfabrikgasse
+8812;Bhf. Strebersdorf S
+8813;Stryeckgasse
+8814;Freyenthurmgasse
+8815;Wolfersbergbrücke
+8816;Hüttelbergstraße, Campingplatz
+8817;Ulmenstraße
+8818;Schottenwald
+8819;Hanslteich
+8820;Schwarzenbergallee
+8821;Artariastraße
+8822;Keylwerthgasse
+8823;Keylwerthgasse
+8824;Artariastraße
+8825;Schwarzenbergallee
+8826;Hanslteich
+8827;Schottenwald
+8828;Ottakring SU
+8829;Hüttelbergstraße, Campingplatz
+8830;Wolfersbergbrücke
+8831;Freyenthurmgasse
+8832;Bergmillergasse
+8833;Hernals, Wattgasse
+8834;Hernals S
+8835;Hernalser Friedhof
+8836;Czartoryskigasse
+8837;Krenngasse
+8838;Gersthofer Friedhof
+8839;Schöberweg
+8840;Kleingartenverein Alsrückenweg
+8841;Twarochgasse
+8842;Schafberg, Werfelstraße
+8843;Schafbergbad
+8844;Schafberghöhe
+8845;Schafberghöhe
+8846;Schafberg, Werfelstraße
+8847;Twarochgasse
+8848;Kleingartenverein Alsrückenweg
+8849;Schöberweg
+8850;Gersthofer Friedhof
+8851;Krenngasse
+8852;Alsegger Straße, Czartoryskigasse
+8853;Alsegger Straße, Czartoryskigasse
+8854;Neuwaldegger Straße
+8855;Geroldgasse
+8856;Marswiese
+8857;Promenadeweg
+8858;Obere Waldandacht
+8859;Dreimarkstein
+8860;Höhenstraße, Rohrerwiese
+8861;Höhenstraße, Rohrerwiese
+8862;Dreimarkstein
+8863;Obere Waldandacht
+8864;Promenadeweg
+8865;Keylwerthgasse
+8866;Marswiese
+8867;Geroldgasse
+8868;Neuwaldegger Straße
+8869;Hernals S
+8872;Heuberggasse
+8873;Braungasse
+8874;Wallishaussergasse
+8875;Eselstiege
+8876;Kretschekgasse
+8877;Röntgengasse
+8878;Schrammelgasse
+8879;Heuberg
+8880;Plachygasse
+8881;Siedlung Heuberg
+8882;Pointengasse
+8883;Grasgasse
+8884;Mitterberg
+8885;Grabengasse
+8886;Moosgasse
+8887;Plachygasse
+8888;Heuberg
+8889;Röntgengasse
+8890;Kretschekgasse
+8891;Eselstiege
+8892;Wallishaussergasse
+8893;Braungasse
+8894;Heuberggasse
+8895;Dornbacher Straße
+8896;Dornbach, Güpferlingstraße
+8897;Ottakring SU
+8898;Ottakring SU
+8899;Gallitzinstraße, Friedhof
+8900;Funkengerngasse
+8901;Liebhartstal
+8902;Funkengerngasse
+8903;Gallitzinstraße
+8904;Stillfriedplatz
+8905;Steinlegasse
+8906;Ottakringer Bad
+8907;Pönningerweg
+8908;Hansl-Schmid-Weg
+8909;Hertlgasse
+8910;Feuerwache Am Steinhof
+8911;Feuerwache Am Steinhof
+8912;Savoyenstraße, Koenig-Promenade
+8913;Wilhelminenberg
+8914;Predigtstuhl
+8915;Otto-Hölzl-Weg
+8916;Kempfengerngasse
+8917;Paulinensteig
+8918;Kollburggasse
+8919;Sandleitengasse
+8920;Sandleitengasse
+8921;Kollburgggasse
+8922;Paulinensteig
+8923;Kempfengerngasse
+8924;Otto-Hölzl-Weg
+8925;Oberwiedenstraße
+8926;Predigtstuhl
+8927;Wilhelminenberg
+8928;Savoyenstraße
+8929;Hertlgasse
+8930;Hansl-Schmid-Weg
+8931;Pönningerweg
+8932;Ottakringer Bad
+8933;Steinlegasse
+8934;Gallitzinstraße
+8935;Bhf. Hütteldorf SU
+8936;Pfeiffenbergergasse
+8937;Seuttergasse
+8938;Innocentiagasse
+8939;Schweizertalgasse
+8940;Wolfrathplatz
+8941;Rohbacherstraße
+8942;Preindlgasse
+8943;Unter St. Veit, Verbindungsbahn
+8944;Unter St. Veit, Verbindungsbahn
+8945;Preindlgasse
+8946;Rohrbacherstraße
+8947;Wolfrathplatz
+8948;Schweizertalgasse
+8949;Innocentiagasse
+8950;Seuttergasse
+8951;Pfeiffenbergergasse
+8952;Preindlgasse
+8953;Horeischygasse
+8954;Gogolgasse
+8955;Toistojgasse
+8956;Veitingergasse
+8957;Wolkersbergenstraße
+8958;Wlassakstraße
+8959;Lafitegasse
+8960;Reischergasse
+8961;Josef-Lister-Gasse
+8962;Wlassakstraße
+8963;Gobergasse
+8964;Gemeindeberggasse
+8965;Stock im Weg
+8966;Ghelengasse
+8967;Seifertgasse
+8968;Einsiedeleigasse
+8969;Angermayergasse
+8970;Ratmannsdorfgasse
+8971;Jedlesee, Bellgasse
+9000;Dummy 1
+9001;Dummy 2
+9002;Dummy 3
+9003;Dummy 4
+9004;Dummy 5
+9005;Dummy 6
+9006;Dummy 6
+9007;Floridsdorf S U, Franz-Jonas-Platz
+9008;Matthäus-Jiszda-Straße
+9009;Hubertusdamm
+9010;Dummy 10
+9011;Friedrich-Engels-Platz
+9012;Dummy 12
+9013;Dummy 13
+9016;Dummy 14A Reumannplatz
+9100;Praterstern
+9101;Traisengasse
+9102;Traisengasse
+9103;KUNSTHAUS WIEN , SAMMLUNG HORKY
+9104;STUBENTOR (U3),
+9105;KARLSPLATZ / OPER (U1/U4)
+9106;21er Haus
+9107;GEMÄLDEGALERIE,  SECESSION
+9108;ALBERTINA MODERN
+9109;A.SCHÖNBERG CENTER, SCHACH IM HAUS D. SPORTS
+9110;HEERESGESCHICHTLICHES MUSEUM
+9111;OBERES BELVEDERE
+9112;OBERES BELVEDERE
+9113;SCHACH IM HAUS D. SPORTS
+9114;ROCHUSGASSE (U3), BEZIRKSMUS. LANDSTRASSE
+9115;WIEN MITTE (U3/U4)
+9116;HERNALS ( S45 ) LINIE 43
+9117;GARTENPALAIS LIECHTENSTEIN
+9118;VOLKSTHEATER (U2/U3)
+9119;BM JOSEFSTADT, WEIN- SCHATZKAMMER, HUTMUSEUM
+9120;VOLKSKUNDEMUSEUM WIEN
+9121;WIENER SCHUHMUSEUM
+9122;JOSEFSTÄDTER STRASSE (U6)
+9123;SCHOTTENTOR ( U2 )
+9124;PATHOL.-ANATOM. SAMMLUNG ZAHNMUSEUM WIEN
+9125;GELDMUSEUM DER OENB Ö. PHARMA-/DROGISTENMUS
+9126;GELDMUSEUM,SIGMUND FREUD MUSEUM, Ö. PHARMAMUSEUM
+9127;
+9128;WÄHRINGER STRASSE, VOLKSOPER (U6)
+9129;BEZIRKSMUSEUM WÄHRING
+9130;ALSER STRASSE U
+9131;A.SCHÖNBERG C, EXIL.ARTE
+9132;PATHOLOGISCH- ANATOMISCHE SAMMLUNG
+9133;
+9134;ALTERLAA (U6)
+9135;SCHOKOMUSEUM ( HEINDL )
+9136;SCHÖNBRUNN  ( U4 )
+9137;TECHNISCHES MUSEUM WIEN
+9138;RENNBAHNWEG (U1)
+9139;SIGMUND FREUD MUSEUM
+9140;RENNBAHNWEG (U1)
+9141;RENNBAHNWEG (U1)
+9142;RENNBAHNWEG (U1)
+9143;RENNBAHNWEG (U1)
+9144;RENNBAHNWEG (U1)
+9145;RENNBAHNWEG (U1)
+9146;
+9147;
+9148;BEZIRKSM. JOSEFSTADT WEINSCHATZK., HUTMUSEUM
+9149;BELVEDERE 21,, FLIP
+9150;BEZIRKSM. JOSEFSTADT WEINSCHATZK., HUTMUSEUM
+9151;ALBERTINA MODERN, KÜNSTLERHAUS VEREINIGUNG
+9152;BEZIRKSM. JOSEFSTADT WEINSCHATZK., HUTMUSEUM
+9153;SCHWEDENPLATZ ( U1, U4 )
+9154;48-ER  MUSEUM
+9155;
+9156;SCHOTTENTOR ( U2 )
+9157;SECESSION, 3D PICART MUSEUM
+9158;Lemböckgasse
+9159;Lemböckgasse
+9160;Alaudagasse
+9161;Rothneusiedl
+9162;Stockholmer Platz
+9163;Per-Albin-Hansson-Siedlung-Ost
+9164;Rothneusiedl
+9165;Stockholmer Platz
+9166;Ada-Christen-Gasse
+9167;Alaudagasse
+9168;ALSER STRASSE ( U6 )
+9169;ERSTES WIENER SCHULMUSEUM
+9170;48-ER  MUSEUM
+9171;Altmannsdorfer Straße
+9172;
+9173;
+9174;
+9175;
+9176;
+9177;
+9178;
+9179;ARTEUM, WIENER RETTUNGSMUSEUM
+9180;
+9181;
+9182;
+9183;
+9184;
+9185;
+9186;
+9187;
+9188;
+9189;ORIGINAL WIENER SCHNEEKUGELMUSEUM
+9200;Prov. Bhf. Rax
+9201;Prov. Bhf. Rax
+9202;Prov. Bhf. Rax 14A
+9203;Prov. Bhf. Rax 14A
+9300;Freiheitsplatz
+9301;Stammersdorfer Straße, Pfarrhof
+9302;Pfarrer-Matz-Gasse
+9303;Dr.-Nekowitsch-Straße
+9304;Strebersdorfer Straße
+9305;Pfarrer-Matz-Gasse
+9306;Stammersdorfer Straße, Pfarrhof
+9400;Hbf/Busbahnhof
+9401;Herzog Leopol-Str.
+9402;Domplatz
+9403;Hauptplatz
+9404;Bahngasse/Leiner
+9405;Bahngasse/Kasematten
+9415;Ollersbach
+9416;Kirchstetten
+9417;Böheimkirchen
+9418;Pottenbrunn
+9465;Ollersbach
+9466;Kirchstetten
+9467;Böheimkirchen
+9468;Pottenbrunn
+9499;Wien Mitte-Landstraße [CAT]
+9500;Rochusgasse (DUMMY Marathon)
+9501;Westbahnhof
+9502;Hütteldorf
+9503;Penzing
+9504;Breitensee
+9505;Ottakring
+9506;Hernals
+9507;Gersthof
+9508;Krottenbachstraße
+9509;Oberdöbling
+9510;Franz-Josefs-Bahnhof
+9511;Spittelau
+9512;Heiligenstadt
+9525;Flughafen Wien
+9562;Meidling
+9563;Matzleinsdorfer Platz
+9564;Hauptbahnhof [tief/Tunnel, Gleise 1+2]
+9565;Hauptbahnhof [hoch/Hauptebene, Gleise 3-12]
+9566;Quartier Belvedere
+9567;Rennweg
+9568;Wien Mitte-Landstraße [Gleise 1-4]
+9569;Praterstern
+9570;Traisengasse
+9571;Handelskai [hoch/Hauptebene, Gleise 1+2]
+9572;Handelskai [tief/S45, Gleise 11+12]
+9573;Floridsdorf
+9651;St. Pölten Hauptbahnhof
+9672;Wolf in der Au
+9673;Hadersdorf
+9674;Weidlingau
+9675;Purkersdorf Sanatorium
+9676;Unterpurkersdorf
+9677;Purkersdorf Zentrum
+9678;Untertullnerbach
+9679;Tullnerbach-Pressbaum
+9680;Pressbaum
+9681;Dürrwien
+9682;Rekawinkel
+9683;Eichgraben-Altlengbach
+9684;Unteroberndorf
+9685;Maria Anzbach
+9686;Hofstatt
+9687;Neulengbach Stadt
+9688;Neulengbach
+9702;Hütteldorf
+9703;Penzing
+9704;Breitensee
+9705;Ottakring
+9706;Hernals
+9707;Gersthof
+9708;Krottenbachstraße
+9709;Oberdöbling
+9710;Franz-Josefs-Bahnhof
+9711;Spittelau
+9712;Heiligenstadt
+9762;Meidling
+9763;Matzleinsdorfer Platz
+9764;Hauptbahnhof [tief/Tunnel, Gleise 1+2]
+9765;Hauptbahnhof [hoch/Hauptebene, Gleise 3-12]
+9766;Quartier Belvedere
+9767;Rennweg
+9768;Wien Mitte-Landstraße [Gleise 1-4]
+9769;Praterstern
+9770;Traisengasse
+9771;Handelskai [hoch/Hauptebene, Gleise 1+2]
+9772;Handelskai [tief/S45, Gleise 11+12]
+9773;Floridsdorf
+9851;St. Pölten Hauptbahnhof
+9872;Wolf in der Au
+9873;Hadersdorf
+9874;Weidlingau
+9875;Purkersdorf Sanatorium
+9876;Unterpurkersdorf
+9877;Purkersdorf Zentrum
+9878;Untertullnerbach
+9879;Tullnerbach-Pressbaum
+9880;Pressbaum
+9881;Dürrwien
+9882;Rekawinkel
+9883;Eichgraben-Altlengbach
+9884;Unteroberndorf
+9885;Maria Anzbach
+9886;Hofstatt
+9887;Neulengbach Stadt
+9888;Neulengbach
+9900;Salmannsdorf Dummy
+9989;Bhf. Hetzendorf, Altmann
+9999;Test Bahnhof Simmering Schleife
