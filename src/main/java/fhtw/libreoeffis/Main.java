@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Hauptklasse der LibreOeffis-Applikation.
  * Startet die JavaFX-GUI zur Eingabe von Stop-IDs, zeigt die Echtzeitdaten,
- * die Routenplanung und die Übersicht der Transportmittel an.
+ * die Routenplanung, die Übersicht der Transportmittel und die Test-Stop-IDs an.
  */
 public class Main extends Application {
 
@@ -137,8 +137,30 @@ public class Main extends Application {
             }).start();
         });
 
+        // Bereich 4: Test-Stop-IDs anzeigen
+        VBox testStopsBox = new VBox(10);
+        testStopsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+        Label lblTestStops = new Label("Muster-Stop-IDs für Tests:");
+        TextArea testStopsOutput = new TextArea();
+        testStopsOutput.setEditable(false);
+
+        String testStopsData = "Linie U6:\n" +
+                "- Siebenhirten: 4600\n" +
+                "- Floridsdorf: 4623\n" +
+                "- Gumpendorfer Straße: 4609\n" +
+                "- Josefstädter Straße: 4613\n" +
+                "- Spittelau: 4618\n\n" +
+                "Linie 11A:\n" +
+                "- Heiligenstadt: 1140\n" +
+                "- Michelbeuern-AKH: 1141\n" +
+                "- Gersthof: 1142\n" +
+                "- Hernals: 1143\n";
+
+        testStopsOutput.setText(testStopsData);
+        testStopsBox.getChildren().addAll(lblTestStops, testStopsOutput);
+
         // Hauptlayout zusammenstellen
-        mainBox.getChildren().addAll(realtimeBox, transportBox, routeBox);
+        mainBox.getChildren().addAll(realtimeBox, transportBox, routeBox, testStopsBox);
         root.setCenter(mainBox);
 
         // Erstelle die Scene und zeige das Fenster
