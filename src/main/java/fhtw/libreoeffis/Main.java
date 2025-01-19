@@ -6,11 +6,13 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import org.json.JSONObject;
+import java.util.List;
 
 /**
  * Hauptklasse der LibreOeffis-Applikation.
- * Startet die JavaFX-GUI zur Eingabe von Stop-IDs, Start- und Zielhaltestellen
- * und zeigt die Echtzeitdaten sowie die Routenplanung an.
+ * Startet die JavaFX-GUI zur Eingabe von Stop-IDs, zeigt die Echtzeitdaten,
+ * die Routenplanung und die Übersicht der Transportmittel an.
  */
 public class Main extends Application {
 
@@ -26,7 +28,7 @@ public class Main extends Application {
             return;
         }
 
-        primaryStage.setTitle("LibreOeffis - Routenplaner");
+        primaryStage.setTitle("LibreOeffis - Öffentliche Verkehrsmittel");
 
         // Hauptlayout
         BorderPane root = new BorderPane();
@@ -52,19 +54,61 @@ public class Main extends Application {
                 return;
             }
 
-            try {
-                String daten = api.getEchtzeitDaten(stopId);
-                if (daten.trim().isEmpty()) {
-                    realtimeOutput.setText("Keine Daten verfügbar.");
-                } else {
-                    realtimeOutput.setText("Echtzeitdaten für Stop-ID " + stopId + ":\n" + daten);
+            // Abruf der Echtzeitdaten im Hintergrund
+            new Thread(() -> {
+                try {
+                    String formattedData = api.getFormattedEchtzeitDaten(stopId);
+                    javafx.application.Platform.runLater(() -> realtimeOutput.setText(formattedData));
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> realtimeOutput.setText("Fehler: " + e.getMessage()));
                 }
-            } catch (Exception e) {
-                realtimeOutput.setText("Fehler: " + e.getMessage());
-            }
+            }).start();
         });
 
-        // Bereich 2: Routenplanung
+        // Bereich 2: Transportmittel anzeigen
+        VBox transportBox = new VBox(10);
+        transportBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+        Label lblTransport = new Label("Transportmittel Übersicht:");
+        Label lblTransportStopId = new Label("Stop-ID:");
+        TextField txtTransportStopId = new TextField();
+        Button btnTransport = new Button("Transportmittel anzeigen");
+        TextArea transportOutput = new TextArea();
+        transportOutput.setEditable(false);
+        transportBox.getChildren().addAll(lblTransport, lblTransportStopId, txtTransportStopId, btnTransport, transportOutput);
+
+        btnTransport.setOnAction(event -> {
+            String stopId = txtTransportStopId.getText().trim();
+
+            if (stopId.isEmpty()) {
+                transportOutput.setText("Bitte geben Sie eine Stop-ID ein.");
+                return;
+            }
+
+            // Abruf der Transportmittel im Hintergrund
+            new Thread(() -> {
+                try {
+                    String rawData = api.getEchtzeitDaten(stopId);
+                    JSONObject apiData = new JSONObject(rawData).getJSONObject("data");
+                    List<Transportmittel> transportmittelList = TransportmittelHelper.parseTransportmittel(apiData);
+
+                    if (transportmittelList.isEmpty()) {
+                        javafx.application.Platform.runLater(() -> transportOutput.setText("Keine Transportmittel verfügbar."));
+                        return;
+                    }
+
+                    StringBuilder details = new StringBuilder("Transportmittel an der Haltestelle:\n");
+                    for (Transportmittel t : transportmittelList) {
+                        details.append("- ").append(t.getDetails()).append("\n");
+                    }
+
+                    javafx.application.Platform.runLater(() -> transportOutput.setText(details.toString()));
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> transportOutput.setText("Fehler: " + e.getMessage()));
+                }
+            }).start();
+        });
+
+        // Bereich 3: Routenplanung
         VBox routeBox = new VBox(10);
         routeBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblRoute = new Label("Routenplanung:");
@@ -78,29 +122,31 @@ public class Main extends Application {
         routeBox.getChildren().addAll(lblRoute, lblStart, txtStart, lblZiel, txtZiel, btnRoute, routeOutput);
 
         btnRoute.setOnAction(event -> {
-            String start = txtStart.getText().trim();
-            String ziel = txtZiel.getText().trim();
+            String startStopId = txtStart.getText().trim();
+            String zielStopId = txtZiel.getText().trim();
 
-            if (start.isEmpty() || ziel.isEmpty()) {
-                routeOutput.setText("Bitte geben Sie sowohl Start- als auch Ziel-Stop-ID ein.");
+            if (startStopId.isEmpty() || zielStopId.isEmpty()) {
+                routeOutput.setText("Bitte geben Sie sowohl eine Start- als auch eine Ziel-Stop-ID ein.");
                 return;
             }
 
-            try {
-                // Routenberechnung mit der API
-                String route = api.calculateRoute(start, ziel);
-                routeOutput.setText(route);
-            } catch (Exception e) {
-                routeOutput.setText("Fehler: " + e.getMessage());
-            }
+            // Routenberechnung im Hintergrund
+            new Thread(() -> {
+                try {
+                    String routeDetails = api.calculateRoute(startStopId, zielStopId);
+                    javafx.application.Platform.runLater(() -> routeOutput.setText(routeDetails));
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> routeOutput.setText("Fehler: " + e.getMessage()));
+                }
+            }).start();
         });
 
         // Hauptlayout zusammenstellen
-        mainBox.getChildren().addAll(realtimeBox, routeBox);
+        mainBox.getChildren().addAll(realtimeBox, transportBox, routeBox);
         root.setCenter(mainBox);
 
         // Erstelle die Scene und zeige das Fenster
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 800, 800);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
