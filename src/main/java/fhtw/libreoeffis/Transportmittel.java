@@ -1,4 +1,5 @@
 package fhtw.libreoeffis;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.util.ArrayList;
@@ -158,17 +159,34 @@ class TransportmittelHelper {
                 JSONObject line = lines.getJSONObject(j);
                 String name = line.getString("name");
                 String richtung = line.getString("towards");
-                boolean barrierefrei = line.getBoolean("barrierFree");
+                boolean barrierefrei = line.optBoolean("barrierFree", false);
 
-                // Unterscheidung zwischen Bus und U-Bahn
-                if (line.getString("type").contains("ptBus")) {
+                // Erkennung des Typs und Erstellen entsprechender Objekte
+                if (line.optString("type").contains("Bus")) {
                     transportmittelList.add(new Bus("Bus", name, richtung, barrierefrei));
+                } else if (line.optString("type").contains("Metro")) {
+                    transportmittelList.add(new UBahn("U-Bahn", name, richtung, 800)); // Beispiel für Kapazität
                 } else {
-                    transportmittelList.add(new UBahn("U-Bahn", name, richtung, 800)); // Beispielwert für Kapazität
+                    transportmittelList.add(new Transportmittel("Transportmittel", name, richtung));
                 }
             }
         }
 
         return transportmittelList;
+    }
+
+    /**
+     * Formatiert die Liste der Transportmittel für die Anzeige.
+     * @param transportmittelList Die Liste der Transportmittel.
+     * @return Die formatierte Darstellung.
+     */
+    public static String formatTransportmittel(List<Transportmittel> transportmittelList) {
+        StringBuilder formatted = new StringBuilder("Transportmittel an der Haltestelle:\n");
+
+        for (Transportmittel t : transportmittelList) {
+            formatted.append("- ").append(t.getDetails()).append("\n");
+        }
+
+        return formatted.toString();
     }
 }

@@ -96,12 +96,8 @@ public class Main extends Application {
                         return;
                     }
 
-                    StringBuilder details = new StringBuilder("Transportmittel an der Haltestelle:\n");
-                    for (Transportmittel t : transportmittelList) {
-                        details.append("- ").append(t.getDetails()).append("\n");
-                    }
-
-                    javafx.application.Platform.runLater(() -> transportOutput.setText(details.toString()));
+                    String formattedTransportmittel = TransportmittelHelper.formatTransportmittel(transportmittelList);
+                    javafx.application.Platform.runLater(() -> transportOutput.setText(formattedTransportmittel));
                 } catch (Exception e) {
                     javafx.application.Platform.runLater(() -> transportOutput.setText("Fehler: " + e.getMessage()));
                 }

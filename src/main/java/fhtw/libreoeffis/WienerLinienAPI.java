@@ -1,14 +1,16 @@
 package fhtw.libreoeffis;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.Duration;
 
 /**
  * Klasse zur Kommunikation mit der Wiener Linien API.
@@ -20,9 +22,6 @@ public class WienerLinienAPI {
     // Basis-URL der Wiener Linien Monitor-API
     private static final String BASE_URL_MONITOR = "https://www.wienerlinien.at/ogd_realtime/monitor";
     private static final String LOG_FILE = "requests.log";
-
-    // Thread-Pool für Multithreading
-    private final ExecutorService executorService = Executors.newCachedThreadPool();
 
     /**
      * Führt eine Anfrage an die API aus und gibt die Antwort als String zurück.
@@ -120,6 +119,7 @@ public class WienerLinienAPI {
 
     /**
      * Berechnet eine Route zwischen zwei Haltestellen basierend auf ihren Stop-IDs.
+     * Fügt die Abfahrtszeit und Ankunftszeit sowie die Fahrzeit hinzu.
      * @param startStopId Die Stop-ID der Start-Haltestelle.
      * @param zielStopId Die Stop-ID der Ziel-Haltestelle.
      * @return Die berechnete Route als String.
@@ -136,7 +136,6 @@ public class WienerLinienAPI {
             return "Keine Daten für Start oder Ziel verfügbar.";
         }
 
-        StringBuilder routeDetails = new StringBuilder("Routeninformationen:\n");
         for (int i = 0; i < startMonitors.length(); i++) {
             JSONObject startMonitor = startMonitors.getJSONObject(i);
             JSONArray startLines = startMonitor.getJSONArray("lines");
@@ -144,6 +143,7 @@ public class WienerLinienAPI {
             for (int j = 0; j < startLines.length(); j++) {
                 JSONObject startLine = startLines.getJSONObject(j);
                 String startLineName = startLine.getString("name");
+                JSONArray startDepartures = startLine.getJSONObject("departures").getJSONArray("departure");
 
                 for (int k = 0; k < zielMonitors.length(); k++) {
                     JSONObject zielMonitor = zielMonitors.getJSONObject(k);
@@ -154,10 +154,27 @@ public class WienerLinienAPI {
                         String zielLineName = zielLine.getString("name");
 
                         if (startLineName.equals(zielLineName)) {
-                            routeDetails.append("Gemeinsame Linie: ").append(startLineName).append("\n")
-                                    .append("  Start: ").append(startMonitor.getJSONObject("locationStop").getJSONObject("properties").getString("title")).append("\n")
-                                    .append("  Ziel: ").append(zielMonitor.getJSONObject("locationStop").getJSONObject("properties").getString("title")).append("\n");
-                            return routeDetails.toString();
+                            JSONObject firstDeparture = startDepartures.getJSONObject(0);
+                            String departureTime = formatDateTime(firstDeparture.getJSONObject("departureTime").getString("timePlanned"));
+
+                            ZonedDateTime startTime = ZonedDateTime.parse(departureTime, DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+
+                            String zielTimePlanned = formatDateTime(zielLine.getJSONObject("departures")
+                                    .getJSONArray("departure")
+                                    .getJSONObject(0)
+                                    .getJSONObject("departureTime")
+                                    .getString("timePlanned"));
+
+                            ZonedDateTime zielTime = ZonedDateTime.parse(zielTimePlanned, DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+
+                            Duration travelTime = Duration.between(startTime, zielTime);
+
+                            return "Gemeinsame Linie: " + startLineName + "\n" +
+                                    "  Start: " + startMonitor.getJSONObject("locationStop").getJSONObject("properties").getString("title") + "\n" +
+                                    "  Abfahrtszeit: " + startTime.format(DateTimeFormatter.ofPattern("HH:mm")) + "\n" +
+                                    "  Ziel: " + zielMonitor.getJSONObject("locationStop").getJSONObject("properties").getString("title") + "\n" +
+                                    "  Ankunftszeit: " + zielTime.format(DateTimeFormatter.ofPattern("HH:mm")) + "\n" +
+                                    "  Fahrtdauer: " + travelTime.toMinutes() + " Minuten.";
                         }
                     }
                 }
@@ -168,18 +185,25 @@ public class WienerLinienAPI {
     }
 
     /**
+     * Korrigiert das Datumsformat, um den Offset zu unterstützen.
+     * @param rawDateTime Der rohe Datums-String aus der API.
+     * @return Der korrigierte Datums-String.
+     */
+    private String formatDateTime(String rawDateTime) {
+        return rawDateTime.substring(0, 26) + ":" + rawDateTime.substring(26);
+    }
+
+    /**
      * Protokolliert eine API-Anfrage in der Log-Datei.
      * @param request Die Anfrage-URL.
      */
     private void logRequest(String request) {
-        executorService.execute(() -> {
-            try (BufferedWriter writer = new BufferedWriter(new FileWriter(LOG_FILE, true))) {
-                writer.write("Anfrage: " + request);
-                writer.newLine();
-            } catch (Exception e) {
-                System.err.println("Fehler beim Schreiben der Log-Datei: " + e.getMessage());
-            }
-        });
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(LOG_FILE, true))) {
+            writer.write("Anfrage: " + request);
+            writer.newLine();
+        } catch (Exception e) {
+            System.err.println("Fehler beim Schreiben der Log-Datei: " + e.getMessage());
+        }
     }
 
     /**
