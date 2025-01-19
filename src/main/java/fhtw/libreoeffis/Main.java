@@ -8,10 +8,10 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.*;
 
 /**
  * Hauptklasse der LibreOeffis-Applikation.
@@ -21,7 +21,24 @@ import java.util.List;
 public class Main extends Application {
 
     private WienerLinienAPI api;
+    private final String favoritesFilePath = "src/main/java/fhtw/libreoeffis/files/favorites.txt";
+    private final String frequentedFilePath = "src/main/java/fhtw/libreoeffis/files/frequented.txt";
 
+    private final String preferredTransportFilePath = "src/main/java/fhtw/libreoeffis/files/preferredTransport.txt";
+
+    private final ListView<String> favoriteStopsList = new ListView<>();
+    private final ListView<String> frequentedStopsList = new ListView<>();
+
+    private final Set<String> favoriteStops = new HashSet<>();
+    private final Set<String> frequentedStops = new HashSet<>();
+
+    private final Map<String, Integer> stopUsageCount = new HashMap<>();
+    /**
+     * Startet die JavaFX-Anwendung.
+     *
+     * @param primaryStage Das Hauptfenster der Anwendung.
+     * @author GitHub: ic24b018 & YukkuriV2
+     */
     @Override
     public void start(Stage primaryStage) {
         try {
@@ -42,7 +59,10 @@ public class Main extends Application {
         VBox leftBox = new VBox(20);
         leftBox.setPadding(new Insets(10));
 
-        // Bereich 1: Echtzeitinformationen
+        /**
+         * Bereich 1: Echtzeitinformationen
+         * Ermöglicht dem Benutzer, Echtzeitdaten für eine bestimmte Stop-ID abzurufen.
+         */
         VBox realtimeBox = new VBox(10);
         realtimeBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblRealtime = new Label("Echtzeitinformationen:");
@@ -72,7 +92,10 @@ public class Main extends Application {
             }).start();
         });
 
-        // Bereich 2: Transportmittel anzeigen
+        /**
+         * Bereich 2: Transportmittel anzeigen
+         * Zeigt die verfügbaren Transportmittel für eine bestimmte Stop-ID an.
+         */
         VBox transportBox = new VBox(10);
         transportBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblTransport = new Label("Transportmittel Übersicht:");
@@ -111,7 +134,12 @@ public class Main extends Application {
             }).start();
         });
 
-        // Bereich 3: Routenplanung
+
+
+        /**
+         * Bereich 3: Routenplanung
+         * Ermöglicht dem Benutzer, eine Route zwischen zwei Stop-IDs zu berechnen.
+         */
         VBox routeBox = new VBox(10);
         routeBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblRoute = new Label("Routenplanung:");
@@ -144,7 +172,10 @@ public class Main extends Application {
             }).start();
         });
 
-        // Bereich 4: TCP-Kommunikation
+        /**
+         * Bereich 4: TCP-Kommunikation
+         * Ermöglicht dem Benutzer, Echtzeitdaten über eine TCP-Verbindung abzurufen.
+         */
         VBox tcpBox = new VBox(10);
         tcpBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblTCP = new Label("TCP-Kommunikation mit Wiener Linien API:");
@@ -174,7 +205,10 @@ public class Main extends Application {
             }).start();
         });
 
-        // Bereich 5: Muster-Stop-IDs als Dropdown anzeigen
+        /**
+         * Bereich 5: Muster-Stop-IDs als Dropdown anzeigen
+         * Zeigt eine Liste von Muster-Stop-IDs an, die der Benutzer durchsuchen und auswählen kann.
+         */
         VBox testStopsBox = new VBox(10);
         testStopsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
 
@@ -183,12 +217,11 @@ public class Main extends Application {
         TextField searchField = new TextField();
         searchField.setPromptText("Suche nach Haltestelle...");
         Button btnSearch = new Button("Suchen");
+        Button btnAddFavorite = new Button("Zu Favoriten hinzufügen");
         TextArea selectedStopOutput = new TextArea();
         selectedStopOutput.setEditable(false);
-
         List<String> dropdownItems = new ArrayList<>();
-
-        String csvPath = "C:\\Users\\Mahmut\\IdeaProjects\\LibreOeffis\\src\\main\\java\\fhtw\\libreoeffis\\wienerlinien-ogd-haltepunkte.csv";
+        String csvPath = "src/main/java/fhtw/libreoeffis/files/wienerlinien-ogd-haltepunkte.csv";
 
         try (BufferedReader reader = new BufferedReader(new FileReader(csvPath))) {
             String line;
@@ -218,8 +251,17 @@ public class Main extends Application {
                 testStopsDropdown.getItems().addAll(dropdownItems);
             } else {
                 dropdownItems.stream()
-                        .filter(item -> item.toLowerCase().contains(searchText))
+                        .filter(item -> fuzzyMatch(item.toLowerCase(), searchText))
                         .forEach(filteredItem -> testStopsDropdown.getItems().add(filteredItem));
+            }
+        });
+
+        btnAddFavorite.setOnAction(event -> {
+            String selectedStop = testStopsDropdown.getValue();
+            if (selectedStop != null && !favoriteStops.contains(selectedStop)) {
+                favoriteStops.add(selectedStop);
+                favoriteStopsList.getItems().add(selectedStop);
+                saveFavorites();
             }
         });
 
@@ -227,10 +269,16 @@ public class Main extends Application {
             String selectedStop = testStopsDropdown.getValue();
             if (selectedStop != null) {
                 selectedStopOutput.setText("Ausgewählte Haltestelle:\n" + selectedStop);
+                stopUsageCount.put(selectedStop, stopUsageCount.getOrDefault(selectedStop, 0) + 1);
+                updateFrequentedStops();
             }
         });
 
-        testStopsBox.getChildren().addAll(lblTestStops, searchField, btnSearch, testStopsDropdown, selectedStopOutput);
+        testStopsBox.getChildren().addAll(lblTestStops, searchField, btnSearch, testStopsDropdown, btnAddFavorite, selectedStopOutput, favoriteStopsList, frequentedStopsList);
+
+        // Load favorites and frequented stops from file
+        loadFavorites();
+        loadFrequented();
 
         // Linke und rechte Sektionen in ein GridPane aufteilen
         GridPane gridPane = new GridPane();
@@ -244,17 +292,45 @@ public class Main extends Application {
 
         leftBox.getChildren().addAll(realtimeBox, transportBox, routeBox);
 
+
+        // Bevorzugten Transportmodus speichern und laden
+        VBox settingsBox = new VBox(10);
+        settingsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+        Label lblPreferredTransport = new Label("Bevorzugter Transportmodus:");
+        ComboBox<String> preferredTransportDropdown = new ComboBox<>();
+        preferredTransportDropdown.getItems().addAll("Bus", "Bahn", "U-Bahn", "Straßenbahn");
+        Button btnSavePreferredTransport = new Button("Speichern");
+        settingsBox.getChildren().addAll(lblPreferredTransport, preferredTransportDropdown, btnSavePreferredTransport);
+
+        rightBox.getChildren().add(settingsBox);
+
+        btnSavePreferredTransport.setOnAction(event -> {
+            String selectedTransport = preferredTransportDropdown.getValue();
+            if (selectedTransport != null) {
+                savePreferredTransport(selectedTransport);
+            }
+        });
+
+
+        String preferredTransport = loadPreferredTransport();
+        if (preferredTransport != null) {
+            preferredTransportDropdown.setValue(preferredTransport);
+        }
+
         root.setCenter(gridPane);
 
         // Erstelle die Scene und zeige das Fenster
         Scene scene = new Scene(root, 1000, 800);
         primaryStage.setScene(scene);
         primaryStage.show();
+
     }
 
     /**
      * Zeigt einen Fehlerdialog mit der gegebenen Nachricht an.
+     *
      * @param message Die Fehlermeldung.
+     * @author GitHub: YukkuriV2
      */
     private void showErrorDialog(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -265,7 +341,139 @@ public class Main extends Application {
     }
 
     /**
+     * Speichert die Favoriten in einer Datei.
+     * @author GitHub: YukkuriV2
+     */
+    private void saveFavorites() {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(favoritesFilePath))) {
+            for (String stop : favoriteStops) {
+                writer.write(stop);
+                writer.newLine();
+            }
+            System.out.println("Favorites saved successfully.");
+        } catch (IOException e) {
+            System.err.println("Error saving favorites: " + e.getMessage());
+            e.printStackTrace(); // Log the exception
+        }
+    }
+
+    /**
+     * Lädt die Favoriten aus einer Datei.
+     * @author GitHub: YukkuriV2
+     */
+    private void loadFavorites() {
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(favoritesFilePath));
+            favoriteStops.addAll(lines);
+            favoriteStopsList.getItems().addAll(lines);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Speichert die häufig besuchten Haltestellen in einer Datei.
+     * @author GitHub: YukkuriV2
+     */
+    private void saveFrequented() {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(frequentedFilePath))) {
+            for (String stop : frequentedStops) {
+                writer.write(stop);
+                writer.newLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * Lädt die häufig besuchten Haltestellen aus einer Datei.
+     * @author GitHub: YukkuriV2
+     */
+    private void loadFrequented() {
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(frequentedFilePath));
+            frequentedStops.addAll(lines);
+            frequentedStopsList.getItems().addAll(lines);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Aktualisiert die Liste der häufig besuchten Haltestellen.
+     * @author GitHub: YukkuriV2
+     */
+    private void updateFrequentedStops() {
+        frequentedStops.clear();
+        frequentedStopsList.getItems().clear();
+        stopUsageCount.entrySet().stream()
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                .limit(5) // Adjust the limit as needed
+                .forEach(entry -> {
+                    frequentedStops.add(entry.getKey());
+                    frequentedStopsList.getItems().add(entry.getKey());
+                });
+        saveFrequented(); // Save the frequented stops
+    }
+
+
+    /**
+     * Speichert den bevorzugten Transportmodus in einer Datei.
+     *
+     * @param transportMode Der bevorzugte Transportmodus.
+     * @author GitHub: YukkuriV2
+     */
+    private void savePreferredTransport(String transportMode) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(preferredTransportFilePath))) {
+            writer.write(transportMode);
+            System.out.println("Preferred transport mode saved successfully.");
+        } catch (IOException e) {
+            System.err.println("Error saving preferred transport mode: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * Lädt den bevorzugten Transportmodus aus einer Datei.
+     *
+     * @return Der bevorzugte Transportmodus.
+     * @author GitHub: YukkuriV2
+     */
+    private String loadPreferredTransport() {
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(preferredTransportFilePath));
+            if (!lines.isEmpty()) {
+                return lines.get(0);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
+     * Fuzzy-Match-Funktion zum Filtern von Suchergebnissen.
+     *
+     * @param item Der zu durchsuchende Text.
+     * @param searchText Der Suchtext.
+     * @return true, wenn der Suchtext im Text gefunden wurde, sonst false.
+     * @author GitHub: YukkuriV2
+     */
+    private boolean fuzzyMatch(String item, String searchText) {
+        int searchIndex = 0;
+        for (int i = 0; item.length() > i && searchText.length() > searchIndex; i++) {
+            if (item.charAt(i) == searchText.charAt(searchIndex)) {
+                searchIndex++;
+            }
+        }
+        return searchIndex == searchText.length();
+    }
+    /**
      * Main-Methode, um die Applikation zu starten.
+     *
      * @param args Kommandozeilenargumente.
      */
     public static void main(String[] args) {

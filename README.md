@@ -5,19 +5,24 @@ LibreOeffis ist eine JavaFX-Anwendung, die es ermöglicht, den öffentlichen Ver
 
 ## Features
 ### Must-Have Features
-- **Zugriff auf die Wiener Linien API:** Abfrage von Haltestellen und Fahrplandaten.
-- **Eingabemaske:** Auswahl von Start- und Zielorten.
-- **Routenberechnung:** Ausgabe des schnellsten Wegs inklusive Umstiegsinformationen und Fahrzeiten.
+- **Zugriff auf die Wiener Linien API:** Abfrage von Haltestellen und Fahrplandaten. ✅
+- **Eingabemaske:** Auswahl von Start- und Zielorten. ✅
+- **Routenberechnung:** Ausgabe des schnellsten Wegs inklusive Umstiegsinformationen und Fahrzeiten. ✅
 
 ### Should-Have Features
-- **Fuzzy Search:** Unterstützung für ungenaue oder unvollständige Haltestellennamen.
-- **Fehlerbehandlung:** Hinweise bei ungültigen Eingaben oder fehlenden Verbindungen.
-- **Reisedauer:** Anzeige der geschätzten Gesamtreisedauer.
+- **Fuzzy Search:** Unterstützung für ungenaue oder unvollständige Haltestellennamen. ✅
+- **Fehlerbehandlung:** Hinweise bei ungültigen Eingaben oder fehlenden Verbindungen. ✅
+- **Reisedauer:** Anzeige der geschätzten Gesamtreisedauer. ✅
 
 ### Nice-to-Have Features
-- **Alternative Verbindungen:** Darstellung von mehreren möglichen Routen.
-- **Favoritenmanagement:** Möglichkeit, häufig genutzte Haltestellen zu speichern und zu verwalten.
-- **Zuletzt genutzte Haltestellen:** Anzeige der zuletzt abgefragten Haltestellen.
+- **Alternative Verbindungen:** Darstellung von mehreren möglichen Routen.❌
+- **Favoritenmanagement:** Möglichkeit, häufig genutzte Haltestellen zu speichern und zu verwalten. ✅
+- **Zuletzt genutzte Haltestellen:** Anzeige der zuletzt abgefragten Haltestellen. ✅
+
+### Overkill Features
+- **Kartenansicht für Routen:** Darstellung der Route auf einer Karte. ❌
+- **Einstellung für den bevorzugten Transportmodus:** Auswahl von Bus, Bim oder U-Bahn. 🟡
+- **Dynamische Abfahrtszeit (zeigt automatisch alle passenden Verbindungen):** Anzeige von Verbindungen zu einer bestimmten Uhrzeit.❌
 
 ## Technische Anforderungen
 - **Programmiersprache:** Java (mit JavaFX für das GUI).
