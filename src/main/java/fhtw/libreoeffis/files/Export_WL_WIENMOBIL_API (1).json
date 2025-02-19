@@ -1,0 +1,446 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "WL_WIENMOBIL_API",
+    "description" : "Öffentliche API für WienMobil Daten. Die Operation folgt dem General Bikeshare Feed Specification (GBFS)-Standard in Version 2.3\nInternal version 1.1.0\n",
+    "termsOfService" : "https://data.wien.gv.at/nutzungsbedingungen",
+    "contact" : {
+      "name" : "Wiener Linien GmbH & Co KG",
+      "url" : "https://www.wienerlinien.at/",
+      "email" : "opendata@wienerlinien.at"
+    },
+    "license" : {
+      "name" : "Creative Commons Namensnennung 4.0 International (CC BY 4.0)",
+      "url" : "https://creativecommons.org/licenses/by/4.0/deed.de"
+    },
+    "version" : "1"
+  },
+  "servers" : [ {
+    "url" : "https://test-api.wstw.at/gateway/WL_WIENMOBIL_API/1"
+  } ],
+  "paths" : {
+    "/station_information.json" : {
+      "summary" : "",
+      "description" : "",
+      "get" : {
+        "tags" : [ "GBFSv2.3" ],
+        "summary" : "Statische Informationen zu WienMobil Radstationen",
+        "description" : "Diese Operation liefert ID, Name, Standort und weitere verfügbare Informationen zu allen WienMobil Radstationen. Wichtig ist der ID zur nachgelagerten Abfrage weiterer Informationen betreffend eine konkrete Station.",
+        "operationId" : "getWMStationInformationV2.3",
+        "responses" : {
+          "200" : {
+            "description" : "OK. Der Aufruf war erfolgreich.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/StationInformationV2_3"
+                },
+                "example" : null
+              }
+            }
+          },
+          "default" : {
+            "description" : "Default-Struktur für Fehlerfälle.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorStructure"
+                },
+                "example" : "{\"ErrorNumber\":2100885582,\"ErrorText\":\"WJpKEePvr\"}"
+              }
+            }
+          },
+          "429" : {
+            "description" : "Too Many Requests. Insgesamt zu viele Aufrufe.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorStructure"
+                },
+                "example" : "{\"ErrorNumber\":1486742464,\"ErrorText\":\"efrLrxvKcDujkF\"}"
+              }
+            }
+          }
+        },
+        "security" : [ { } ]
+      }
+    },
+    "/station_status.json" : {
+      "summary" : "",
+      "description" : "",
+      "get" : {
+        "tags" : [ "GBFSv2.3" ],
+        "summary" : "Echtzeit-Informationen zu Kapazität und Auslastung der WienMobil Radstationen.",
+        "description" : "Diese Operation liefert zu WienMobil Radstationen IDs (zur Zuordnung bei anderen Operationen), den aktuellen Status der gesamten Station sowie die aktuell verfügbaren bzw. deaktivierten Fahrzeuge und Andock-Punkte.",
+        "operationId" : "getWMStationStatusV2.3",
+        "responses" : {
+          "200" : {
+            "description" : "OK. Der Aufruf war erfolgreich.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/StationStatusV2_3"
+                },
+                "example" : "{\"data\":{\"stations\":[{\"is_installed\":false,\"is_renting\":true,\"is_returning\":true,\"last_reported\":1558711054,\"num_bikes_available\":18919598,\"num_bikes_disabled\":1945713365,\"num_docks_available\":1171959917,\"num_docks_disabled\":336780378,\"station_id\":\"obOvsNuPij\",\"vehicle_docks_available\":[{\"count\":1660889397,\"vehicle_type_ids\":[\"NThxUIoTYLJ\"]}],\"vehicle_types_available\":[{\"count\":1545475650,\"vehicle_type_id\":\"cplOA\"}]}]},\"last_updated\":1506373777,\"ttl\":1629673486,\"version\":\"2.3\"}"
+              }
+            }
+          },
+          "default" : {
+            "description" : "Default-Struktur für Fehlerfälle.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorStructure"
+                },
+                "example" : "{\"ErrorNumber\":973698152,\"ErrorText\":\"aidfCVhUDLigS\"}"
+              }
+            }
+          },
+          "429" : {
+            "description" : "Too Many Requests. Insgesamt zu viele Aufrufe.",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ErrorStructure"
+                },
+                "example" : "{\"ErrorNumber\":1664980151,\"ErrorText\":\"jQXGli\"}"
+              }
+            }
+          }
+        },
+        "security" : [ { } ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "ErrorStructure" : {
+        "title" : "ErrorStructure",
+        "required" : [ "ErrorNumber", "ErrorText" ],
+        "type" : "object",
+        "properties" : {
+          "ErrorNumber" : {
+            "type" : "integer",
+            "description" : "Fehlernummer zur eindeutigen Identifizierung",
+            "format" : "int32"
+          },
+          "ErrorText" : {
+            "type" : "string",
+            "description" : "Fehlerbeschreibung zur Analyse und Behebung"
+          }
+        },
+        "description" : "Standard-Struktur für API-Fehlerfälle und dazugehöriger Meldungen"
+      },
+      "StationStatusV2_3" : {
+        "required" : [ "data", "last_updated", "ttl", "version" ],
+        "type" : "object",
+        "properties" : {
+          "data" : {
+            "required" : [ "stations" ],
+            "type" : "object",
+            "properties" : {
+              "stations" : {
+                "type" : "array",
+                "items" : {
+                  "required" : [ "is_installed", "is_renting", "is_returning", "last_reported", "num_bikes_available", "station_id" ],
+                  "type" : "object",
+                  "properties" : {
+                    "is_installed" : {
+                      "type" : "boolean",
+                      "description" : "Ist die gesamte Station aktuell aktiv?"
+                    },
+                    "is_renting" : {
+                      "type" : "boolean",
+                      "description" : "Ist Mietservice an dieser Station aktuell verfügbar?"
+                    },
+                    "is_returning" : {
+                      "type" : "boolean",
+                      "description" : "Können an dieser Station aktuell Fahrzeuge zurückgegeben werden?"
+                    },
+                    "last_reported" : {
+                      "minimum" : 1450155600,
+                      "type" : "integer",
+                      "description" : "Zeitstempel (POSIX-time) der letzen Datenaktualisierung dieser Station.",
+                      "format" : "int32"
+                    },
+                    "num_bikes_available" : {
+                      "minimum" : 0,
+                      "type" : "integer",
+                      "description" : "Anzahl der funktionsfähigen Fahrzeuge, die sich physisch an der Station befinden und zur Vermietung angeboten werden können. Um zu wissen, ob die Fahrzeuge zur Vermietung verfügbar sind, siehe is_renting.",
+                      "format" : "int32"
+                    },
+                    "num_bikes_disabled" : {
+                      "minimum" : 0,
+                      "type" : "integer",
+                      "description" : "Wird für WienMobil nicht befüllt. Anzahl der deaktivierten Fahrzeuge (aller Typen) an dieser Station.",
+                      "format" : "int32"
+                    },
+                    "num_docks_available" : {
+                      "minimum" : 0,
+                      "type" : "integer",
+                      "description" : "Anzahl der funktionsfähigen Anlegestellen, die sich physisch an der Station befinden und Fahrzeuge zur Rückgabe annehmen können. Um zu wissen, ob die Anlegestellen Fahrzeugrückgaben akzeptieren, siehe is_returning.",
+                      "format" : "int32"
+                    },
+                    "num_docks_disabled" : {
+                      "minimum" : 0,
+                      "type" : "integer",
+                      "description" : "Wird für WienMobil nicht befüllt. Anzahl der de-aktivierten Andockpunkte an dieser Station.",
+                      "format" : "int32"
+                    },
+                    "station_id" : {
+                      "type" : "string",
+                      "description" : "Identifikator (ID) der Station. Dieser Wert dient zur Zuordnung der richtigen Station aus anderen Anfragen (z.B. station-information)"
+                    },
+                    "vehicle_docks_available" : {
+                      "type" : "array",
+                      "description" : "Wird für WienMobil nicht befüllt. Datenstruktur für verfügbare Andockpunkte pro Fahrzeugtyp (seit GBFS v2.1-RC).",
+                      "items" : {
+                        "required" : [ "count", "vehicle_type_ids" ],
+                        "type" : "object",
+                        "properties" : {
+                          "count" : {
+                            "minimum" : 0,
+                            "type" : "integer",
+                            "description" : "Wird für WienMobil nicht befüllt. Anzahl aller installierten Andockpunkte, die für diese Fahrzeug-Typen geeignet sind (seit GBFS v2.1-RC).",
+                            "format" : "int32"
+                          },
+                          "vehicle_type_ids" : {
+                            "type" : "array",
+                            "description" : "Wird für WienMobil nicht befüllt. Ein Array mit Fahrzeug-Typen und Anzahl verfügbarer Andockpunkte (seit GBFS v2.1-RC).",
+                            "items" : {
+                              "type" : "string",
+                              "description" : "Wird für WienMobil nicht befüllt. ID des Fahrzeug-Typs zum Lookup in vehicle_types.json"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "vehicle_types_available" : {
+                      "minItems" : 1,
+                      "type" : "array",
+                      "description" : "Array mit Verfügbarkeits-Informationen pro Fahrzeug-Typ an dieser Statsion (seit GBFS v2.1-RC).",
+                      "items" : {
+                        "required" : [ "count", "vehicle_type_id" ],
+                        "type" : "object",
+                        "properties" : {
+                          "count" : {
+                            "minimum" : 0,
+                            "type" : "integer",
+                            "description" : "Gesamtanzahl der Fahrzeuge dieses Typs an dieser Station. (seit GBFS v2.1-RC).",
+                            "format" : "int32"
+                          },
+                          "vehicle_type_id" : {
+                            "type" : "string",
+                            "description" : "ID des Fahrzeug-Typs (seit GBFS v2.1-RC)."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description" : "Array mit einem Item pro Station."
+          },
+          "last_updated" : {
+            "minimum" : 1450155600,
+            "type" : "integer",
+            "description" : "Zeitpunkt der letzten Datenänderung (in POSIX-Zeit (aka Unixzeit), also Anzahl der Sekunden seit Donnerstag, dem 1. Januar 1970, 00:00 Uhr UTC).",
+            "format" : "int32"
+          },
+          "ttl" : {
+            "minimum" : 0,
+            "type" : "integer",
+            "description" : "Anzahl der Sekunden bis zur nächsten geplanten Datenänderung (0, wenn die Daten vor jeder Verwendung neu geladen werden sollen)",
+            "format" : "int32"
+          },
+          "version" : {
+            "type" : "string",
+            "description" : "GBFS Versionsnummer, der das Datenformat entspricht (seit GBFS v1.1).",
+            "enum" : [ "2.3" ]
+          }
+        },
+        "description" : "Echtzeit-Informationen zu einer Station. Die Daten inkludieren verfügbare Kapazität und Auslasung."
+      },
+      "StationInformationV2_3" : {
+        "required" : [ "data", "last_updated", "ttl", "version" ],
+        "type" : "object",
+        "properties" : {
+          "data" : {
+            "required" : [ "stations" ],
+            "type" : "object",
+            "properties" : {
+              "stations" : {
+                "type" : "array",
+                "items" : {
+                  "required" : [ "lat", "lon", "name", "station_id" ],
+                  "type" : "object",
+                  "properties" : {
+                    "address" : {
+                      "type" : "string",
+                      "description" : "Adresse der Station."
+                    },
+                    "capacity" : {
+                      "minimum" : 0,
+                      "type" : "integer",
+                      "description" : "Anzahl der Andock-Punkte, die bei dieser Station installiert sind - unabhängig davon, ob verfügbar oder nicht.'",
+                      "format" : "int32"
+                    },
+                    "contact_phone" : {
+                      "type" : "string",
+                      "description" : "Kontakt Telefonnummer für die Station. (seit GBFS v2.3)"
+                    },
+                    "cross_street" : {
+                      "type" : "string",
+                      "description" : "Kreuzung oder markanter Punkt, an dem sich die Station befindet."
+                    },
+                    "is_charging_station" : {
+                      "type" : "boolean",
+                      "description" : "Können elektrische Vehikel an der Station aufgelaen werden? (seit GBFS v2.3-RC)"
+                    },
+                    "is_valet_station" : {
+                      "type" : "boolean",
+                      "description" : "Wird an der Station Parkservice (valet services) angeboten? (seit GBFS v2.1-RC)"
+                    },
+                    "is_virtual_station" : {
+                      "type" : "boolean",
+                      "description" : "Handelt es sich um eine virtuelle Station ohne physische Infrastruktur vor Ort? (seit GBFS v2.1-RC)"
+                    },
+                    "lat" : {
+                      "maximum" : 90,
+                      "minimum" : -90,
+                      "type" : "number",
+                      "description" : "Breitengrad (latitude) der Station."
+                    },
+                    "lon" : {
+                      "maximum" : 180,
+                      "minimum" : -180,
+                      "type" : "number",
+                      "description" : "Längengrad (longitude) der Station."
+                    },
+                    "name" : {
+                      "type" : "string",
+                      "description" : "Öffentlicher Name der Station."
+                    },
+                    "parking_hoop" : {
+                      "type" : "boolean",
+                      "description" : "Gibt es bei der Station Parkreifen (parking hoops)? (seit GBFS v2.3)"
+                    },
+                    "parking_type" : {
+                      "type" : "string",
+                      "description" : "Parkplatz-Typ der Station. (seit GBFS v2.3)",
+                      "enum" : [ "parking_lot", "street_parking", "underground_parking", "sidewalk_parking", "other" ]
+                    },
+                    "post_code" : {
+                      "type" : "string",
+                      "description" : "Postleitzahl zum Ort der Station."
+                    },
+                    "region_id" : {
+                      "type" : "string",
+                      "description" : "Identifikator der Region, in der sich die Station befindet. Wird im IFOPT-Format geliefert."
+                    },
+                    "rental_methods" : {
+                      "minItems" : 1,
+                      "type" : "array",
+                      "description" : "Akzeptierte Zahlungsmethoden für die Station.",
+                      "items" : {
+                        "type" : "string",
+                        "enum" : [ "key", "creditcard", "paypass", "applepay", "androidpay", "transitcard", "accountnumber", "phone" ]
+                      }
+                    },
+                    "rental_uris" : {
+                      "type" : "object",
+                      "properties" : {
+                        "android" : {
+                          "type" : "string",
+                          "description" : "URI zur Übergabe an eine Android App mit intent für die Station (seit GBFS v1.1).",
+                          "format" : "uri"
+                        },
+                        "ios" : {
+                          "type" : "string",
+                          "description" : "URI zum Start der Miet-App in IOS für diese  Station (seit GBFS v1.1).",
+                          "format" : "uri"
+                        },
+                        "web" : {
+                          "type" : "string",
+                          "description" : "Web-URL für mehr Information und Mieten an dieser Station (seit GBFS v1.1).",
+                          "format" : "uri"
+                        }
+                      },
+                      "description" : "Eine Struktur, die URIs zum Mieten für Android, iOS, and web enthält (seit GBFS v1.1)."
+                    },
+                    "short_name" : {
+                      "type" : "string",
+                      "description" : "Kurzname bzw. alternativer Identifkator der Station."
+                    },
+                    "station_area" : {
+                      "required" : [ "coordinates", "type" ],
+                      "type" : "object",
+                      "properties" : {
+                        "coordinates" : {
+                          "type" : "array",
+                          "items" : {
+                            "type" : "array",
+                            "items" : {
+                              "minItems" : 4,
+                              "type" : "array",
+                              "items" : {
+                                "minItems" : 2,
+                                "type" : "array",
+                                "items" : {
+                                  "type" : "number"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "type" : {
+                          "type" : "string",
+                          "enum" : [ "MultiPolygon" ]
+                        }
+                      },
+                      "description" : "Ein multipolygon-Datenobjekt, das die genaue Ausdehnung einer virtellen Station beschreibt (seit GBFS v2.1-RC)."
+                    },
+                    "station_id" : {
+                      "type" : "string",
+                      "description" : "Identifikator (ID) der Station. Dieser Wert ist wichtig für nachgelagerte Abfragen (z.B. station-status)"
+                    },
+                    "vehicle_capacity" : {
+                      "type" : "object",
+                      "additionalProperties" : false,
+                      "description" : "Die Struktur beschreibt pro Vehikel-Typ, wieviele Vehikel an der Station geparkt werden können. Der Schlüssel (key) ist ein einen vehicle_type_id, der Wert (value) die Anzahl der Vehikel (seit GBFS v2.1-RC)."
+                    },
+                    "vehicle_type_capacity" : {
+                      "type" : "object",
+                      "additionalProperties" : false,
+                      "description" : "Die Struktur beschreibt pro Vehikel-Typ, wieviele Andock-Punkte für diesen Vehikel-Type an der Station installiert sind. Der Schlüssel (key) ist ein einen vehicle_type_id, der Wert (value) die Anzahl der Andock-Punkte (seit GBFS v2.1-RC)."
+                    }
+                  }
+                }
+              }
+            },
+            "description" : "Array mit einem Item pro Station"
+          },
+          "last_updated" : {
+            "minimum" : 1450155600,
+            "type" : "integer",
+            "description" : "Zeitpunkt der letzten Datenänderung (in POSIX-Zeit (aka Unixzeit), also Anzahl der Sekunden seit seit Donnerstag, dem 1. Januar 1970, 00:00 Uhr UTC).",
+            "format" : "int32"
+          },
+          "ttl" : {
+            "minimum" : 0,
+            "type" : "integer",
+            "description" : "Anzahl der Sekunden bis zur nächsten geplanten Datenänderung (0, wenn die Daten vor jeder Verwendung neu geladen werden sollen)",
+            "format" : "int32"
+          },
+          "version" : {
+            "type" : "string",
+            "description" : "GBFS Versionsnummer, der das Datenformat entspricht (seit GBFS v1.1).",
+            "enum" : [ "2.3" ]
+          }
+        },
+        "description" : "Details zu einer Station. Die Details inkludieren ID, Bezeichnung, den Ort der Station sowie alle weiteren verfügbaren Informationen ."
+      }
+    }
+  }
+}

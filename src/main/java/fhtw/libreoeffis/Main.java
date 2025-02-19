@@ -92,6 +92,8 @@ public class Main extends Application {
             }).start();
         });
 
+
+
         /**
          * Bereich 2: Transportmittel anzeigen
          * Zeigt die verfügbaren Transportmittel für eine bestimmte Stop-ID an.
@@ -205,6 +207,51 @@ public class Main extends Application {
             }).start();
         });
 
+        btnTransport.setOnAction(event -> {
+            String stopId = txtTransportStopId.getText().trim();
+
+            if (stopId.isEmpty()) {
+                transportOutput.setText("Bitte geben Sie eine Stop-ID ein.");
+                return;
+            }
+
+            // Abruf der Transportmittel im Hintergrund
+            new Thread(() -> {
+                try {
+                    String rawData = api.getEchtzeitDaten(stopId);
+                    JSONObject apiData = new JSONObject(rawData).getJSONObject("data");
+                    List<Transportmittel> transportmittelList = TransportmittelHelper.parseTransportmittel(apiData);
+
+                    StringBuilder outputText = new StringBuilder();
+
+                    if (transportmittelList.isEmpty()) {
+                        outputText.append("Keine Transportmittel verfügbar.\n");
+                    } else {
+                        outputText.append(TransportmittelHelper.formatTransportmittel(transportmittelList)).append("\n");
+                    }
+
+                    // Abruf der alternativen Transportmittel
+                    List<AlternativeTransportmittel> alternativeList = AlternativeTransportHelper.getAlternativeTransportmittel();
+                    if (!alternativeList.isEmpty()) {
+                        outputText.append("\nAlternative Transportmittel:\n");
+                        for (AlternativeTransportmittel transport : alternativeList) {
+                            outputText.append("- ").append(transport.getDetails()).append("\n");
+                        }
+                    } else {
+                        outputText.append("\nKeine alternativen Transportmittel verfügbar.\n");
+                    }
+
+                    javafx.application.Platform.runLater(() -> transportOutput.setText(outputText.toString()));
+
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> transportOutput.setText("Fehler: " + e.getMessage()));
+                }
+            }).start();
+        });
+
+
+
+
         /**
          * Bereich 5: Muster-Stop-IDs als Dropdown anzeigen
          * Zeigt eine Liste von Muster-Stop-IDs an, die der Benutzer durchsuchen und auswählen kann.
@@ -298,7 +345,7 @@ public class Main extends Application {
         settingsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblPreferredTransport = new Label("Bevorzugter Transportmodus:");
         ComboBox<String> preferredTransportDropdown = new ComboBox<>();
-        preferredTransportDropdown.getItems().addAll("Bus", "Bahn", "U-Bahn", "Straßenbahn");
+        preferredTransportDropdown.getItems().addAll("Bus", "Bahn", "U-Bahn", "Straßenbahn","Rad");
         Button btnSavePreferredTransport = new Button("Speichern");
         settingsBox.getChildren().addAll(lblPreferredTransport, preferredTransportDropdown, btnSavePreferredTransport);
 
