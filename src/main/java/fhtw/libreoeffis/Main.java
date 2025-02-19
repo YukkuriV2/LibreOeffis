@@ -56,14 +56,14 @@ public class Main extends Application {
 
         // Hauptlayout
         BorderPane root = new BorderPane();
-        VBox leftBox = new VBox(20);
+        VBox leftBox = new VBox(8);
         leftBox.setPadding(new Insets(10));
 
         /**
          * Bereich 1: Echtzeitinformationen
          * Ermöglicht dem Benutzer, Echtzeitdaten für eine bestimmte Stop-ID abzurufen.
          */
-        VBox realtimeBox = new VBox(10);
+        VBox realtimeBox = new VBox(8);
         realtimeBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblRealtime = new Label("Echtzeitinformationen:");
         Label lblStopId = new Label("Stop-ID:");
@@ -98,7 +98,7 @@ public class Main extends Application {
          * Bereich 2: Transportmittel anzeigen
          * Zeigt die verfügbaren Transportmittel für eine bestimmte Stop-ID an.
          */
-        VBox transportBox = new VBox(10);
+        VBox transportBox = new VBox(8);
         transportBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblTransport = new Label("Transportmittel Übersicht:");
         Label lblTransportStopId = new Label("Stop-ID:");
@@ -142,7 +142,7 @@ public class Main extends Application {
          * Bereich 3: Routenplanung
          * Ermöglicht dem Benutzer, eine Route zwischen zwei Stop-IDs zu berechnen.
          */
-        VBox routeBox = new VBox(10);
+        VBox routeBox = new VBox(8);
         routeBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblRoute = new Label("Routenplanung:");
         Label lblStart = new Label("Start Stop-ID:");
@@ -178,7 +178,7 @@ public class Main extends Application {
          * Bereich 4: TCP-Kommunikation
          * Ermöglicht dem Benutzer, Echtzeitdaten über eine TCP-Verbindung abzurufen.
          */
-        VBox tcpBox = new VBox(10);
+        VBox tcpBox = new VBox(8);
         tcpBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblTCP = new Label("TCP-Kommunikation mit Wiener Linien API:");
         Label lblTCPStopId = new Label("Stop-ID:");
@@ -256,7 +256,7 @@ public class Main extends Application {
          * Bereich 5: Muster-Stop-IDs als Dropdown anzeigen
          * Zeigt eine Liste von Muster-Stop-IDs an, die der Benutzer durchsuchen und auswählen kann.
          */
-        VBox testStopsBox = new VBox(10);
+        VBox testStopsBox = new VBox(8);
         testStopsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
 
         Label lblTestStops = new Label("Muster-Stop-IDs für Tests:");
@@ -302,6 +302,43 @@ public class Main extends Application {
                         .forEach(filteredItem -> testStopsDropdown.getItems().add(filteredItem));
             }
         });
+/**
+ * Bereich 6: Alternative Transportmittel
+ * Zeigt alternative Transportmittel an, die der Benutzer auswählen kann.
+ */
+        VBox alternativeTransportBox = new VBox(8);
+        alternativeTransportBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
+        Label lblAlternativeTransport = new Label("Alternative Transportmittel:");
+        Button btnShowAlternativeTransport = new Button("Alternative Transportmittel anzeigen");
+        TextArea alternativeTransportOutput = new TextArea();
+        alternativeTransportOutput.setEditable(false);
+        alternativeTransportBox.getChildren().addAll(lblAlternativeTransport, btnShowAlternativeTransport, alternativeTransportOutput);
+
+        btnShowAlternativeTransport.setOnAction(event -> {
+            // Abruf der alternativen Transportmittel im Hintergrund
+            new Thread(() -> {
+                try {
+                    List<AlternativeTransportmittel> alternativeList = AlternativeTransportHelper.getAlternativeTransportmittel();
+                    StringBuilder outputText = new StringBuilder();
+
+                    if (!alternativeList.isEmpty()) {
+                        outputText.append("Alternative Transportmittel:\n");
+                        for (AlternativeTransportmittel transport : alternativeList) {
+                            outputText.append("- ").append(transport.getDetails()).append("\n");
+                        }
+                    } else {
+                        outputText.append("Keine alternativen Transportmittel verfügbar.\n");
+                    }
+
+                    javafx.application.Platform.runLater(() -> alternativeTransportOutput.setText(outputText.toString()));
+
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> alternativeTransportOutput.setText("Fehler: " + e.getMessage()));
+                }
+            }).start();
+        });
+
+
 
         btnAddFavorite.setOnAction(event -> {
             String selectedStop = testStopsDropdown.getValue();
@@ -336,15 +373,15 @@ public class Main extends Application {
         gridPane.setHgap(20);
         gridPane.add(leftBox, 0, 0);
 
-        VBox rightBox = new VBox(20);
+        VBox rightBox = new VBox(8);
         rightBox.getChildren().addAll(testStopsBox, tcpBox);
         gridPane.add(rightBox, 1, 0);
 
-        leftBox.getChildren().addAll(realtimeBox, transportBox, routeBox);
+        leftBox.getChildren().addAll(realtimeBox, transportBox, routeBox,alternativeTransportBox);
 
 
         // Bevorzugten Transportmodus speichern und laden
-        VBox settingsBox = new VBox(10);
+        VBox settingsBox = new VBox(8);
         settingsBox.setStyle("-fx-padding: 10; -fx-border-color: black; -fx-border-width: 1;");
         Label lblPreferredTransport = new Label("Bevorzugter Transportmodus:");
         ComboBox<String> preferredTransportDropdown = new ComboBox<>();
@@ -360,6 +397,7 @@ public class Main extends Application {
                 savePreferredTransport(selectedTransport);
             }
         });
+
 
 
         String preferredTransport = loadPreferredTransport();

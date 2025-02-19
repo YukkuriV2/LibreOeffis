@@ -116,4 +116,25 @@ class AlternativeTransportHelper {
             Platform.runLater(() -> outputArea.setText(result.toString()));
         }).start();
     }
+
+    public static List<String> getAlternativeTransportDetails(String transportType) {
+        List<String> details = new ArrayList<>();
+        if ("Fahrrad".equalsIgnoreCase(transportType)) {
+            List<BikeStation> bikeStations = wienMobileRadAPI.getBikeStations();
+            for (BikeStation station : bikeStations) {
+                details.add("Station: " + station.getStationId() + " - Verfügbare Fahrräder: " + station.getAvailableBikes());
+            }
+        } else if ("E-Scooter".equalsIgnoreCase(transportType)) {
+            details.add("E-Scooter-Verfügbarkeit ist derzeit nicht verfügbar.");
+        } else if ("Carsharing".equalsIgnoreCase(transportType)) {
+            details.add("Carsharing-Dienste sind verfügbar in verschiedenen Teilen der Stadt.");
+        } else if ("Taxi".equalsIgnoreCase(transportType)) {
+            details.add("Taxis sind an wichtigen Knotenpunkten verfügbar.");
+        } else if ("Zu Fuß".equalsIgnoreCase(transportType)) {
+            details.add("Fußwege sind überall verfügbar.");
+        } else {
+            details.add("Keine Informationen verfügbar für " + transportType + ".");
+        }
+        return details;
+    }
 }
