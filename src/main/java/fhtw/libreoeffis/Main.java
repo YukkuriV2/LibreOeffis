@@ -323,6 +323,9 @@ public class Main extends Application {
 
         testStopsBox.getChildren().addAll(lblTestStops, searchField, btnSearch, testStopsDropdown, btnAddFavorite, selectedStopOutput, favoriteStopsList, frequentedStopsList);
 
+
+
+
         // Load favorites and frequented stops from file
         loadFavorites();
         loadFrequented();
